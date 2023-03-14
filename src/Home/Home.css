@@ -1,0 +1,84 @@
+/* @font-face {
+  font-family: "Paragone";
+  src: url(/paragone-luxury-serif-font/Paragone/Paragone.ttf);
+} */
+@font-face {
+  font-family: "BodyParagone";
+  src: url(/paragone-luxury-serif-font/Paragone/Paragone.otf);
+}
+
+.landing-container {
+  background-image: url("/src/Home/land.RGB777_color.jpg");
+  height: 94vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.heading-landing-page{
+  padding: 5px;
+  text-align: left;
+  /* background-color: pink; */
+  margin-left: 38px;
+}
+.apartment-name {
+  color: white;
+  font-weight: bold;
+  font-size: 110%;
+}
+.landing-page {
+  padding: 20px;
+  font-size: 30px;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.logo{
+  border-radius: 150px;
+  height: 250px;
+  background: transparent;
+}
+
+.explore {
+  font-size: 100%;
+  font-weight: bold;
+  color: #7c7471;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -18px;
+  cursor: pointer;
+}
+@font-face {
+  font-family: 'luxury';
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
+}
+@font-face {
+  font-family: 'luxury2';
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular\ 2.otf);
+}
+@font-face {
+  font-family: 'luxury3';
+  src: url(/luxury/DIN\ Black.ttf);
+}
+@font-face {
+  font-family: 'luxury4';
+  src: url(/luxury/DIN\ Medium.ttf);
+}
+.lorem{
+  /* background-image: url(/images/Saruni-Logo.png); */
+  color: white;
+  font-family: 'luxury2';
+  font-size: 140%;
+  
+}
+.body-landing-page{
+  /* background-color: pink; */
+  margin-top: -48px;
+
+}
+.small-letters{
+  margin-top: -15px;
+font-weight: normal;
+color: white;
+}

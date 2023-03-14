@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.skygardens{
+    height: 250px;
+    background: goldenrod;
+    padding: 5px;
+    text-align: center;
+    font-size: 250%;
+}
+.center1{
+    /* background-color: pink; */
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 160%;
+    color: goldenrod;
+    border-bottom: 2px solid grey;
+}
+.disclaimer{
+    /* background-color: grey; */
+    height:130px;
+    padding: 6px;
+    font-size: 120%;
+
+}
