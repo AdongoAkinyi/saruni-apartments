@@ -17,10 +17,12 @@ function Home() {
             
             alt="logo"
             className="logo" />
-            {/* <h1 className="apartment-name"> THE SARUNI </h1> */}
           </div>
           <div className="body-landing-page">
-            <p className="lorem">A LUXURIOUS SANCTUARY</p>
+            <p className="lorem">A L U X U R I O U S     
+            </p>
+            <p  className="lorem">S A N C T U A R Y</p>
+            
             <p className="small-letters">nested in unparalleled tranquility</p>
           </div>
         </div>
@@ -30,9 +32,10 @@ function Home() {
           onClick={() => {
             navigate("/residencehomepage");
           }}
-        >
+       className='nav-to' >
           EXPLORE
         </h1>
+        <h3 className="riverside-drive-nairobi">RIVERSIDE DRIVE NAIROBI</h3>
       </div>
     </div>
   );
