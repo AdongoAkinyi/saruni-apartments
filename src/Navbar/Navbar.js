@@ -1,29 +1,26 @@
 import { FaBars, FaTimes } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
 import { useRef } from "react";
 import "./Navbar.css";
 
 function Navbar() {
-  let navigate = useNavigate();
     const navRef = useRef();
 const showNavbar =()=> {
     navRef.current.classList.toggle("responsive_nav")
 }
 
   return (
-    
     <div>
       <header className="header">
-      <img src='http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png' className='nav-logo' alt="logo"/>
-
-      <h1 className="home" onClick={() => {
-            navigate("/");
-          }} style={{color:"white"}} >THE SARUNI</h1>
+        <img
+          className="navbar-logo"
+          src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
+          alt="logo"
+        />
+        <h4 className="the">THE SARUNI</h4>
         <nav ref={navRef}>
-        
-          {/* <a href="/availability">AVAILABILITY</a>
-          <a href="/#">GET IN TOUCH</a> */}
-          <FaBars/>
+          <a href="/#" className="bars"><FaBars/></a>
+          
+
           <button onClick={showNavbar} className="nav-btn nav-close-btn">
             <FaTimes />
           </button>
