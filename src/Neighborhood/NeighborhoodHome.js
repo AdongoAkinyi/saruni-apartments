@@ -5,25 +5,53 @@ import { useNavigate } from "react-router-dom";
 function NeighborhoodHome() {
     let navigate = useNavigate();
   return (
-    <div class="grid-container-element">
-     <div class="grid-child-element green">
-        <img 
-        src='https://i.pinimg.com/564x/15/e6/77/15e67736f55c790282f4fc1767adb177.jpg'
-        // src="https://i.pinimg.com/564x/77/b8/13/77b813e4d5b92621e27ec4fa0c8983b0.jpg"
-         alt="residence"  className="childimage"/>
+    <div class="grid-container-neighbor">
+     <div className="grid-child-element green">
+      <img
+        src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iD1GJ2wJYKN4/v0/1200x-1.jpg"
+        alt="residence"
+        className="residenceimagehome"
+      />
     </div>
-    <div class="grid-child-element purple">
-    <div className="content">
-    <img src='http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png' className='neigh-logo'/>
+    <div className="grid-child-element jirani">
+      <div className="content">
+        <img
+          src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
+          className="residence-home-logo"
+          alt="logo"
+        />
+        <h4 className="jirani-main">N A I R O B I ' S </h4>
+        <h4
+          className="jirani-main"
+          style={{ marginTop: "15px", marginBottom: "15px" }}
+        >
+          {" "}
+          E X C L U S I V E
+        </h4>
+        <h4
+          className="jirani-main"
+          style={{ marginTop: "15px", marginBottom: "15px" }}
+        >
+          {" "}
+         A D D R E S S 
+        </h4>
 
-    <h4 className='reside'>NAIROBI'S EXCLUSIVE ADDRESS</h4>
-      <h5> A statement of luxury and prestige</h5>
-      <button   onClick={()=>{ navigate('/neighborhood')}} className='button-46'>THE NEIGHBORHOOD</button>
+        <h5 className="jirani-paragraph">A statement of luxury and prestige </h5>
+       
+
+        <button
+          onClick={() => {
+            navigate("/neighborhood");
+          }}
+          className="button-46"
+        >
+          THE NEIGHBORHOOD
+        </button>
+      </div>
     </div>
-    
-    </div>
+
    
-</div>
+  </div>
   )
 }
 
