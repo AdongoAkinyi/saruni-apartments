@@ -2,28 +2,39 @@ import "./Sun.css";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import ChildNav from "../Navbar/ChildNav";
-
+import { FaAngleDown } from "react-icons/fa";
 
 function Sunrise() {
-    let navigate = useNavigate();
+  let navigate = useNavigate();
 
   return (
-    <div className="kubwa">
+    <div className="kubwa-sun">
       <div>
         <ChildNav />{" "}
       </div>
-      <div class="grid-container">
+      <div class="grid-container-sun">
         <div class="grid-child purple">
-          <div className="skygardens">
-            <p>THE SPECTACULAR SKYGARDENS</p>
+          <div className="the-sun">
+            <img
+              src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
+              className="residence-home-logo-grey"
+              alt="logo"
+            />
+
+            <h6 className="brown-section one">T H E </h6>
+            <h1 className="brown-section two"> S P E C T A C U L A R</h1>
+            <h1 className="brown-section two"> S K Y G A R D E N S</h1>
           </div>
+
           <div className="center1">
-            <p>Wake up to the sunrise on the East</p>
+            <p className="sunner">Wake up to the sunrise on the East</p>
           </div>
 
           <div className="disclaimer">
-            <h4>THE EASTWARD GARDEN</h4>
-            <p>
+            <h4 className="eastward">T H E </h4>
+            <h4 className="eastward">E A S T W A R D </h4>
+            <h4 className="eastward"> G A R D E N</h4>
+            <p className="east-gard">
               is located on the 9th and 10th floor and presents amazing views of
               the Nairobi CBD area.
             </p>
@@ -31,38 +42,31 @@ function Sunrise() {
         </div>
 
         <div class="grid-child green">
-        <img
-          src="http://www.thesaruni.com/TheSaruniImages/wakeupleft.jpg"
-
+          <img
+            src="http://www.thesaruni.com/TheSaruniImages/wakeupleft.jpg"
             // src="https://i.pinimg.com/564x/93/3b/22/933b22054916574e7d3d5ecf694597a0.jpg"
             alt="bag"
             className="dd"
           />
-          2 Bedroom apartment living area example
+          <p>View from outside</p>
         </div>
         <div class="grid-child pink">
-        <img
-          src="http://www.thesaruni.com/TheSaruniImages/wakeupright.jpg"
-
+          <img
+            src="http://www.thesaruni.com/TheSaruniImages/wakeupright.jpg"
             // src="https://i.pinimg.com/564x/93/3b/22/933b22054916574e7d3d5ecf694597a0.jpg"
             alt="bag"
             className="dd"
           />
-          2 Bedroom apartment living area example
+          <p>View from outside</p>
         </div>
       </div>
 
       <section className="explore-section">
-        <h1 className="explore">EXPLORE</h1>
-        <div
-          className="arrow"
-          onClick={() => {
-            navigate("/sunset");
-          }}
-        >
-          <span></span>
-          <span></span>
-        </div>
+        <h1 className="explorer">
+          <a href="/sunset">
+            <FaAngleDown />
+          </a>
+        </h1>
       </section>
     </div>
   );

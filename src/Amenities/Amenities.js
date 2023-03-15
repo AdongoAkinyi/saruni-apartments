@@ -14,7 +14,15 @@ function Amenities() {
     <section className="section1">
     <div class="gridd-container-element">
       <div class="grid-child-element purn">
-        <div className="contenter1">
+      <div className="the-residences">
+          <img  
+          src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
+          className="residence-home-logo-grey" alt="logo"/>
+ 
+         <h6 className="gold-section one">T H E </h6>
+            <h1 className="gold-section two"> A M E N I T I E S</h1>
+          </div>
+        {/* <div className="contenter1">
         
         <img 
           src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
@@ -26,18 +34,21 @@ function Amenities() {
           className='amen-head'
           ><h6 className='small-the'>T H E</h6>
           A M E N I T I E S</h1>
-        </div>
+        </div> */}
        
         <div className="amen-3">
-          <h1 className='care'>C A R E F U L L Y
+        <div  className='ring'>
+        <h1 className='carey'>C A R E F U L L Y
            </h1>
-          <h1 className='care'>C O N S I D E R E D  & </h1>
-          <h1 className='care'>M E T I C U L O  U S L Y </h1>
-          <h1 className='care'>D E S I G N E D</h1>
-          <p className='paragraph-bottom'>
-            With uninterrupted views from each appartments, 'The Saruni' at
+          <h1 className='carey'>C O N S I D E R E D  & </h1>
+          <h1 className='carey'>M E T I C U L O  U S L Y </h1>
+          <h1 className='carey'>D E S I G N E D</h1>
+        </div>
+          
+          <p className='paragraph-bottommer'>
+            With uninterrupted views from each apartment, 'The Saruni' at
             Riverside Drive, is a modern interpretation of contemporary luxury
-            specifically designed to enhance your living exparience
+            specifically designed to enhance your living experience
           </p>
         </div>
       </div>
