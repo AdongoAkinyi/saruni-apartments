@@ -1,6 +1,7 @@
 import "./Sun.css";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
+import ChildNav from "../Navbar/ChildNav";
 
 
 function Sunrise() {
@@ -9,7 +10,7 @@ function Sunrise() {
   return (
     <div className="kubwa">
       <div>
-        <Navbar />{" "}
+        <ChildNav />{" "}
       </div>
       <div class="grid-container">
         <div class="grid-child purple">
@@ -30,18 +31,24 @@ function Sunrise() {
         </div>
 
         <div class="grid-child green">
-          <img
-          src="https://i.pinimg.com/564x/d7/90/73/d79073b18b7d20aee6432158fcd33e3c.jpg"
+        <img
+          src="http://www.thesaruni.com/TheSaruniImages/wakeupleft.jpg"
+
             // src="https://i.pinimg.com/564x/93/3b/22/933b22054916574e7d3d5ecf694597a0.jpg"
             alt="bag"
+            className="dd"
           />
+          2 Bedroom apartment living area example
         </div>
         <div class="grid-child pink">
-          <img
-          src="https://i.pinimg.com/564x/d7/90/73/d79073b18b7d20aee6432158fcd33e3c.jpg"
+        <img
+          src="http://www.thesaruni.com/TheSaruniImages/wakeupright.jpg"
+
             // src="https://i.pinimg.com/564x/93/3b/22/933b22054916574e7d3d5ecf694597a0.jpg"
             alt="bag"
+            className="dd"
           />
+          2 Bedroom apartment living area example
         </div>
       </div>
 

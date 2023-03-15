@@ -1,24 +1,39 @@
+import { FaAngleDown } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import Navbar from "../Navbar/Navbar";
+import ChildNav from "../Navbar/ChildNav";
 import './Amenitieschild.css'
 
 function  InfinityPool() {
     let navigate = useNavigate();
   return ( 
-    <div className="kubwa">
+    <div className="kubwaest">
     <div> 
-      <Navbar />{" "}
+      <ChildNav />{" "}
     </div>
     <section className="section1">
-    <div class="grid-container-element">
-      <div class="grid-child-element purple">
-        <div className="content-1">
-          <h1>THE AMENITIES</h1>
+    <div class="gridd-container-element">
+      <div class="grid-child-element purn">
+        <div className="contenter1">
+        
+        <img 
+          src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
+
+        // src="https://thesaruni.com/TheSaruniImages/sarunigrey.png"
+         alt="logo" className="rolog"/>
+
+          <h1 style={{marginTop:"90px"}} 
+          className='amen-head'
+          ><h6 className='small-the'>T H E</h6>
+          A M E N I T I E S</h1>
         </div>
        
         <div className="amen-3">
-          <h1>CAREFULLY CONSIDERED & METICULOUSLY DESIGNED</h1>
-          <p>
+          <h1 className='care'>C A R E F U L L Y
+           </h1>
+          <h1 className='care'>C O N S I D E R E D  & </h1>
+          <h1 className='care'>M E T I C U L O  U S L Y </h1>
+          <h1 className='care'>D E S I G N E D</h1>
+          <p className='paragraph-bottom'>
             With uninterrupted views from each appartments, 'The Saruni' at
             Riverside Drive, is a modern interpretation of contemporary luxury
             specifically designed to enhance your living exparience
@@ -27,7 +42,9 @@ function  InfinityPool() {
       </div>
       <div class="grid-child-element green">
         <img
-          src="https://i.pinimg.com/564x/a8/c2/42/a8c24292df4428d84fdfe57b6637ef84.jpg"
+                  src="http://www.thesaruni.com/TheSaruniImages/infinitypool.jpg" 
+
+          // src="https://i.pinimg.com/564x/a8/c2/42/a8c24292df4428d84fdfe57b6637ef84.jpg"
           alt="residence"
           className="childimage"
         />
@@ -37,13 +54,10 @@ function  InfinityPool() {
     
     
     <section className="explore-section">
-      <h1 className="explore">EXPLORE</h1>
-      <div className="arrow" onClick={() => {
-          navigate("/gym");
-        }} >
-        <span></span>
-        <span></span>
-      </div>
+      <h1 className="explorer">
+        <a href='/gym'><FaAngleDown /></a>
+       </h1>
+      
     </section>
   
   </div>

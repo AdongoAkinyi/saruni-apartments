@@ -33,7 +33,7 @@ function Home() {
             navigate("/residencehomepage");
           }}
        className='nav-to' >
-          EXPLORE
+          EXPLORE 
         </h1>
         <h3 className="riverside-drive-nairobi">RIVERSIDE DRIVE NAIROBI</h3>
       </div>

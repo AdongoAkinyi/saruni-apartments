@@ -1,56 +1,97 @@
-.grid-container-element {
+.grid-resident-element {
+  /* background-color: green; */
     display: grid;
-    margin-bottom: 50px;
-    /* grid-gap: 20px;  */
-    grid-template-columns: 4fr 9fr;
-    /* background-color: aquamarine; */
+    grid-gap: 10px; 
+    grid-template-columns: 3fr 10fr;
+    margin: 0 0 0 0;
+ 
   }
-  .childimage {
-    width: 100%;
+  
+  
+  @font-face {
+    font-family: "luxury";
+    src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
   }
-  .grid-child-element.purple {
-   /* background-color: aquamarine; */
-   border: none;
-   margin-left: 20px;
+  @font-face {
+    font-family: "luxury2";
+    src: url(/din/fonts/FF\ DIN\ Pro\ Regular\ 2.otf);
   }
-  .grid-child-element.green {
-    /* background-color: aquamarine; */
-    border: none;
-    margin-right: 30px;
-   }
-  .content-1 {
-    /* border: 5px solid green; */
-    color: gray;
+  @font-face {
+    font-family: "luxury3";
+    src: url(/luxury/DIN\ Black.ttf);
+  }
+  @font-face {
+    font-family: "luxury4";
+    src: url(/luxury/DIN\ Medium.ttf);
+  }
 
-    height: 290px;
-    font-size: 250%;
-    background: #efbf3b;
-    padding: 5px;
-    text-align: center;
-  }
-  .content-2 {
+  .contentarea {
     margin-top: 20px;
-    padding: 10px;
-    font-size: 180%;
+    margin-left: 10px;
     border-bottom: 5px solid goldenrod;
-    top: 0;
-    height: 150px;
-    /* background: peachpuff; */
     color: goldenrod;
     text-align: left;
   }
   .luxury{
-    margin-top: 0;
+    font-family: 'luxury';
     margin-left: 20px;
+    margin-bottom: 30px;
+    /* background-color: pink; */
   }
-  .units{
-    margin-left: 20px;
+  .childimage {
+    width: 100%;
   }
+  .grid-child-purple {
+   /* background-color: aquamarine; */
+   border: none;
+   margin-left: 20px;
+  }
+  h6.gold-section{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-right: 310px;
+  }
+  h1.gold-section{
+    font-size: 280%;
+  }
+  .gold-section{
+    font-family: 'luxury';
+    
+
+  }
+  .grid-child-element.green {
+    border: none;
+    margin-right: 30px;
+   }
+  .the-residences {
+    
+    color: gray;
+    height: 370px;
+    background: #efbf3b;
+    padding: 5px;
+    text-align: center;
+  }
+.conten-twise{
+  margin-top: 20px;
+  padding: 5px;
+  /* background-color: brown; */
+}
+  .care{
+    color: grey;
+    font-family: 'luxury';
+    font-size: 30px;
+  }
+  
   .content-3 {
     margin-top: 10px;
     padding: 6px;
     /* border: 5px solid yellow; */
-    height: 200px;
+    width: 300px;
+    height: 400px;
+    text-align: left;
+    position: absolute;
+    bottom: -14px;
+    left: 28px;
     /* background: brown; */
 
   }
@@ -87,4 +128,27 @@
       opacity: 0;
       transform: rotate(45deg) translate(-20px, -20px);
     }
+  }
+  .explore {
+    font-family: 'luxury';
+    /* font-size: 100%; */
+    font-weight: bold;
+    color: #7c7471;
+    margin-bottom: 0;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+  }
+  .paragraph-bottom{
+    /* background-color: pink; */
+    height: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: grey;
+    font-family: 'luxury';
+  }
+  .residence-home-logo-grey{
+    margin-top: 70px;
+    height: 168px;
+    margin-bottom: 10px;
   }

@@ -8,7 +8,8 @@ function NeighborhoodHome() {
     <div class="grid-container-neighbor">
      <div className="grid-child-element green">
       <img
-        src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iD1GJ2wJYKN4/v0/1200x-1.jpg"
+      src='http://www.thesaruni.com/TheSaruniImages/neighborhoodhome.jpg'
+        // src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iD1GJ2wJYKN4/v0/1200x-1.jpg"
         alt="residence"
         className="residenceimagehome"
       />

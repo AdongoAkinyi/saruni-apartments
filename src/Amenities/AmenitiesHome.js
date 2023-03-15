@@ -40,7 +40,7 @@ function AmenitiesHome() {
 
           <button
             onClick={() => {
-              navigate("/residence");
+              navigate("/amen");
             }}
             className="button-46"
           >
@@ -51,7 +51,8 @@ function AmenitiesHome() {
 
       <div className="grid-child-element green">
         <img
-          src=""
+        src="http://www.thesaruni.com/TheSaruniImages/rover.jpg"
+          // src="https://i.pinimg.com/564x/f4/03/25/f403251ebce3a9a8b62e6e7915a426cc.jpg"
           alt="residence"
           className="residenceimagehome"
         />

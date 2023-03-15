@@ -1,5 +1,6 @@
 .landing-container {
-  background-image: url("/src/Home/land.RGB777_color.jpg");
+
+  background-image: url("http://www.thesaruni.com/TheSaruniImages/home.jpg");
   height: 93vh;
   background-position: center center;
   background-repeat: no-repeat;
@@ -33,7 +34,7 @@
   width: 480px;
   text-align: center;
   font-family: "luxury2";
-  font-size: 140%;
+  font-size: 190%;
 }
 .small-letters {
   margin-top: -7px;

@@ -1,34 +1,29 @@
-.grid-container-element {
+.gridd-container-element {
   display: grid;
-  margin-bottom: 50px;
-  grid-gap: 20px;
-  grid-template-columns: 6fr 9fr;
-  /* background-color: aquamarine; */
+  /* height: 93vh; */
+  grid-gap: 0px;
+  grid-template-columns: 3.7fr 10fr;
+}
+.kubwaest {
+  margin: 0 0 0 0;
+  height: 78vh;
 }
 .grid-child-element {
-  /* margin: 10px;  */
-  /* background-color: peachpuff; */
-  /* border: 1px solid red; */
   object-fit: fill;
 }
 .childimage {
   width: 100%;
 }
-.grid-child-element.purple {
+.grid-child-element.purn {
   /* background-color: aquamarine; */
   border: none;
-
 }
 .grid-child-element.green {
-  /* background-color: aquamarine; */
   border: none;
-  /* margin-right: 30px; */
 }
-.content-1 {
-  /* border: 5px solid green; */
+.contenter1 {
   color: gray;
-
-  height: 290px;
+  height: 400px;
   font-size: 250%;
   background: goldenrod;
   padding: 5px;
@@ -40,16 +35,15 @@
   font-size: 180%;
   border-bottom: 5px solid goldenrod;
   top: 0;
-  height: 150px;
+  height: 250px;
   /* background: peachpuff; */
   color: goldenrod;
   text-align: left;
 }
 .amen-3 {
-
   padding: 6px;
   color: grey;
-  height: 560px;
+  height: 599px;
   background: black;
 }
 /* EXPLORE */
@@ -85,4 +79,50 @@
     opacity: 0;
     transform: rotate(45deg) translate(-20px, -20px);
   }
+}
+@font-face {
+  font-family: "luxury";
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
+}
+.amen-head {
+  font-family: "luxury";
+}
+.small-the {
+  font-size: 18px;
+  /* margin-top: 30px; */
+  margin-right: 310px;
+  font-family: "luxury";
+}
+.care {
+  margin-top: 20px;
+  color: grey;
+  font-family: "luxury";
+  font-size: 30px;
+}
+.paragraph-bottom {
+  /* background-color: pink; */
+  height: 200px;
+  font-size: 20px;
+  margin-top: 90px;
+  color: grey;
+  font-family: "luxury";
+}
+.ro-log {
+  margin-top: 70px;
+  height: 998px;
+  margin-bottom: 10px;
+}
+.explorer {
+  margin-top: 10px;
+  font-family: "luxury";
+  transform: scale(2.5, 2);
+}
+.explore-section {
+  font-size: 100%;
+  font-weight: bold;
+  color: #7c7471;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
 }

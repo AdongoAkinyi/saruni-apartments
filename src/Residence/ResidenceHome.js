@@ -31,8 +31,8 @@ function ResidenceHome() {
 
       <div className="grid-child-element green">
         <img
-
-          src="https://i.pinimg.com/564x/e2/4d/33/e24d33bf0e8d0c0970a4452d7ce8f8d9.jpg"
+        src="http://www.thesaruni.com/TheSaruniImages/residencehome.jpg"
+          // src="https://i.pinimg.com/564x/e2/4d/33/e24d33bf0e8d0c0970a4452d7ce8f8d9.jpg"
           alt="residence"
           className="residenceimagehome"
           

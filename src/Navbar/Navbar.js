@@ -1,8 +1,11 @@
+import { useNavigate } from "react-router-dom";
+
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 import "./Navbar.css";
 
 function Navbar() {
+  let navigate = useNavigate();
     const navRef = useRef();
 const showNavbar =()=> {
     navRef.current.classList.toggle("responsive_nav")
@@ -15,10 +18,13 @@ const showNavbar =()=> {
           className="navbar-logo"
           src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
           alt="logo"
+          onClick={() => {
+            navigate("/");
+          }}
         />
         <h4 className="the">THE SARUNI</h4>
         <nav ref={navRef}>
-          <a href="/#" className="bars"><FaBars/></a>
+          <a href="/menu" className="bars"><FaBars/></a>
           
 
           <button onClick={showNavbar} className="nav-btn nav-close-btn">

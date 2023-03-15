@@ -1,11 +1,75 @@
-.grid-container {
+.grid-container-elementt {
     display: grid;
-    grid-template-columns: 1fr 1fr 6fr;
-    /* grid-gap: 20px; */
+    grid-template-columns:  5fr 9fr;
+    grid-gap: 0px;
+    font-family: 'luxury';
+    /* background-color: brown; */
 }
-.grid-child.avi{
-    background-color: pink;
-}
-.grid-child.kaplan{
-    background-color: peachpuff;
-}
+
+@font-face {
+    font-family: "luxury";
+    src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
+  }
+  .lux-head{
+    padding: 10px;
+    /* border-right: 3px solid grey; */
+    background-color: goldenrod;
+    width: 400px;
+  }
+  .topic-lux{
+    font-family: 'luxury';
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+    color: rgb(110, 106, 106);
+  }
+  .lux-head.two{
+    height: 141px;
+  }
+  .lux-body{
+    /* background-color: brown; */
+    border-right: 1px solid grey;
+    /* border-bottom: 1px solid grey; */
+  }
+  .body-lux{
+    font-family: 'luxury';
+    color: grey;
+    
+    margin-left: 30px;
+  }
+  .body-lux.tittle{
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 30px;
+  }
+  .body-lux.one{
+    margin-top: 0;
+    font-size: 15px;
+  }
+  .headingsss{
+    display: flex;
+  }
+  .body-one{
+    display: flex;
+    /* background-color: brown; */
+    height: 350px;
+  }
+  .body-two{
+    display: flex;
+    height: 350px;
+  }
+  .lux-body-up{
+    width: 600px;
+    
+/* background-color: brown; */
+  }
+  .sect-body{
+    margin-top: 30px;
+  }
+  .topic-luxx{
+    font-family: 'luxury';
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: rgb(110, 106, 106);
+  }

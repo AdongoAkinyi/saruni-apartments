@@ -1,11 +1,12 @@
 import './Ataglance.css'
 import Navbar from "../Navbar/Navbar";
+import ChildNav from '../Navbar/ChildNav';
 
 function AtaGlance() {
   return (
     <div className="kubwa">
       <div>
-        <Navbar />{" "}
+        <ChildNav />{" "}
       </div>
       <div className="section1">
         <div class="grid-container-element">
@@ -60,7 +61,9 @@ function AtaGlance() {
           </div>
           <div class="grid-child-element green">
             <img
-              src="https://i.pinimg.com/564x/a8/c2/42/a8c24292df4428d84fdfe57b6637ef84.jpg"
+                      src="http://www.thesaruni.com/TheSaruniImages/avilability.jpg"
+
+              // src="https://i.pinimg.com/564x/a8/c2/42/a8c24292df4428d84fdfe57b6637ef84.jpg"
               alt="residence"
               className="childimage"
             />

@@ -10,7 +10,7 @@ function NeighborMap() {
     <div>
       <Navbar />{" "}
     </div>
-    <div class="grid-container-element">
+    <div class="grid-container-elementr">
         <div class="grid-child-element purple">
           <div className="map-1">
             <h1>GAIN CENTRAL CONNECTIVITY TO RETAIL, RECREATIONAL & ESSENTIAL SERVICES</h1>
@@ -34,7 +34,8 @@ function NeighborMap() {
         </div>
         <div class="grid-child-element green">
           <img
-            src="https://i.pinimg.com/564x/a8/c2/42/a8c24292df4428d84fdfe57b6637ef84.jpg"
+          src='http://www.thesaruni.com/TheSaruniImages/map.jpg'
+            // src="https://i.pinimg.com/564x/a8/c2/42/a8c24292df4428d84fdfe57b6637ef84.jpg"
             alt="residence"
             className="childimage"
           />

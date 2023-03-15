@@ -1,10 +1,12 @@
-import './Navbar.css'
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+
 import { useRef } from "react";
+import "./ChildNav.css";
 
 function ChildNav() {
   let navigate = useNavigate();
+
     const navRef = useRef();
 const showNavbar =()=> {
     navRef.current.classList.toggle("responsive_nav")
@@ -12,17 +14,26 @@ const showNavbar =()=> {
 
   return (
     <div>
-      <header className='header'>
-      <img src='http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png' className='nav-logo'  alt='logo'/>
-
-      <h1 className="home" onClick={() => {
+      <header className="header">
+        <img
+          className="navbar-logo"
+          src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
+          alt="logo"
+          onClick={() => {
             navigate("/");
-          }} style={{color:"black"}} >THE SARUNI</h1>
+          }}
+        />
+        <h4 className="th">THE SARUNI</h4>
         <nav ref={navRef}>
-        
-          <a href="/availability">AVAILABILITY</a>
-          <a href="/#">GET IN TOUCH</a>
-          <FaBars/>
+        <div className="menu">
+        <a href="/availability" className="menutext">AVAILABILITY</a>
+        <a href="/availability" className="menutext">GET IN TOUCH</a>
+
+        </div>
+
+          <a href="/menu" className="barss"><FaBars/></a>
+          
+
           <button onClick={showNavbar} className="nav-btn nav-close-btn">
             <FaTimes />
           </button>
@@ -32,7 +43,7 @@ const showNavbar =()=> {
         </button>
       </header>
     </div>
-  )
+  );
 }
 
-export default ChildNav
+export default ChildNav;

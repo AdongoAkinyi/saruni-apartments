@@ -1,5 +1,5 @@
 .amenity1{
-    background-image: url(https://i.pinimg.com/564x/98/98/a2/9898a2abda6cc262f7706ed4330fad08.jpg);
+    background-image: url('http://www.thesaruni.com/TheSaruniImages/gym.jpg');
     height: 850px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -7,8 +7,8 @@
   color: white;
 }
 .amenity2{
-    color: white;
-    background-image: url(https://i.pinimg.com/564x/af/4e/f7/af4ef738622a3730b1c49bf35b05ca63.jpg);
+    /* color: white; */
+    background-image: url("http://www.thesaruni.com/TheSaruniImages/coutryard.jpg");
     height: 850px;
   background-position: center center;
   background-repeat: no-repeat;

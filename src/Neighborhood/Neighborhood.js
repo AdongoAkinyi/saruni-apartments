@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import ChildNav from "../Navbar/ChildNav";
 import Navbar from "../Navbar/Navbar";
 import   './Neighborhoodchild.css'
 
@@ -8,7 +9,7 @@ function Neighborhood() {
   return (
     <div className="kubwa">
       <div>
-        <Navbar />{" "}
+        <ChildNav />{" "}
       </div>
       <section className="section1">
         <div class="grid-container-element">
@@ -34,7 +35,7 @@ function Neighborhood() {
           </div>
           <div class="grid-child-element green">
             <img
-              src="https://i.pinimg.com/564x/a8/c2/42/a8c24292df4428d84fdfe57b6637ef84.jpg"
+            src="http://www.thesaruni.com/TheSaruniImages/neigbourhood.jpg"
               alt="residence"
               className="childimage"
             />

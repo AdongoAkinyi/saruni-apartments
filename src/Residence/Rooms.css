@@ -1,11 +1,17 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 0px;
     margin-left: 20px;
     margin-right: 20px;
+    /* background-color: pink; */
+    margin-bottom: 0;
+    height: 77vh;
     
-}
+}@font-face {
+    font-family: "luxury";
+    src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
+  }
 .residence-heading{
     height: 250px;
     background: goldenrod;
@@ -18,7 +24,7 @@
     height: 290px;
     margin-top: 20px;
     padding: 10px;
-    font-size: 140%;
+    font-size: 170%;
     cursor: pointer;
 }
 .disclaimer{
@@ -27,9 +33,36 @@
     padding: 6px;
 }
 .activelink{
+    margin-top: 30px;
     color: goldenrod;
+    font-family: 'luxury' ;
 }
 .room-logo{
     height: 100px;
     border-radius: 50%;
+}
+#rooms{
+    font-family: 'luxury' ;
+    margin-top: 30px;
+   color: gray;
+
+}
+.nav-to-next{
+    margin-top: 80px;
+    font-family: 'luxury';
+}
+.paragraph-bottom-disclaimer{
+    height: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(85, 85, 85);
+    font-family: 'luxury';
+    /* background: pink; */
+}
+#disclaimer{
+    font-family: 'luxury';
+}
+.dd{
+    width: 700px;
+    height: 90vh;
 }

@@ -1,6 +1,7 @@
 import './Extras.css'
 import { useNavigate } from "react-router-dom";
 import Navbar from '../Navbar/Navbar';
+import ChildNav from '../Navbar/ChildNav';
 
 
 function Gym() {
@@ -9,7 +10,7 @@ function Gym() {
   return (
     <div>
     <div>
-      <Navbar/>
+      <ChildNav/>
     </div>
     <div className='amenity1'>
         <h2>

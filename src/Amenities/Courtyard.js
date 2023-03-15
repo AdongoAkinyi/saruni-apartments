@@ -1,6 +1,7 @@
 import './Extras.css'
 import { useNavigate } from "react-router-dom";
 import Navbar from '../Navbar/Navbar';
+import ChildNav from '../Navbar/ChildNav';
 
 
 function Courtyard() {
@@ -9,7 +10,7 @@ function Courtyard() {
   return (
     <div>
     <div>
-      <Navbar/>
+      <ChildNav/>
     </div>
     <div className='amenity2'>
         <h2>
@@ -19,10 +20,10 @@ function Courtyard() {
     </div>
 
 <section className="explore-section">
-      <h1 className="explore">EXPLORE</h1>
-      <div className="arrow" onClick={() => {
+      <h1 className="explore" onClick={() => {
           navigate("/neighborhood");
-        }} >
+        }}>EXPLORE</h1>
+      <div className="arrow"  >
         <span></span>
         <span></span>
       </div>
