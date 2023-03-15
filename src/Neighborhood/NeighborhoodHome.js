@@ -1,5 +1,6 @@
 import './Neighborhood.css'
 import { useNavigate } from "react-router-dom";
+import { FaBars } from 'react-icons/fa';
 
 
 function NeighborhoodHome() {
@@ -7,6 +8,18 @@ function NeighborhoodHome() {
   return (
     <div class="grid-container-neighbor">
      <div className="grid-child-element green">
+     <div className="logo-top-leftt">
+        <h4><img
+          className="navbar-logo"
+          src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
+          alt="logo"
+          onClick={() => {
+            navigate("/");
+          }}
+        />  
+       <a href="/" className="the-word">THE SARUNI</a> </h4>
+       
+        </div>
       <img
       src='http://www.thesaruni.com/TheSaruniImages/neighborhoodhome.jpg'
         // src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iD1GJ2wJYKN4/v0/1200x-1.jpg"
@@ -16,6 +29,8 @@ function NeighborhoodHome() {
     </div>
     <div className="grid-child-element jirani">
       <div className="content">
+      <a href="/menu" className="bars-top-right"><FaBars  /></a>
+
         <img
           src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
           className="residence-home-logo"

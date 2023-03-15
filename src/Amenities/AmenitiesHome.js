@@ -1,12 +1,25 @@
 import "./Amenities.css";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
+import { FaBars } from "react-icons/fa";
 
 function AmenitiesHome() {
   let navigate = useNavigate();
   return (
     <div class="grid-container-element">
       <div className="grid-child-element purple">
+      <div className="logo-top-left">
+        <h4><img
+          className="navbar-logo"
+          src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
+          alt="logo"
+          onClick={() => {
+            navigate("/");
+          }}
+        />  
+       <a href="/" className="the-word">THE SARUNI</a> </h4>
+       
+        </div>
         <div className="content">
           <img
             src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
@@ -50,6 +63,8 @@ function AmenitiesHome() {
       </div>
 
       <div className="grid-child-element green">
+      <a href="/menu" className="bars-top-right"><FaBars  /></a>
+
         <img
         src="http://www.thesaruni.com/TheSaruniImages/rover.jpg"
           // src="https://i.pinimg.com/564x/f4/03/25/f403251ebce3a9a8b62e6e7915a426cc.jpg"

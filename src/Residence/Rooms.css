@@ -66,3 +66,13 @@
     width: 700px;
     height: 90vh;
 }
+.explore-avi {
+    font-family: 'luxury';
+    font-weight: bold;
+    color: #7c7471;
+    /* margin-bottom: 0; */
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 150px;
+  }

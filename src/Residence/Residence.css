@@ -93,3 +93,27 @@
     padding: 14px 16px;
   }
 }
+.logo-top-left{
+  /* background-color: purple; */
+  position: absolute;
+    top: 15px;
+    left: 28px;
+}
+.logo-top-left a{
+text-decoration: none;
+color: black;
+font-size: 30px;
+margin-left: 20px;
+/* background-color: pink; */
+}
+.bars-top-right{
+  /* background-color: purple; */
+  position: absolute;
+    top: 10px;
+    right: 59px;
+    transform: scale(2.9,1.5);
+    font-size: 18px;
+    margin-top: 8px;
+    color: white;
+
+}

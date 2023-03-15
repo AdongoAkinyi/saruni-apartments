@@ -1,7 +1,11 @@
 import ChildNav from "../Navbar/ChildNav";
 import "./Availability.css";
+import { useNavigate } from "react-router-dom";
+
 
 function Availability() {
+  let navigate = useNavigate();
+
   return (
     <div>
       <div>
@@ -98,6 +102,15 @@ function Availability() {
             className="childimage"
           />
         </div>
+      </div>
+      <div className="explore-avia">
+        <h1
+          onClick={() => {
+            navigate("/amenities");
+          }}
+       className='nav-to' >
+          EXPLORE
+        </h1>
       </div>
     </div>
   );

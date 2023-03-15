@@ -1,6 +1,7 @@
 import "./Residence.css";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
+import { FaBars } from "react-icons/fa";
 
 function ResidenceHome() {
   let navigate = useNavigate();
@@ -8,6 +9,18 @@ function ResidenceHome() {
     <div class="grid-container-element"> 
     
       <div className="grid-child-element purple">
+        <div className="logo-top-left">
+        <h4><img
+          className="navbar-logo"
+          src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
+          alt="logo"
+          onClick={() => {
+            navigate("/");
+          }}
+        />  
+       <a href="/" className="the-word">THE SARUNI</a> </h4>
+       
+        </div>
         <div className="content">
         <img  src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png" className="residence-home-logo" alt="logo"/>
           <h4 className="reside">R E S I D E  </h4>
@@ -30,6 +43,7 @@ function ResidenceHome() {
       </div>
 
       <div className="grid-child-element green">
+      <a href="/menu" className="bars-top-right"><FaBars  /></a>
         <img
         src="http://www.thesaruni.com/TheSaruniImages/residencehome.jpg"
           // src="https://i.pinimg.com/564x/e2/4d/33/e24d33bf0e8d0c0970a4452d7ce8f8d9.jpg"

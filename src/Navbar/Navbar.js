@@ -11,7 +11,7 @@ const showNavbar =()=> {
     navRef.current.classList.toggle("responsive_nav")
 }
 
-  return (
+  return ( 
     <div>
       <header className="header">
         <img

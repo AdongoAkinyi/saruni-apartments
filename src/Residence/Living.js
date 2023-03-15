@@ -6,24 +6,21 @@ function Living() {
   let navigate = useNavigate();
 
   return (
-    <div className="kubwa">
+    <div className="kubwa-resident">
       <div>
         <ChildNav />{" "}
       </div>
       <div class="grid-container">
         <div class="grid-child purple">
-          <div className="the-residences">
-            <img
+        <div className="the-residences">
+          <img  
               src="https://thesaruni.com/TheSaruniImages/logowhite.png"
-              alt="logo"
-              className="room-log"
-              style={{height:"90px"}}
-            />
-
-            <h6 className="gold-section one">T H E </h6>
+          className="residence-home-logo-grey" alt="logo"/>
+ 
+         <h6 className="gold-section one">T H E </h6>
             <h1 className="gold-section two"> R E S I D E N C E S</h1>
           </div>
-
+  
           <div className="sidebar-center">
             <h4
               className="activelink"

@@ -12,16 +12,14 @@ function Bedroom() {
     </div>
     <div class="grid-container">
       <div class="grid-child purple">
-        <div className="the-residences">
-          <img
-            src="https://thesaruni.com/TheSaruniImages/creamlogo.png"
-            alt="logo"
-            className="room-logo"
-          />
-
-          <h6 className="gold-section one">T H E </h6>
-          <h1 className="gold-section two"> R E S I D E N C E S</h1>
-        </div>
+      <div className="the-residences">
+          <img  
+              src="https://thesaruni.com/TheSaruniImages/logowhite.png"
+          className="residence-home-logo-grey" alt="logo"/>
+ 
+         <h6 className="gold-section one">T H E </h6>
+            <h1 className="gold-section two"> R E S I D E N C E S</h1>
+          </div>
 
         <div className="sidebar-center">
           <h4

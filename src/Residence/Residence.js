@@ -20,6 +20,7 @@ function Residence() {
          <h6 className="gold-section one">T H E </h6>
             <h1 className="gold-section two"> R E S I D E N C E S</h1>
           </div>
+          
           <div className="contentarea">
           <h1  className="luxury" style={{marginTop:"30px"}}>L  U X U R Y</h1>
           <h1 className="luxury" style={{marginTop:"15px"}}>U N I T S</h1>
