@@ -71,7 +71,7 @@ function Cara() {
     <Carousel
       autoPlay={true}
       infiniteLoop
-      interval={1000}
+      interval={2000}
       transitionTime={2000}
       animationHandler={rotateAnimationHandler}
       swipeable={false}
