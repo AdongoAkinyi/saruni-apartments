@@ -1,11 +1,10 @@
 import "./Sun.css";
-import { useNavigate } from "react-router-dom";
-import Navbar from "../Navbar/Navbar";
+// import { useNavigate } from "react-router-dom";
 import ChildNav from "../Navbar/ChildNav";
 import { FaAngleDown } from "react-icons/fa";
 
 function Sunrise() {
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
 
   return (
     <div className="kubwa-sun">
@@ -13,7 +12,7 @@ function Sunrise() {
         <ChildNav />{" "}
       </div>
       <div class="grid-container-sun">
-        <div class="grid-child purple">
+        <div class="grid-child purple" style={{marginRight:"15px"}}>
           <div className="the-sun">
             <img
               src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
@@ -46,18 +45,18 @@ function Sunrise() {
             src="http://www.thesaruni.com/TheSaruniImages/wakeupleft.jpg"
             // src="https://i.pinimg.com/564x/93/3b/22/933b22054916574e7d3d5ecf694597a0.jpg"
             alt="bag"
-            className="dd"
+            className="ddsun"
           />
-          <p>View from outside</p>
+          <p className="example">View from outside</p>
         </div>
         <div class="grid-child pink">
           <img
             src="http://www.thesaruni.com/TheSaruniImages/wakeupright.jpg"
             // src="https://i.pinimg.com/564x/93/3b/22/933b22054916574e7d3d5ecf694597a0.jpg"
             alt="bag"
-            className="dd"
+            className="ddsun"
           />
-          <p>View from outside</p>
+          <p className="example" style={{textAlign:"right"}}>View from outside</p>
         </div>
       </div>
 

@@ -1,9 +1,8 @@
 import "./Amenities.css";
 import { useNavigate } from "react-router-dom";
-import Navbar from "../Navbar/Navbar";
 import { FaBars } from "react-icons/fa";
 
-function AmenitiesHome() {
+function AmenitiesHome() { 
   let navigate = useNavigate();
   return (
     <div class="grid-container-element">
@@ -53,7 +52,7 @@ function AmenitiesHome() {
 
           <button
             onClick={() => {
-              navigate("/amen");
+              navigate("/amenities");
             }}
             className="button-46"
           >

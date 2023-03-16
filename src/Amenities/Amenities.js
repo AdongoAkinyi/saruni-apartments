@@ -1,11 +1,11 @@
 import './Amenitieschild.css'
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import ChildNav from '../Navbar/ChildNav';
 import { FaAngleDown } from 'react-icons/fa';
 
  
 function Amenities() {
-    let navigate = useNavigate();
+    // let navigate = useNavigate();
   return (
     <div className="kubwaest">
     <div> 
@@ -63,7 +63,7 @@ function Amenities() {
       </div>
     </div>
     </section>
-    
+     
     
     <section className="explore-section">
       <h1 className="explorer">

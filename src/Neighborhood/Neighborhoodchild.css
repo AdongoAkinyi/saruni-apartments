@@ -1,68 +1,133 @@
-.grid-container-element {
-    display: grid;
-    grid-template-columns: 10fr 6fr;
-    /* grid-gap: 20px;  */
-    /* border: 1px solid black; */
-    width: 100%;
-    height: 100vh;
-  }
-  .grid-child-element {
-    /* margin: 10px;  */
-    /* background-color: peachpuff; */
-    /* border: 1px solid red; */
-    object-fit: fill;
-  }
-  .childimage {
-    width: 100%;
-    height: 100vh;
-  }
-  .grid-child-element.purple {
-   background-color: #7c7774;
-    text-align: center;
-  }
-  .content {
-    /* background: pink; */
-    font-size: 200%;
-    height: 290px;
-    margin-top: 290px;
-  }
-  
-  
+.grid-coontainer-element {
+  display: grid;
+  grid-template-columns: 4fr 12fr;
+  width: 100%;
+  /* height: 100vh; */
+}
+.grid-child-element {
+  /* margin: 10px;  */
+  /* background-color: peachpuff; */
+  /* border: 1px solid red; */
+  object-fit: fill;
+}
+.childimage {
+  width: 100%;
+  height: 100vh;
+}
+.grid-child-element.purple {
+  background-color: #7c7774;
+  text-align: center;
+}
+.content {
+  /* background: pink; */
+  font-size: 200%;
+  height: 290px;
+  margin-top: 290px;
+}
+
+.button-46 {
+  align-items: center;
+  background-color: rgba(240, 240, 240, 0.26);
+  border: 1px solid #dfdfdf;
+  /* border-radius: 16px; */
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  font-size: 28px;
+  justify-content: center;
+  line-height: 28px;
+  max-width: 100%;
+  padding: 14px 22px;
+  text-decoration: none;
+  transition: all 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+}
+
+.button-46:active,
+.button-46:hover {
+  outline: 0;
+}
+
+.button-46:hover {
+  background-color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
   .button-46 {
-    align-items: center;
-    background-color: rgba(240, 240, 240, 0.26);
-    border: 1px solid #DFDFDF;
-    /* border-radius: 16px; */
-    box-sizing: border-box;
-    color: #000000;
-    cursor: pointer;
-    font-size: 28px;
-    justify-content: center;
-    line-height: 28px;
-    max-width: 100%;
-    padding: 14px 22px;
-    text-decoration: none;
-    transition: all .2s;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: 40%;
+    font-size: 20px;
+    min-width: 200px;
+    padding: 14px 16px;
   }
+}
+.the-neighboorhood {
+  color: gray;
+  height: 290px;
+  padding: 5px;
+  text-align: center;
+  border-bottom: 3px solid goldenrod;
+}
+h6.gold-secttion {
+  font-size: 18px;
+  margin-top: 30px;
+  margin-right: 280px;
+}
+h1.gold-secttion {
+  font-size: 200%;
+  margin-bottom: 30px;
+}
+.gold-secttion {
+  font-family: "luxury";
+}
+@font-face {
+  font-family: "luxury";
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
+}
+.residence-neigh-logo-grey {
+  margin-top: 70px;
+  height: 128px;
+}
+.contenting {
+  /* background-color: pink; */
+  margin-top: 20px;
+  height: 200px;
+  text-align: left;
+  margin-left: 30px;
+}
+.exclude {
+  color: grey;
+  font-family: "luxury";
+  margin-top: 10px;
+  font-size: 190%;
+  padding: 18px 30px 7px 7px;
+}
+
+.excluder {
+  color: gray;
+  font-family: "luxury";
+
+  font-size: 190%;
+}
+.coddler{
+  font-family: 'luxury';
+  text-align: left;
+  color: grey;
+  font-size: 120%;
   
-  .button-46:active,
-  .button-46:hover {
-    outline: 0;
-  }
-  
-  .button-46:hover {
-    background-color: #FFFFFF;
-    border-color: rgba(0, 0, 0, 0.19);
-  }
-  
-  @media (min-width: 768px) {
-    .button-46 {
-      font-size: 20px;
-      min-width: 200px;
-      padding: 14px 16px;
-    }
-  }
+}
+.coddler.bot{
+  font-family: 'luxury';
+  text-align: left;
+  color: grey;
+  font-size: 120%;
+  margin-top: 30px;
+}
+.coddle{
+  margin-top: -65px;
+/* background: pink; */
+height: 300px;
+padding: 38px 20px 7px 27px;
+}

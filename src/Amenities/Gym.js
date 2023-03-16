@@ -1,11 +1,11 @@
 import './Extras.css'
-import { useNavigate } from "react-router-dom";
-import Navbar from '../Navbar/Navbar';
+// import { useNavigate } from "react-router-dom";
 import ChildNav from '../Navbar/ChildNav';
+import { FaAngleDown } from 'react-icons/fa';
 
 
 function Gym() {
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
 
   return (
     <div>
@@ -13,20 +13,17 @@ function Gym() {
       <ChildNav/>
     </div>
     <div className='amenity1'>
-        <h2>
+        <h2 className='gym'>
             The Gym
         </h2>
         
-    </div>
+    </div>  
 
-<section className="explore-section">
-      <h1 className="explore">EXPLORE</h1>
-      <div className="arrow" onClick={() => {
-          navigate("/courtyard");
-        }} >
-        <span></span>
-        <span></span>
-      </div>
+    <section className="explore-section">
+      <h1 className="explorer">
+        <a href='/courtyard'><FaAngleDown/></a>
+       </h1>
+      
     </section>
     </div>
     

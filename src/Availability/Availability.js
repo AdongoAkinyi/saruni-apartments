@@ -11,7 +11,7 @@ function Availability() {
       <div>
         <ChildNav />
       </div>
-      <div class="grid-container-elementt">
+      <div class="griid-container-elementt">
         <div className="grid-child avi">
           <div className="headingsss">
             <div className="lux-head">
@@ -23,15 +23,15 @@ function Availability() {
               <h1 className="topic-lux">C A L L </h1>
               <p className="topic-luxx">0 7 5 9 2 7 8 5 6 4</p>
               <p className="topic-luxx">0 7 4 5 4 6 6 3 4</p>
-              <h3 className="topic-lux">to make your reservation</h3>
+              <h3 className="topic-lux-reserve">to make your reservation</h3>
             </div>
           </div>
 
           <div className="sect-body">
             <div className="body-one">
-              <div className="lux-body-up">
+              <div className="lux-body-upjuu">
                 {/* <h1>1</h1> */}
-                <h2 className="body-lux tittle">1 BEDROOM APARTMENTS</h2>
+                <h2 className="body-lux tittle"> <a className="number">  1</a> BEDROOM APARTMENTS</h2>
 
                 <ul>
                   <li className="body-lux one">
@@ -46,8 +46,8 @@ function Availability() {
                   </li>
                 </ul>
               </div>
-              <div className="lux-body-upp">
-                <h2 className="body-lux tittle">2 BEDROOM APARTMENTS</h2>
+              <div className="lux-body-upple">
+                <h2 className="body-lux tittle"><a className="number">  2</a>  BEDROOM APARTMENTS</h2>
                 <ul>
                   <li className="body-lux one">Starting from 132sqm (1421sqft)</li>
                   <li className="body-lux one">DSQ with private access</li>
@@ -63,8 +63,8 @@ function Availability() {
             </div>
 
             <div className="body-two">
-              <div className="lux-body-up">
-                <h2 className="body-lux tittle">3 BEDROOM APARTMENTS</h2>
+              <div className="lux-body-updown">
+                <h2 className="body-lux tittle"><a className="number">  3</a> BEDROOM APARTMENTS</h2>
                 <ul>
                   <li className="body-lux one"> Starting from 218 sqm (2347sqft)</li>
                   <li className="body-lux one">DSQ with private access</li>
@@ -78,7 +78,7 @@ function Availability() {
                 </ul>
               </div>
               <div className="lux-body">
-                <h2 className="body-lux tittle">4 DUPLEX PENTHOUSES</h2>
+                <h2 className="body-lux tittle"><a className="number">  4</a> DUPLEX PENTHOUSES</h2>
                 <ul>
                   <li className="body-lux one"> Starting from 623sqm (6706sqft)</li>
                   <li className="body-lux one">Private Rooftop terrace</li>
@@ -90,8 +90,8 @@ function Availability() {
                   </li>
                 </ul>
               </div>
-            </div>
-          </div>
+            </div> 
+           </div>
 
         </div>
         <div class="grid-child avik">
@@ -103,7 +103,7 @@ function Availability() {
           />
         </div>
       </div>
-      <div className="explore-avia">
+      {/* <div className="explore-avia">
         <h1
           onClick={() => {
             navigate("/amenities");
@@ -111,7 +111,7 @@ function Availability() {
        className='nav-to' >
           EXPLORE
         </h1>
-      </div>
+      </div> */}
     </div>
   );
 }

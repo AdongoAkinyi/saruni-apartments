@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./Residencechild.css";
 import ChildNav from "../Navbar/ChildNav";
+import { FaAngleDown } from "react-icons/fa";
 
 function Residence() {
   let navigate = useNavigate();
@@ -57,9 +58,11 @@ function Residence() {
           onClick={() => {
             navigate("/livingroom");
           }}
-       className='nav-to' >
-          EXPLORE
+       className='nav-to' style={{fontWeight:"normal"}} >
+
+          EXPLORE THE RESIDENCES
         </h1>
+        <h1 className="downangle"><FaAngleDown /></h1>
       </div>
     </div>
   );

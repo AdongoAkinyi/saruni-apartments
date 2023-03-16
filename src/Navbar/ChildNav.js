@@ -14,20 +14,21 @@ const showNavbar =()=> {
 
   return (
     <div>
-      <header className="header">
-        <img
-          className="navbar-logo"
+      <header className="headerr">
+        <img 
+          className="navbary-logo"
           src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
           alt="logo"
           onClick={() => {
             navigate("/");
           }}
+
         />
         <h4 className="th">THE SARUNI</h4>
-        <nav ref={navRef}>
+        <nav ref={navRef}  className='mtoto'>
         <div className="menu">
-        <a href="/availability" className="menutext">AVAILABILITY</a>
-        <a href="/availability" className="menutext">GET IN TOUCH</a>
+        <a href="/availability" className="menutext">A V A I L A B  I L I T Y</a>
+        <a href="/availability" className="menutext">G E T <a   href="/contact" className="touch">I N</a>  T O U C  H</a>
 
         </div>
 

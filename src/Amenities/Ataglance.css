@@ -1,45 +1,83 @@
-.grid-container-element {
+.grid-ccontainer-element {
   display: grid;
-  margin-bottom: 50px;
-  grid-gap: 20px;
-  grid-template-columns: 6fr 6fr;
+  margin: 0 0 0 0;
+  /* margin-bottom: 50px; */
+  grid-gap: 0px;
+  grid-template-columns: 4fr 7fr;
   /* background-color: aquamarine; */
 }
 
 .glance1 {
   color: gray;
-  height: 290px;
+  height: 220px;
   font-size: 250%;
-  background: black;
+  background: rgb(59, 57, 57);
   padding: 5px;
   text-align: center;
 }
 .glance{
     display: flex;
+    /* margin-top: 27px; */
+    /* background-color: purple; */
+}
+.glance.two{
+  /* background-color: pink; */
+  padding: 10px 10px 10px;
+  border-bottom: 2px solid grey;
+}
+.glance.three{
+  /* background-color: pink; */
+  margin-top: 10px;
+  height: 180px;
+  /* padding: 10px 10px 10px; */
+  border-bottom: 2px solid grey;
+}
+.glance.four{
+  /* background-color: pink; */
+  padding: 10px 10px 10px;
+  /* border-bottom: 2px solid grey; */
+  margin-top: 10px;
 }
 
-.content-2 {
-  margin-top: 20px;
-  padding: 10px;
-  font-size: 180%;
-  border-bottom: 5px solid goldenrod;
-  top: 0;
-  height: 150px;
-  /* background: peachpuff; */
-  color: goldenrod;
-  text-align: left;
+@font-face {
+  font-family: "luxury";
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
 }
-.amen-3 {
-  padding: 6px;
+.topper{
+  font-family: 'luxury';
+  
+}
+.topper.r{
+  margin-top: 90px;
+}
+.toper{
+  font-family: 'luxury';
+}
+.amenn{
+  font-family: 'luxury';
   color: grey;
-  height: 560px;
-  background: black;
 }
-/* EXPLORE */
-.arrow {
-  position: absolute;
-  top: 123%;
-  left: 50%;
-  /* background-color: gray; */
-  transform: translate(-50%, -50%);
+.logosection{
+  /* background-color: brown; */
+  width: 300px;
+  /* height: 140px; */
+
+}
+.list-amenities ul{
+  /* background-color: pink; */
+  text-align: left;
+  height: 190px;
+  padding:  20px  20px 7px 7px;
+ 
+}
+.list-amenities ul li{
+  margin-left: 30px;
+  font-family: 'luxury';
+  color: gray;
+
+}
+.residence-home-logo-greyy{
+  /* background-color: pink; */
+  margin-top: 20px;
+  height: 168px;
 }

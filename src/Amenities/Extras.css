@@ -1,6 +1,6 @@
 .amenity1{
     background-image: url('http://www.thesaruni.com/TheSaruniImages/gym.jpg');
-    height: 850px;
+    height: 90vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,8 +9,26 @@
 .amenity2{
     /* color: white; */
     background-image: url("http://www.thesaruni.com/TheSaruniImages/coutryard.jpg");
-    height: 850px;
+    height: 90vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+@font-face {
+  font-family: "luxury";
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
+}
+.gym{
+ font-family: 'luxury';
+ color: grey;
+ padding: 29px 27px 7px 7px;
+ font-size: 20px;
+ margin-left: 30px;
+}
+.courtyard{
+  font-family: 'luxury';
+  color: white;
+  padding: 38px 27px 7px 7px;
+  font-size: 20px;
+  margin-left: 30px;
+ }

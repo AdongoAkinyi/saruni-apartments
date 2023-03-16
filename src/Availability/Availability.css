@@ -1,6 +1,6 @@
-.grid-container-elementt {
+.griid-container-elementt {
     display: grid;
-    grid-template-columns:  5fr 9fr;
+    grid-template-columns:  6fr 9fr;
     grid-gap: 0px;
     font-family: 'luxury';
     /* background-color: brown; */
@@ -9,6 +9,22 @@
 @font-face {
     font-family: "luxury";
     src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
+  }
+  @font-face {
+    font-family: "luxury";
+    src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
+  }
+  @font-face {
+    font-family: "luxury2";
+    src: url(/din/fonts/FF\ DIN\ Pro\ Regular\ 2.otf);
+  }
+  @font-face {
+    font-family: "luxury3";
+    src: url(/luxury/DIN\ Black.ttf);
+  }
+  @font-face {
+    font-family: "luxury4";
+    src: url(/luxury/DIN\ Medium.ttf);
   }
   .lux-head{
     padding: 10px;
@@ -21,19 +37,30 @@
     margin-top: 15px;
     margin-left: 20px;
     font-weight: normal;
-    color: rgb(110, 106, 106);
+    color: #7b7471;
+
+  }
+  .topic-lux-reserve{
+    font-family: 'luxury3';
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+    color: #7b7471;
+
+   
   }
   .lux-head.two{
     height: 141px;
   }
-  .lux-body{
-    /* background-color: brown; */
+  /* .lux-body{
+   
     border-right: 1px solid grey;
-    /* border-bottom: 1px solid grey; */
-  }
+ 
+  } */
   .body-lux{
     font-family: 'luxury';
-    color: grey;
+    color: #7b7471;
+
     
     margin-left: 30px;
   }
@@ -45,33 +72,45 @@
   .body-lux.one{
     margin-top: 0;
     font-size: 15px;
+    
   }
   .headingsss{
     display: flex;
   }
   .body-one{
     display: flex;
-    /* background-color: brown; */
+    
     height: 350px;
   }
   .body-two{
     display: flex;
     height: 350px;
   }
-  .lux-body-up{
+  .lux-body-upjuu{
     width: 600px;
-    
+    border-right: 1px solid  #7b7471;
+    border-bottom: 1px solid  #7b7471;
 /* background-color: brown; */
+  }
+  .lux-body-upple{
+    border-bottom: 1px solid  #7b7471;
+  }
+  .lux-body-updown{
+    width: 569px;
+    border-right: 1px solid  #7b7471;
   }
   .sect-body{
     margin-top: 30px;
+    /* background-color: pink; */
+    height: 830px;
   }
   .topic-luxx{
-    font-family: 'luxury';
+    font-family: 'luxury3';
     margin-top: 15px;
     margin-left: 20px;
+    color: #7b7471;
     font-weight: bold;
-    color: rgb(110, 106, 106);
+
   }
   .explore-avia {
     font-family: 'luxury';
@@ -83,3 +122,8 @@
     cursor: pointer;
     margin-top: 0px;
   }
+  .number{
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 290%;
+  } 

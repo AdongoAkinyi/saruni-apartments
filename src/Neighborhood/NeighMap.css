@@ -1,36 +1,54 @@
 .grid-container-elementr {
   display: grid;
-  grid-template-columns: 3fr 7fr;
-  /* grid-gap: 20px;  */
-  /* border: 1px solid black; */
+  grid-template-columns: 1.5fr 7fr;
   width: 100%;
   height: 100vh;
   margin-left: 20px;
   margin-right: 20px;
 }
 .grid-child-element {
-  /* margin: 10px;  */
-  /* background-color: peachpuff; */
-  /* border: 1px solid red; */
   object-fit: fill;
 }
-.childimage {
-  width: 100%;
-  height: 100vh;
-}
-.grid-child-element.purple {
+.grid-child-element.puurple {
   text-align: left;
+  
+}
+@font-face {
+  font-family: "luxury";
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
 }
 .map-1 {
-  /* background: pink; */
-  /* font-size: 90%; */
+  
   text-align: left;
-  height: 90px;
+  height: 320px;
   border-bottom: 3px solid goldenrod;
-  /* margin-top: 290px; */
+  
+}
+.gain{
+  font-family: 'luxury';
+}
+.gainn{
+  font-family: 'luxury';
+  color: grey;
+  /* margin-top: 20px; */
+  font-size: 180%;
+  padding: 18px  15px 7px 7px;
+
+
+}
+h2.gain{
+  color: grey;
+  padding: 38px  15px 7px 7px;
+  font-size: 180%;
+}
+h5.gain{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  color: rgb(122, 120, 120);
 }
 .prox {
-  /* background-color: brown; */
+ 
   text-align: left;
   height: 190px;
   font-size: 110%;
@@ -40,7 +58,7 @@
   list-style: none;
 }
 .connect {
-  /* background-color: purple; */
+
   text-align: left;
   height: 180px;
   font-size: 120%;
@@ -51,7 +69,6 @@
   align-items: center;
   background-color: rgba(240, 240, 240, 0.26);
   border: 1px solid #dfdfdf;
-  /* border-radius: 16px; */
   box-sizing: border-box;
   color: #000000;
   cursor: pointer;
@@ -84,4 +101,17 @@
     min-width: 200px;
     padding: 14px 16px;
   }
+}
+.map{
+  height: 89vh;
+  width: 97%;
+  margin-right: 30px;
+}
+.place{
+  font-family: 'luxury';
+  color: grey;
+}
+.jkia{
+  font-family: 'luxury';
+  color: grey;
 }

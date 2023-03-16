@@ -1,24 +1,32 @@
 import './Ataglance.css'
-import Navbar from "../Navbar/Navbar";
 import ChildNav from '../Navbar/ChildNav';
+import { FaAngleDown } from 'react-icons/fa';
 
 function AtaGlance() {
   return (
     <div className="kubwa">
       <div>
-        <ChildNav />{" "}
+         <ChildNav />{" "}
       </div>
       <div className="section1">
-        <div class="grid-container-element">
+        <div class="grid-ccontainer-element">
           <div class="grid-child-element purple">
-            <div className="glance1">
-              <h1>AMENITIES AT A GLANCE</h1>
+             <div className="glance1">
+              <h4 className='topper r'>A M  E N I T I E S   <a className='toper'>  A T</a> </h4>
+              <h4 className='topper'><a className='toper'>A      </a> G L  A N C E</h4>
             </div>
-            <div className="glance 2">
+  
+
+            <div className="glance two">
               <div className="logosection">
-                <h1>LEISURE</h1>
+              <img  
+          src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
+          className="residence-home-logo-greyy" alt="logo"/>
+ 
+                 <h1 className='amenn'>LEISURE</h1>
               </div>
               <div className="list-amenities">
+              
                 <ul>
                   <li>Reception lobby and management office</li>
                   <li>2 High speed lifts</li>
@@ -34,9 +42,13 @@ function AtaGlance() {
               </div>
             </div>
             
-            <div className="glance 3">
+            <div className="glance three">
               <div className="logosection">
-                <h1>WELLNESS</h1>
+              <img  
+          src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
+          className="residence-home-logo-greyy" alt="logo"/>
+ 
+                <h1 className='amenn'>WELLNESS</h1>
               </div>
               <div className="list-amenities">
                 <ul>
@@ -46,9 +58,15 @@ function AtaGlance() {
                 </ul>
               </div>
             </div>
-            <div className="glance 4">
+
+
+            <div className="glance four" >
               <div className="logosection">
-                <h1>REJUVENATION</h1>
+              <img  
+          src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
+          className="residence-home-logo-greyy" alt="logo"/>
+ 
+                <h1  className='amenn'>REJUVENATION</h1>
               </div>
               <div className="list-amenities">
                 <ul>
@@ -59,6 +77,8 @@ function AtaGlance() {
               </div>
             </div>
           </div>
+
+          
           <div class="grid-child-element green">
             <img
                       src="http://www.thesaruni.com/TheSaruniImages/avilability.jpg"
@@ -70,6 +90,12 @@ function AtaGlance() {
           </div>
         </div>
       </div>
+      <section className="explore-section">
+      <h1 className="explorer">
+        <a href='/neighborhood'><FaAngleDown/></a>
+       </h1>
+      
+    </section>
     </div>
   );
 }

@@ -1,10 +1,9 @@
 import "./Residence.css";
 import { useNavigate } from "react-router-dom";
-import Navbar from "../Navbar/Navbar";
 import { FaBars } from "react-icons/fa";
 
 function ResidenceHome() {
-  let navigate = useNavigate();
+  let navigate = useNavigate(); 
   return (
     <div class="grid-container-element"> 
     
@@ -37,7 +36,7 @@ function ResidenceHome() {
             }}
             className="button-46"
           >
-            THE RESIDENCES
+            T H E    R E S I D E N C E S
           </button>
         </div>
       </div>

@@ -1,9 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import "./Home.css";
+import { redirect } from "react-router-dom";
+import { useEffect } from "react";
 
 function Home() {
   let navigate = useNavigate();
+  useEffect(() => {
+    sessionStorage.setItem("numberReloaded",1)
+  }, [])
   return (
     <div className="home-component-container">
       <div className="landing-container">
@@ -11,7 +16,7 @@ function Home() {
         <div className="landing-page">
           <div className="heading-landing-page">     
          
-
+ 
             <img 
             src="https://thesaruni.com/TheSaruniImages/Saruni-Logo.png"
             
@@ -30,7 +35,7 @@ function Home() {
       <div className="explore">
         <h1
           onClick={() => {
-            navigate("/residencehomepage");
+            navigate("/rotate");
           }}
        className='nav-to' >
           EXPLORE 

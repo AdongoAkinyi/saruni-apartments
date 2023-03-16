@@ -1,19 +1,27 @@
 import { FaAngleDown } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import ChildNav from "../Navbar/ChildNav";
 import './Amenitieschild.css'
 
 function  InfinityPool() {
-    let navigate = useNavigate();
+    // let navigate = useNavigate();
   return ( 
     <div className="kubwaest">
     <div> 
-      <ChildNav />{" "}
+      <ChildNav />{" "} 
     </div>
     <section className="section1">
     <div class="gridd-container-element">
       <div class="grid-child-element purn">
-        <div className="contenter1">
+      <div className="the-residences">
+          <img  
+          src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
+          className="residence-home-logo-grey" alt="logo"/>
+ 
+         <h6 className="gold-section one">T H E </h6>
+            <h1 className="gold-section two"> A M E N I T I E S</h1>
+          </div>
+        {/* <div className="contenter1">
         
         <img 
           src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
@@ -25,18 +33,19 @@ function  InfinityPool() {
           className='amen-head'
           ><h6 className='small-the'>T H E</h6>
           A M E N I T I E S</h1>
-        </div>
+        </div> */}
        
         <div className="amen-3">
-          <h1 className='care'>C A R E F U L L Y
+        <div  className='ring'>
+        <h1 className='carey'>CURATED FOR
            </h1>
-          <h1 className='care'>C O N S I D E R E D  & </h1>
-          <h1 className='care'>M E T I C U L O  U S L Y </h1>
-          <h1 className='care'>D E S I G N E D</h1>
-          <p className='paragraph-bottom'>
-            With uninterrupted views from each appartments, 'The Saruni' at
-            Riverside Drive, is a modern interpretation of contemporary luxury
-            specifically designed to enhance your living exparience
+          <h1 className='carey'>LEISURE, </h1>
+          <h1 className='carey'>WELLNESS AND </h1>
+          <h1 className='carey'>REJUVINATION</h1>
+        </div>
+          
+          <p className='paragraph-infinite'>
+            The infinity heated swimingpool
           </p>
         </div>
       </div>
@@ -51,16 +60,17 @@ function  InfinityPool() {
       </div>
     </div>
     </section>
-    
+     
     
     <section className="explore-section">
       <h1 className="explorer">
-        <a href='/gym'><FaAngleDown /></a>
+        <a href='/gym'><FaAngleDown/></a>
        </h1>
       
     </section>
   
   </div>
+    
   )
 }
 

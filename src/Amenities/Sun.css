@@ -1,7 +1,7 @@
 .grid-container-sun {
     display: grid;
     grid-template-columns: 0.4fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 0px;
     margin-left: 20px;
     margin-right: 20px;
     
@@ -63,4 +63,15 @@
     font-family: 'luxury';
     margin-top: 15px;
     color: grey;
+  }
+  .example{
+    font-family: 'luxury';
+    font-size: 15px;
+    color: #7b7471;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .ddsun{
+    height: 90vh;
+    width: 100%;
   }
