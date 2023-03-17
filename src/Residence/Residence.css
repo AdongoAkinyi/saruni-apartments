@@ -51,9 +51,10 @@
   object-fit: cover;
 }
 
-
-.residence-home-logo{
-  height: 100px;
+.navbary-loogo {
+  height: 67px;
+  border-radius: 90px;
+  margin-bottom: 10px;
 }
 .button-46 {
   font-family: 'luxury';

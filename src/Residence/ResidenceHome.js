@@ -21,7 +21,16 @@ function ResidenceHome() {
        
         </div>
         <div className="content">
-        <img  src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png" className="residence-home-logo" alt="logo"/>
+        <img 
+          className="navbary-loogo"
+          src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
+          alt="logo"
+          onClick={() => {
+            navigate("/");
+          }}
+
+        />
+        {/* <img  src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png" className="residence-home-logo" alt="logo"/> */}
           <h4 className="reside">R E S I D E  </h4>
           <h4 className="reside" style={{marginTop:"15px", marginBottom:"15px"}}> I  N  
           

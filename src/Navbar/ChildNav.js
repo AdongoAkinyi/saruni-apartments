@@ -14,7 +14,7 @@ const showNavbar =()=> {
 
   return (
     <div>
-      <header className="headerr">
+      <header className="headerr"> 
         <img 
           className="navbary-logo"
           src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
