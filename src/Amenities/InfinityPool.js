@@ -43,9 +43,14 @@ function  InfinityPool() {
           <h1 className='carey'>WELLNESS AND </h1>
           <h1 className='carey'>REJUVINATION</h1>
         </div>
-          
-          <p className='paragraph-infinite'>
-            The infinity heated swimingpool
+        <p className='paragraph-infi'>
+            The heated infinity swimming pool
+          </p>
+          <p className='paragraph-inf'>
+           gym
+          </p>
+          <p className='paragraph-infin'>
+            courtyard
           </p>
         </div>
       </div>

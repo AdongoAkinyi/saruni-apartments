@@ -92,7 +92,7 @@ function AtaGlance() {
       </div>
       <section className="explore-section">
       <h1 className="explorer">
-        <a href='/neighborhood'><FaAngleDown/></a>
+        <a href='/sunrise'><FaAngleDown/></a>
        </h1>
       
     </section>

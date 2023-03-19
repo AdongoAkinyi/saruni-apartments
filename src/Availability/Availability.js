@@ -21,8 +21,8 @@ function Availability() {
             </div>
             <div className="lux-head">
               <h1 className="topic-lux">C A L L </h1>
-              <p className="topic-luxx">0 7 5 9 2 7 8 5 6 4</p>
-              <p className="topic-luxx">0 7 4 5 4 6 6 3 4</p>
+              <p className="topic-luxx">0  7  5  9 <a style={{color:"goldenrod"}}> it</a> 2 7 8<a style={{color:"goldenrod"}}> it</a>  5 6 4</p>
+              <p className="topic-luxx">0 7 4 5   <a style={{color:"goldenrod"}}> it     </a>    4 6  6 <a style={{color:"goldenrod"}}> it</a> 3 4  6</p>
               <h3 className="topic-lux-reserve">to make your reservation</h3>
             </div>
           </div>

@@ -56,7 +56,7 @@ function Neighborhood() {
 
       <section className="explore-section">
       <h1 className="explorer">
-        <a href='/map'><FaAngleDown/></a>
+        <a href='/map'>EXPLORE  MAP<FaAngleDown/></a>
        </h1>
       
     </section>

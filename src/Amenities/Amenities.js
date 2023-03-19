@@ -67,7 +67,7 @@ function Amenities() {
     
     <section className="explore-section">
       <h1 className="explorer">
-        <a href='/sunrise'><FaAngleDown/></a>
+        <a href='/amenitiesataglance'><FaAngleDown/></a>
        </h1>
       
     </section>

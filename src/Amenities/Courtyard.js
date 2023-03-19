@@ -21,7 +21,7 @@ function Courtyard() {
 
     <section className="explore-section">
       <h1 className="explorer">
-        <a href='/amenitiesataglance'><FaAngleDown/></a>
+        <a href='/neighborhood'><FaAngleDown/></a>
        </h1>
       
     </section>

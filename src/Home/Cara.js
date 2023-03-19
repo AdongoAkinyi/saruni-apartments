@@ -8,7 +8,7 @@ import React, { useEffect } from "react";
 
 const rotateAnimationHandler = (props, state) => {
   const transitionTime = props.transitionTime + "ms";
-  const transitionTimingFunction = "ease-in-out";
+  const transitionTimingFunction = "ease-in";
   let slideStyle = {
     display: "block",
     minHeight: "100%",

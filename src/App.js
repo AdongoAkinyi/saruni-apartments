@@ -58,7 +58,7 @@ function App() {
          <Route path='/courtyard'  element={<Courtyard/>}/>
         <Route path='/gym'  element={<Gym/>}/>
         <Route path='/availability'  element={<Availability/>}/>
-
+ 
 
         {/* NEIGHBORHOOD ROUTES */}
         <Route path='/neighborhood'  element={<Neighborhood/>}/>
