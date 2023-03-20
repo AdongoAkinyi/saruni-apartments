@@ -5,7 +5,7 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 0;
-  height: 77vh;
+  height: 77vh; 
 }
 .grid-containneer {
   display: grid;
@@ -69,19 +69,27 @@
 #disclaimer {
   font-family: "luxury";
 }
+
 .dd {
   width: 700px;
   height: 90vh;
+  object-fit: cover;
 }
 .explore-avi {
   font-family: "luxury";
   font-weight: bold;
   color: #7c7471;
-  /* margin-bottom: 0; */
   font-weight: bold;
   text-align: center;
   cursor: pointer;
-  margin-top: 10px;
+  /* background-color: pink; */
+  margin-left: 28%;
+}
+.go-to-menuk{
+  color: grey;
+  font-family: 'luxury';
+  font-size: 170%;
+  
 }
 .example {
   font-family: "luxury";

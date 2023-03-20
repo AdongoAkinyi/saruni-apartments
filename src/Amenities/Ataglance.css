@@ -6,10 +6,13 @@
   grid-template-columns: 4fr 7fr;
   /* background-color: aquamarine; */
 }
-.grid-child-element.green.at{
+.grid-child-element.green.at {
   object-fit: cover;
- }
-.grid-child-element.purple.at{
+}
+.childimage.glance {
+  object-fit: cover;
+}
+.grid-child-element.purple.at {
   background-color: white;
 }
 .glance1 {
@@ -100,8 +103,8 @@
   height: 158px;
   margin-bottom: -8%;
 }
-@media all and (max-width:500px){
-  .grid-ccontainer-element{
+@media all and (max-width: 500px) {
+  .grid-ccontainer-element {
     display: block;
   }
   .amenn {
@@ -121,7 +124,7 @@
     text-align: left;
     margin-left: -10%;
   }
-  .grid-child-element.green.at{
-   object-fit: cover;
+  .grid-child-element.green.at {
+    object-fit: cover;
   }
 }

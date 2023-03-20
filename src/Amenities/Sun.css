@@ -18,7 +18,7 @@
   background: rgb(62, 61, 61);
   padding: 5px;
   text-align: center;
-}
+} 
 h1.brown-section {
   font-size: 190%;
   font-family: "luxury";
@@ -81,6 +81,7 @@ h6.brown-section {
 .ddsun {
   height: 90vh;
   width: 100%;
+  object-fit: cover;
 }
 @media all and (max-width: 500px) {
   .grid-container-sun {

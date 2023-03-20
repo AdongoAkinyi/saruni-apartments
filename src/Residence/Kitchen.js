@@ -1,6 +1,7 @@
 import './Rooms.css'
 import { useNavigate } from "react-router-dom";
 import ChildNav from '../Navbar/ChildNav';
+import { FaAngleUp } from 'react-icons/fa';
 
 function Kitchen() {
   let navigate = useNavigate();
@@ -89,8 +90,9 @@ function Kitchen() {
         
       </div>
       <div className="explore-avi">
+      <a href='/menu' className="go-to-menuk">GO TO MENU<FaAngleUp/></a>
       </div>
-      
+       
     </div>
   )
 }

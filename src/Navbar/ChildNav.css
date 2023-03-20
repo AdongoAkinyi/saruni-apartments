@@ -33,6 +33,10 @@
   /* background-color: pink; */
   height: 70px;
 }
+.touch{
+  color: rgb(104, 99, 99);
+  font-family: 'luxury';
+}
 .barss {
   position: absolute;
   top: 15px;
