@@ -28,6 +28,62 @@
   src: url(/luxury/DIN\ Medium.ttf);
 }
 
+@media only screen and (max-width: 600px) {
+  .landing-container {
+    background-image: url("http://www.thesaruni.com/TheSaruniImages/home.jpg");
+    height: 93vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: pink; */
+  }
+  .logo {
+    margin-left: 1%;
+    height: 180px;
+    margin-top: 25%;
+  }
+  .body-landing-page {
+    padding: 15px 5px 5px 5px;
+    margin-top: -4%;
+    margin-left: 9%;
+    height: 190px;
+  }
+  .lorem {
+    color: white;
+    padding: 5px;
+    width: 480px;
+    text-align: left;
+    font-family: "luxury2";
+    font-size: 279%;
+    font-weight: bold;
+  }
+  .small-letters {
+    margin-top: -1%;
+    font-size: 29px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    width: 480px;
+  }
+  .nav-to {
+    cursor: pointer;
+    color: #7c7471;
+    font-size: 170%;
+    font-family: "luxury";
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 1%;
+  }
+  .riverside-drive-nairobi {
+    position: absolute;
+    bottom: 30px;
+    right: 42px;
+    font-family: "luxury";
+    font-size: 67%;
+    font-weight: normal;
+  }
+
+}
 @media only screen and (min-width: 600px) {
   .landing-container {
     background-image: url("http://www.thesaruni.com/TheSaruniImages/home.jpg");
