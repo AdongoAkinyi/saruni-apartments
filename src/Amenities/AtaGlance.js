@@ -6,7 +6,7 @@ function AtaGlance() {
   return (
     <div className="kubwa">
       <div>
-        <ChildNav />{" "}
+        <ChildNav />{" "} 
       </div>
       <div className="section1">
         <div class="grid-ccontainer-element">

@@ -43,7 +43,7 @@ function Home() {
           EXPLORE
         </h1>
         <h3 className="riverside-drive-nairobi">RIVERSIDE DRIVE NAIROBI</h3>
-      </div>
+      </div> 
     </div>
   );
 }
