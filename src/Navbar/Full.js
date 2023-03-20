@@ -3,7 +3,7 @@ import "./Full.css";
 
 function Full() {
   return ( 
-    <div>
+    <div className="fuller-menu">
       <div>
         <ChildNav />
       </div>
@@ -12,7 +12,7 @@ function Full() {
         <a href="/residencehomepage">
         <h1 className="menu-opt">
          
-         {" "}
+         {" "} 
          <h5 className="mini-topic">THE</h5>R E S I D E N C E S
        </h1>
         </a>

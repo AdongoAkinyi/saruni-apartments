@@ -33,9 +33,9 @@
   /* background-color: pink; */
   height: 70px;
 }
-.touch{
+.touch {
   color: rgb(104, 99, 99);
-  font-family: 'luxury';
+  font-family: "luxury";
 }
 .barss {
   position: absolute;
@@ -45,7 +45,7 @@
   font-size: 18px;
   margin-top: 8px;
   color: black;
-} 
+}
 .menu {
   position: absolute;
   top: 27px;
@@ -86,9 +86,9 @@ header .nav-btn {
   visibility: hidden;
   opacity: 0;
   font-size: 1.8rem;
-}  
+}
 
-@media all and (max-width: 500px) {
+/* @media all and (max-width: 500px) {
   .headerr {
     background-color: white;
     height: 50px;
@@ -105,6 +105,112 @@ header .nav-btn {
   }
   .menutext {
     visibility: hidden;
+  }
+  .barss {
+    position: absolute;
+    top: 30px;
+    right: 28px;
+    transform: scale(2.9, 1.5);
+    font-size: 18px;
+    margin-top: 8px;
+    color: #7b7471;
+  }
+  .navbary-logo {
+    height: 60px;
+    border-radius: 90px;
+    margin-bottom: 10px;
+  }
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+  .th {
+    position: absolute;
+    top: 10px;
+    left: 95px;
+    margin-top: 29px;
+    font-size: 120%;
+    font-family: "luxury";
+    color: #7b7471;
+  }
+  .menutext {
+    visibility: hidden;
+  }
+  .barss {
+    position: absolute;
+    top: 30px;
+    right: 28px;
+    transform: scale(2.9, 1.5);
+    font-size: 18px;
+    margin-top: 8px;
+    color: #7b7471;
+  }
+  .navbary-logo {
+    height: 60px;
+    border-radius: 90px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .headerr {
+    /* background-color: pink; */
+    cursor: pointer;
+    height: 50px;
+  }
+  .th {
+    position: absolute;
+    top: 10px;
+    left: 95px;
+    margin-top: 29px;
+    font-size: 120%;
+    font-family: "luxury";
+    color: #7b7471;
+  }
+  .menutext {
+    color: rgb(109, 105, 105);
+  }
+  .barss {
+    position: absolute;
+    top: 30px;
+    right: 28px;
+    transform: scale(2.9, 1.5);
+    font-size: 18px;
+    margin-top: 8px;
+    color: #7b7471;
+  }
+  .navbary-logo {
+    height: 60px;
+    border-radius: 90px;
+    margin-bottom: 10px;
+  } 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .headerr {
+    cursor: pointer;
+    height: 50px;
+    margin:  0 0  0 0;
+  }
+  .th {
+    position: absolute;
+    top: 10px;
+    left: 95px;
+    margin-top: 29px;
+    font-size: 140%;
+    font-family: "luxury";
+    color: #7b7471;
+  }
+  .menutext {
+    color: black;
   }
   .barss {
     position: absolute;

@@ -8,7 +8,7 @@ function Residence() {
   return (
     <div className="kubwa-resident"> 
       <div>  
-        <ChildNav  />{" "}
+        <ChildNav  />{" "} 
       </div>
       <div className="section1">
       <div class="grid-resident-element">

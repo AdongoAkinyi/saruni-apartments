@@ -10,7 +10,7 @@ function Living() {
       <div>
         <ChildNav />{" "}
       </div>
-      <div class="grid-container">
+      <div class="grid-container room">
         <div class="grid-child purple">
           <div className="the-residences white">
             <img
