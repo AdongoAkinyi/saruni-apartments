@@ -12,14 +12,14 @@ function Living() {
       </div>
       <div class="grid-container">
         <div class="grid-child purple">
-          <div className="the-residences">
+          <div className="the-residences white">
             <img
               src="https://thesaruni.com/TheSaruniImages/logowhite.png"
               className="residence-home-logo-white"
               alt="logo"
             />
 
-            <h6 className="gold-secition one">T H E </h6>
+            <h6 className="gold-secition one top">T H E </h6>
             <h1 className="gold-secition two"> R E S I D E N C E S</h1>
           </div>
 
@@ -29,6 +29,7 @@ function Living() {
               onClick={() => {
                 navigate("/livingroom");
               }}
+          
             >
               LIVING AREA
             </h4>
@@ -73,22 +74,22 @@ function Living() {
           </div>
         </div>
 
-        <div class="grid-child green">
+        <div class="grid-child green side">
           <img
             src="http://www.thesaruni.com/TheSaruniImages/livingleft.jpg"
             alt="bag"
             className="dd"
           />
-          <h6 className="example"> 3 Bedroom apartment living area example</h6>
+          <h6 className="example one"> 3 Bedroom apartment living area example</h6>
         </div>
-        <div class="grid-child pink">
+        <div class="grid-child pink side">
           <img
             src="http://www.thesaruni.com/TheSaruniImages/livingright.jpg"
             // src="https://i.pinimg.com/564x/93/3b/22/933b22054916574e7d3d5ecf694597a0.jpg"
             alt="bag"
             className="dd"
           />
-          <h6 className='example' style={{textAlign:"right"}}>2  Bedroom apartment living area example</h6>
+          <h6 className='example two'>2  Bedroom apartment living area example</h6>
         </div>
       </div>
     </div>

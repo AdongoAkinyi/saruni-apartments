@@ -4,7 +4,7 @@ import { FaBars } from "react-icons/fa";
 
 function AmenitiesHome() { 
   let navigate = useNavigate();
-  return (
+  return ( 
     <div class="grid-container-element">
       <div className="grid-child-element purple">
       <div className="logo-top-left">
@@ -25,25 +25,25 @@ function AmenitiesHome() {
             className="residence-home-logo"
             alt="logo"
           />
-          <h4 className="reside">A L I F E  S  T Y L E </h4>
+          <h4 className="reside style">A L I F E  S  T Y L E </h4>
           <h4
-            className="reside"
+            className="reside style"
             style={{ marginTop: "15px", marginBottom: "15px" }}
           >
             {" "}
             M E T I C U L O U S L Y
           </h4>
           <h4
-            className="reside"
+            className="reside style"
             style={{ marginTop: "15px", marginBottom: "15px" }}
           >
             {" "}
            C U R A T E  D
           </h4>
 
-          <h5 className="reside-paragraph"> for the most discerning urban </h5>
+          <h5 className="reside-paragraph disc"> for the most discerning urban </h5>
           <h5
-            className="reside-paragraph"
+            className="reside-paragraph disc"
             style={{ marginTop: "15px", marginBottom: "15px" }}
           >
             {" "}

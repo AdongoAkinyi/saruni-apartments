@@ -3,7 +3,7 @@ import './Amenitieschild.css'
 import ChildNav from '../Navbar/ChildNav';
 import { FaAngleDown } from 'react-icons/fa';
 
- 
+  
 function Amenities() {
     // let navigate = useNavigate();
   return (

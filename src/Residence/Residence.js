@@ -2,12 +2,12 @@ import { useNavigate } from "react-router-dom";
 import "./Residencechild.css";
 import ChildNav from "../Navbar/ChildNav";
 import { FaAngleDown } from "react-icons/fa";
-
+  
 function Residence() {
-  let navigate = useNavigate();
+  let navigate = useNavigate();  
   return (
     <div className="kubwa-resident"> 
-      <div> 
+      <div>  
         <ChildNav  />{" "}
       </div>
       <div className="section1">

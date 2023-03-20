@@ -11,7 +11,7 @@ function Kitchen() {
       </div>
       <div class="grid-containneer ">
         <div class="grid-child purple">
-        <div className="the-residences">
+        <div className="the-residences white">
             <img
               src="https://thesaruni.com/TheSaruniImages/logowhite.png"
               className="residence-home-logo-white"
@@ -66,7 +66,7 @@ function Kitchen() {
           </div>
         </div>
 
-        <div class="grid-child green">
+        <div class="grid-child green side">
         <img
           src="http://www.thesaruni.com/TheSaruniImages/kitchenright.jpg"
 
@@ -74,9 +74,9 @@ function Kitchen() {
             alt="bag"
             className="dd"
           />
-          <h6 className='example'> 3 Bedroom apartment kitchen example</h6>
+          <h6 className='example one'> 3 Bedroom apartment kitchen example</h6>
         </div>
-        <div class="grid-child pink">
+        <div class="grid-child pink side">
         <img
           src="http://www.thesaruni.com/TheSaruniImages/kitchenleft.jpg"
 
@@ -84,7 +84,7 @@ function Kitchen() {
             alt="bag"
             className="dd"
           />
-          <h6 className='example' style={{textAlign:"right"}}>2  Bedroom apartment kitchen example</h6>
+          <h6 className='example two'>2  Bedroom apartment kitchen example</h6>
         </div>
         
       </div>

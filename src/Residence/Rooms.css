@@ -1,116 +1,212 @@
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 0;
-    height: 77vh;
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  height: 77vh;
 }
 .grid-containneer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 0;
-    /* height: 50vh; */
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  /* height: 50vh; */
 }
 @font-face {
-    font-family: "luxury";
-    src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
-  }
-.residence-heading{
-    height: 250px;
-    background: goldenrod;
-    padding: 5px;
-    text-align: center;
-    font-size: 250%;
+  font-family: "luxury";
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
 }
-.sidebar-center{
-    /* background-color: pink; */
-    height: 270px;
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 170%;
-    cursor: pointer;
+.residence-heading {
+  height: 250px;
+  background: goldenrod;
+  padding: 5px;
+  text-align: center;
+  font-size: 250%;
 }
-.disclaimer{
-    /* background-color: grey; */
-    height:130px;
-    padding: 6px;
+.sidebar-center {
+  /* background-color: pink; */
+  height: 270px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 170%;
+  cursor: pointer;
 }
-.activelink{
-    margin-top: 30px;
-    color: goldenrod;
-    font-family: 'luxury' ;
+.disclaimer {
+  /* background-color: grey; */
+  height: 130px;
+  padding: 6px;
 }
-.room-logo{
-    height: 100px;
-    border-radius: 50%;
+.activelink {
+  margin-top: 30px;
+  color: goldenrod;
+  font-family: "luxury";
 }
-#rooms{
-    font-family: 'luxury' ;
-    margin-top: 30px;
-   color: gray;
-
+.room-logo {
+  height: 100px;
+  border-radius: 50%;
 }
-.nav-to-next{
-    margin-top: 80px;
-    font-family: 'luxury';
+#rooms {
+  font-family: "luxury";
+  margin-top: 30px;
+  color: gray;
 }
-.paragraph-bottom-disclaimer{
-    height: 200px;
-    font-size: 20px;
-    /* margin-top: 0px; */
-    color: rgb(85, 85, 85);
-    font-family: 'luxury';
-    /* background: pink; */
+.nav-to-next {
+  margin-top: 80px;
+  font-family: "luxury";
 }
-#disclaimer{
-    font-family: 'luxury';
+.paragraph-bottom-disclaimer {
+  height: 200px;
+  font-size: 20px;
+  /* margin-top: 0px; */
+  color: rgb(85, 85, 85);
+  font-family: "luxury";
+  /* background: pink; */
 }
-.dd{
-    width: 700px;
-    height: 90vh;
+#disclaimer {
+  font-family: "luxury";
+}
+.dd {
+  width: 700px;
+  height: 90vh;
 }
 .explore-avi {
-    font-family: 'luxury';
-    font-weight: bold;
-    color: #7c7471;
-    /* margin-bottom: 0; */
-    font-weight: bold;
+  font-family: "luxury";
+  font-weight: bold;
+  color: #7c7471;
+  /* margin-bottom: 0; */
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.example {
+  font-family: "luxury";
+  font-size: 15px;
+  color: #7b7471;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.example.two {
+  font-family: "luxury";
+  font-size: 15px;
+  color: #7b7471;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: right;
+}
+.residence-home-logo-white {
+  margin-top: 10px;
+  height: 250px;
+  width: 270px;
+  margin-bottom: 10px;
+  padding-bottom: -6px;
+  /* background-color: pink; */
+}
+h6.gold-secition {
+  font-size: 18px;
+  margin-top: -29px;
+  margin-right: 310px;
+}
+h1.gold-secition {
+  font-size: 280%;
+}
+.gold-secition {
+  font-family: "luxury";
+}
+@media all and (max-width: 500px) {
+  .grid-container {
+    display: block;
+  }
+  .residence-home-logo-white {
+    margin-top: -11%;
+    height: 230px;
+    margin-bottom: -5%;
+  }
+  .the-residences.white {
+    color: gray;
+    width: 295px;
+    height: 220px;
+    background: #efbf3b;
+    padding: 5px;
     text-align: center;
-    cursor: pointer;
-    margin-top: 10px;
   }
-  .example{
-    font-family: 'luxury';
-    font-size: 15px;
-    color: #7b7471;
-    padding-top: 5px;
-    padding-bottom: 10px;
-  }
-  .residence-home-logo-white{
-    margin-top: 10px;
-    height: 250px;
-    width: 270px;
-    margin-bottom: 10px;
-    padding-bottom: -6px;
-    /* background-color: pink; */
-  }
-  h6.gold-secition{
+  h6.gold-secition {
     font-size: 18px;
-    margin-top: -29px;
-    margin-right: 310px;
+    margin-right: 210px;
   }
-  h1.gold-secition{
-    font-size: 280%;
+  h1.gold-secition  {
+    font-size: 200%;
   }
-  .gold-secition{
-    font-family: 'luxury';
-    
+  .gold-section {
+    font-family: "luxury";
+  }
+  .care {
+    color: grey;
+    font-family: "luxury";
+    font-size: 150%;
+    text-align: center;
+  }
+  .grid-containneer {
+    display: block;
+  }
+  .example.one{
+    font-size: 30%;
+  }
+  .example.two{
+    /* background-color: pink; */
+    text-align: left;
+    font-size: 30%;
+  }
+  .dd {
+    width: 100%;
+    object-fit: cover;
+  }
+  #rooms{
+    font-size: 50%;
 
   }
+  .activelink {
+    margin-top: 10px;
+    font-size: 50%;
+    color: goldenrod;
+    font-family: "luxury";
+  }
+  .activelink.b {
+    margin-top: 28px;
+    font-size: 50%;
+    color: goldenrod;
+    font-family: "luxury";
+  }
+  .paragraph-bottom-disclaimer {
+    height: 150px;
+    padding-left: 4px;
+    color: rgb(85, 85, 85);
+    font-family: "luxury";
+    margin-top: -24%;
+    width: 350px;
+   
+  }
+  #disclaimer{
+    font-size: 60%;
+  }
+  .grid-child.green.side{
+    object-fit: cover;
+    width: 295px;
+  }
+  .grid-child.pink.side{
+    object-fit: cover;
+    width: 295px;
+  }
+  .sidebar-center {
+    /* background-color: pink; */
+    height: 270px;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-top: 1px;
+    cursor: pointer;
+  }
+}

@@ -6,7 +6,7 @@ function ResidenceHome() {
   let navigate = useNavigate(); 
   return (
     <div class="grid-container-element"> 
-    
+      
       <div className="grid-child-element purple">
         <div className="logo-top-left">
         <h4><img
@@ -38,14 +38,14 @@ function ResidenceHome() {
           
           <h5 className="reside-paragraph"> surrounded by spectacular </h5>
           <h5 className="reside-paragraph" style={{marginTop:"15px", marginBottom:"15px"}}>  uninterrupted views</h5>
-
+ 
           <button
             onClick={() => {
               navigate("/residence");
             }}
             className="button-46"
           >
-            T H E    R E S I D E N C E S
+        THE    RESIDENCES
           </button>
         </div>
       </div>
