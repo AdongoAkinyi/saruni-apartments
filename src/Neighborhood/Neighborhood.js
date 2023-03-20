@@ -14,7 +14,7 @@ function Neighborhood() {
       </div>
       <section className="section1">
         <div class="grid-coontainer-element">
-          <div class="grid-child-element purple">
+          <div class="grid-child-element puple">
           <div className="the-neighboorhood">
           <img  
           src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
@@ -44,11 +44,12 @@ function Neighborhood() {
               </p>
             </div>
           </div>
+
           <div class="grid-child-element green">
             <img
             src="http://www.thesaruni.com/TheSaruniImages/neigbourhood.jpg"
               alt="residence"
-              className="childimage"
+              className="childimage homeneigh"
             />
           </div>
         </div>
@@ -56,7 +57,7 @@ function Neighborhood() {
 
       <section className="explore-section">
       <h1 className="explorer">
-        <a href='/map'>EXPLORE  MAP<FaAngleDown/></a>
+        <a href='/map' className="downarrow jir">EXPLORE  MAP<FaAngleDown/></a>
        </h1>
       
     </section>

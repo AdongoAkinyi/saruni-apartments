@@ -1,18 +1,19 @@
 .gridd-container-element {
   display: grid;
-  /* height: 93vh; */
   grid-gap: 0px;
-  grid-template-columns: 3.7fr 10fr;
+  grid-template-columns: 2fr 6fr;
+}
+.griddp-container-element {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 0.5fr 2fr 2fr 2fr;
 }
 .kubwaest {
   margin: 0 0 0 0;
   height: 78vh;
 }
-.grid-child-element {
-  object-fit: fill;
-}
-.childimage {
-  width: 100%;
+.childimage.infinity{
+  object-fit: cover;
 }
 .grid-child-element.purn {
   /* background-color: aquamarine; */
@@ -139,11 +140,69 @@
 .paragraph-infinite {
   text-align: center;
   padding: 25px 0px 7px 7px;
- /* background-color: pink; */
+
   margin-left: 180px;
-  
   font-size: 120%;
   margin-top: 250px;
-  color: grey;
+  color: grey; 
   font-family: "luxury";
+}
+.paragraph-infi {
+  text-align: left;
+  padding: 25px 0px 7px 7px;
+  /* background-color: pink; */
+  font-family: "luxury";
+  margin-left: 9%;
+}
+
+.downarrow{
+  text-decoration: none;
+  color: grey;
+}
+@media all and (max-width:500px){
+  .gridd-container-element{
+    display: block;
+  }
+  .griddp-container-element{
+    display: block;
+  }
+  .grid-child-element.green.lobby{
+    object-fit: cover;
+  }
+  .kubwaest{
+    margin: 0 0 0 0;
+  }
+  .paragraph-bottommer {
+    padding: 29px 27px 7px 7px;
+   /* background-color: pink; */
+    margin-left: 40px;
+    height: 100px;
+    font-size: 120%;
+    margin-top: -5%;
+    color: grey;
+    font-family: "luxury";
+  }
+  .amen-3 {
+    padding: 6px;
+    color: grey;
+    height: 510px;
+    background: rgb(49, 49, 49);
+  }
+  .explorer {
+    margin-top: 10px;
+    text-decoration: none;
+    color: grey;
+    font-family: "luxury";
+    transform: scale(2.5, 2);
+  }
+  .downarrow{
+    text-decoration: none;
+    color: grey;
+  }
+  .paragraph-infi {
+    text-align: center;
+    padding: 12px 0px 7px 7px;
+    /* background-color: pink; */
+    font-family: "luxury";
+  }
 }

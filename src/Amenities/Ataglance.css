@@ -6,7 +6,12 @@
   grid-template-columns: 4fr 7fr;
   /* background-color: aquamarine; */
 }
-
+.grid-child-element.green.at{
+  object-fit: cover;
+ }
+.grid-child-element.purple.at{
+  background-color: white;
+}
 .glance1 {
   color: gray;
   height: 220px;
@@ -15,24 +20,24 @@
   padding: 5px;
   text-align: center;
 }
-.glance{
-    display: flex;
-    /* margin-top: 27px; */
-    /* background-color: purple; */
+.glance {
+  display: flex;
+  /* margin-top: 27px; */
+  /* background-color: purple; */
 }
-.glance.two{
+.glance.two {
   /* background-color: pink; */
   padding: 10px 10px 10px;
   border-bottom: 2px solid grey;
 }
-.glance.three{
+.glance.three {
   /* background-color: pink; */
   margin-top: 10px;
-  height: 180px;
+  height: 210px;
   /* padding: 10px 10px 10px; */
   border-bottom: 2px solid grey;
 }
-.glance.four{
+.glance.four {
   /* background-color: pink; */
   padding: 10px 10px 10px;
   /* border-bottom: 2px solid grey; */
@@ -43,41 +48,80 @@
   font-family: "luxury";
   src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
 }
-.topper{
-  font-family: 'luxury';
-  
+.topper {
+  font-family: "luxury";
 }
-.topper.r{
-  margin-top: 90px;
-}
-.toper{
-  font-family: 'luxury';
-}
-.amenn{
-  font-family: 'luxury';
+.downarrow {
+  text-decoration: none;
   color: grey;
 }
-.logosection{
-  /* background-color: brown; */
-  width: 300px;
-  /* height: 140px; */
-
+.topper.r {
+  margin-top: 90px;
 }
-.list-amenities ul{
-  /* background-color: pink; */
+.toper {
+  font-family: "luxury";
+}
+.amenn {
+  font-family: "luxury";
+  color: grey;
+}
+.logosection {
+  width: 300px;
+}
+.list-amenities ul {
   text-align: left;
   height: 190px;
-  padding:  20px  20px 7px 7px;
- 
+  padding: 20px 20px 7px 7px;
 }
-.list-amenities ul li{
+.list-amenities.three {
+  margin-top: 5%;
+  text-align: left;
+  height: 130px;
+  margin-left: -4%;
+}
+.list-amenities.four {
+  margin-top: 5%;
+  text-align: left;
+  height: 190px;
+}
+.list-amenities.two {
+  margin-top: 3%;
+  text-align: left;
+  height: 190px;
+}
+.list-amenities ul li {
   margin-left: 30px;
-  font-family: 'luxury';
+  font-family: "luxury";
   color: gray;
-
 }
-.residence-home-logo-greyy{
+.residence-home-logo-greyy {
   /* background-color: pink; */
-  margin-top: 20px;
-  height: 168px;
+  margin-top: -2%;
+  height: 158px;
+  margin-bottom: -8%;
+}
+@media all and (max-width:500px){
+  .grid-ccontainer-element{
+    display: block;
+  }
+  .amenn {
+    font-family: "luxury";
+    color: grey;
+    font-size: 120%;
+  }
+  .glance.three {
+    /* background-color: pink; */
+    margin-top: 10px;
+    margin-left: -10%;
+    height: 210px;
+    border-bottom: 2px solid grey;
+  }
+  .list-amenities.three {
+    margin-top: 5%;
+    text-align: left;
+    margin-left: -10%;
+  }
+  .grid-child-element.green.at{
+   object-fit: cover;
+  }
 }

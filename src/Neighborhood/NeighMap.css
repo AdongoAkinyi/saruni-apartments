@@ -11,44 +11,38 @@
 }
 .grid-child-element.puurple {
   text-align: left;
-  
 }
 @font-face {
   font-family: "luxury";
   src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
 }
 .map-1 {
-  
   text-align: left;
   height: 320px;
   border-bottom: 3px solid goldenrod;
-  
 }
-.gain{
-  font-family: 'luxury';
+.gain {
+  font-family: "luxury";
 }
-.gainn{
-  font-family: 'luxury';
+.gainn {
+  font-family: "luxury";
   color: grey;
   /* margin-top: 20px; */
   font-size: 180%;
-  padding: 18px  15px 7px 7px;
-
-
+  padding: 18px 15px 7px 7px;
 }
-h2.gain{
+h2.gain {
   color: grey;
-  padding: 38px  15px 7px 7px;
+  padding: 38px 15px 7px 7px;
   font-size: 180%;
 }
-h5.gain{
+h5.gain {
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: bolder;
   color: rgb(122, 120, 120);
 }
 .prox {
- 
   text-align: left;
   height: 190px;
   font-size: 110%;
@@ -58,7 +52,6 @@ h5.gain{
   list-style: none;
 }
 .connect {
-
   text-align: left;
   height: 180px;
   font-size: 120%;
@@ -102,16 +95,51 @@ h5.gain{
     padding: 14px 16px;
   }
 }
-.map{
+.map {
   height: 89vh;
   width: 97%;
   margin-right: 30px;
+  object-fit: cover;
 }
-.place{
-  font-family: 'luxury';
+.place {
+  font-family: "luxury";
   color: grey;
 }
-.jkia{
-  font-family: 'luxury';
+.jkia {
+  font-family: "luxury";
   color: grey;
+}
+.go-to-menu{
+  font-family: 'luxury';
+  font-size: 50%;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+}
+.explore-section.men{
+  /* background-color: pink; */
+  text-align: center;
+  margin-top: -7%;
+  font-size: 120%;
+  cursor: pointer;
+
+}
+@media all and (max-width: 500px) {
+  .grid-container-elementr {
+    display: block;
+  }
+  .map {
+    height: 89vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .go-to-menu{
+    font-family: 'luxury';
+    font-size: 50%;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+  }
 }

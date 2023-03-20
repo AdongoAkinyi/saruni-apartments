@@ -14,7 +14,7 @@ function Amenities() {
     <section className="section1">
     <div class="gridd-container-element">
       <div class="grid-child-element purn">
-      <div className="the-residences">
+      <div className="the-residences ties">
           <img  
           src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
           className="residence-home-logo-grey" alt="logo"/>
@@ -22,19 +22,7 @@ function Amenities() {
          <h6 className="gold-section one">T H E </h6>
             <h1 className="gold-section two"> A M E N I T I E S</h1>
           </div>
-        {/* <div className="contenter1">
-        
-        <img 
-          src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
-
-        // src="https://thesaruni.com/TheSaruniImages/sarunigrey.png"
-         alt="logo" className="rolog"/>
-
-          <h1 style={{marginTop:"90px"}} 
-          className='amen-head'
-          ><h6 className='small-the'>T H E</h6>
-          A M E N I T I E S</h1>
-        </div> */}
+      
        
         <div className="amen-3">
         <div  className='ring'>
@@ -52,7 +40,8 @@ function Amenities() {
           </p>
         </div>
       </div>
-      <div class="grid-child-element green">
+      
+      <div class="grid-child-element green lobby">
         <img
                   src="http://www.thesaruni.com/TheSaruniImages/amenities.jpg" 
 
@@ -67,7 +56,7 @@ function Amenities() {
     
     <section className="explore-section">
       <h1 className="explorer">
-        <a href='/amenitiesataglance'><FaAngleDown/></a>
+        <a href='/amenitiesataglance' className='downarrow'><FaAngleDown/></a>
        </h1>
       
     </section>

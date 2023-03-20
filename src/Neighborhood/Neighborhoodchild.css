@@ -1,18 +1,14 @@
 .grid-coontainer-element {
   display: grid;
-  grid-template-columns: 4fr 12fr;
+  grid-template-columns: 4fr 15fr;
   width: 100%;
   /* height: 100vh; */
 }
-.grid-child-element {
-  /* margin: 10px;  */
-  /* background-color: peachpuff; */
-  /* border: 1px solid red; */
-  object-fit: fill;
-}
-.childimage {
+
+.childimage.homeneigh {
   width: 100%;
-  height: 100vh;
+  height: 93vh;
+  object-fit: cover;
 }
 .grid-child-element.purple {
   background-color: #7c7774;
@@ -65,10 +61,11 @@
 }
 .the-neighboorhood {
   color: gray;
-  height: 290px;
+  height: 329px;
+  background: rgb(62, 61, 61);
   padding: 5px;
   text-align: center;
-  border-bottom: 3px solid goldenrod;
+  /* border-bottom: 3px solid goldenrod; */
 }
 h6.gold-secttion {
   font-size: 18px;
@@ -87,11 +84,13 @@ h1.gold-secttion {
   src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
 }
 .residence-neigh-logo-grey {
-  margin-top: 70px;
-  height: 128px;
+  margin-top: -12%;
+  height: 278px;
+}
+.gold-secttion.one {
+  margin-top: -9%;
 }
 .contenting {
-  /* background-color: pink; */
   margin-top: 20px;
   height: 200px;
   text-align: left;
@@ -111,23 +110,64 @@ h1.gold-secttion {
 
   font-size: 190%;
 }
-.coddler{
-  font-family: 'luxury';
+.coddler {
+  font-family: "luxury";
   text-align: left;
   color: grey;
   font-size: 120%;
-  
 }
-.coddler.bot{
-  font-family: 'luxury';
+.coddler.bot {
+  font-family: "luxury";
   text-align: left;
   color: grey;
   font-size: 120%;
   margin-top: 30px;
 }
-.coddle{
+.coddle {
   margin-top: -65px;
-/* background: pink; */
-height: 300px;
-padding: 38px 20px 7px 27px;
+  height: 300px;
+  padding: 38px 20px 7px 27px;
+}
+.grid-child-element.puple{
+  background-color: white;
+
+}
+.downarrow.jir{
+  font-family: 'luxury';
+  font-size: 50%;
+  cursor: pointer;
+}
+@media  all and (max-width: 500px){
+  .grid-coontainer-element {
+    display: block;
+  }
+  .downarrow.jir{
+    font-family: 'luxury';
+    font-size: 50%;
+    cursor: pointer;
+  }
+  .childimage.homeneigh {
+    object-fit: cover;
+  }
+  .coddler {
+    /* background-color: purple; */
+    font-family: "luxury";
+    text-align: left;
+    color: grey;
+    font-size: 121%;
+  }
+  .coddler.bot {
+    font-family: "luxury";
+    /* background-color: pink; */
+    text-align: left;
+    color: grey;
+    font-size: 120%;
+    margin-top: 5%;
+  }
+  .coddle {
+    /* background-color: pink; */
+    margin-top: -17%;
+    height: 200px;
+    padding: 28px 20px 7px 27px;
+  }
 }

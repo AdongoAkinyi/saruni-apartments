@@ -1,3 +1,4 @@
+import { FaAngleUp, FaBars } from 'react-icons/fa'
 import ChildNav from '../Navbar/ChildNav'
 import  './NeighMap.css'
 
@@ -45,12 +46,19 @@ function NeighborMap() {
         <div class="grid-child-element green">
           <img
           src='http://www.thesaruni.com/TheSaruniImages/map.jpg'
-            // src="https://i.pinimg.com/564x/a8/c2/42/a8c24292df4428d84fdfe57b6637ef84.jpg"
             alt="residence"
             className="map"
           />
         </div>
+        
       </div>
+
+      <section className="explore-section men">
+      <h1 className="explorer">
+        <a href='/menu' className="go-to-menu">GO TO MENU<FaAngleUp/></a>
+       </h1>
+      
+    </section>
   </div>
   )
 }

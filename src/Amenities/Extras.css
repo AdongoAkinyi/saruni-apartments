@@ -1,15 +1,24 @@
-.amenity1{
-    background-image: url('http://www.thesaruni.com/TheSaruniImages/gym.jpg');
-    height: 90vh;
+.amenity1 {
+  background-image: url("http://www.thesaruni.com/TheSaruniImages/gym.jpg");
+  height: 100vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
-.amenity2{
-    /* color: white; */
-    background-image: url("http://www.thesaruni.com/TheSaruniImages/coutryard.jpg");
-    height: 90vh;
+.amenity3 {
+  background-image: url("http://www.thesaruni.com/TheSaruniImages/infinitypool.jpg");
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.amenity2 {
+  /* color: white; */
+  background-image: url("http://www.thesaruni.com/TheSaruniImages/coutryard.jpg");
+  height: 100vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,17 +27,24 @@
   font-family: "luxury";
   src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
 }
-.gym{
- font-family: 'luxury';
- color: grey;
- padding: 29px 27px 7px 7px;
- font-size: 20px;
- margin-left: 30px;
+.gym {
+  font-family: "luxury";
+  color: white;
+  padding: 29px 27px 7px 7px;
+  font-size: 20px;
+  margin-left: 30px;
 }
-.courtyard{
-  font-family: 'luxury';
+.courtyard {
+  font-family: "luxury";
   color: white;
   padding: 38px 27px 7px 7px;
   font-size: 20px;
   margin-left: 30px;
- }
+}
+.pool{
+  font-family: "luxury";
+  color: white;
+  padding: 29px 27px 7px 7px;
+  font-size: 20px;
+  margin-left: 30px;
+}

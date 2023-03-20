@@ -7,11 +7,8 @@ import {  FaAngleDown } from 'react-icons/fa';
 function Courtyard() {
   // let navigate = useNavigate();
 
-  return (
-    <div>
-    <div>
-      <ChildNav/>
-    </div>
+  return ( 
+    
     <div className='amenity2'>
         <h2 className='courtyard'>
             The Courtyard
@@ -19,13 +16,7 @@ function Courtyard() {
         
     </div>
 
-    <section className="explore-section">
-      <h1 className="explorer">
-        <a href='/neighborhood'><FaAngleDown/></a>
-       </h1>
-      
-    </section>
-    </div>
+   
   )
 }
 
