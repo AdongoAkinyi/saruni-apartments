@@ -4,16 +4,16 @@ import { useNavigate } from "react-router-dom";
 import { useRef } from "react";
 import "./ChildNav.css";
 
-function ChildNav() {
+function ChildNav() { 
   let navigate = useNavigate();
 
     const navRef = useRef();
 const showNavbar =()=> {
     navRef.current.classList.toggle("responsive_nav")
 }
-
+ 
   return (
-    <div>
+    <div  className="child-nav">
       <header className="headerr"> 
         <img 
           className="navbary-logo"

@@ -3,6 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import "./Home.css";
 import { redirect } from "react-router-dom";
 import { useEffect } from "react";
+import { FaAngleDown } from "react-icons/fa";
 
 function Home() {
   let navigate = useNavigate();
@@ -30,6 +31,7 @@ function Home() {
             
             <p className="small-letters">nested in unparalleled tranquility</p>
           </div>
+
         </div>
       </div>
       <div className="explore">
@@ -38,7 +40,7 @@ function Home() {
             navigate("/rotate");
           }}
        className='nav-to' >
-          EXPLORE 
+          EXPLORE
         </h1>
         <h3 className="riverside-drive-nairobi">RIVERSIDE DRIVE NAIROBI</h3>
       </div>

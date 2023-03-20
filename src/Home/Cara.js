@@ -5,7 +5,7 @@ import ResidenceHome from "../Residence/ResidenceHome";
 import NeighborhoodHome from "../Neighborhood/NeighborhoodHome";
 import React, { useEffect } from "react";
 
-
+  
 const rotateAnimationHandler = (props, state) => {
   const transitionTime = props.transitionTime + "ms";
   const transitionTimingFunction = "ease-in";

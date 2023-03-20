@@ -13,45 +13,47 @@
 }
 :root {
   --mainColor: transparent;
-  /* --mainColorLight: #3b5249; */
-  --text360screen:10px;
+  --mainColorLight: #3b5249;
+  --text360screen: 10px;
   --secondarColor: goldenrod;
   --textColor: #eee;
 }
 .header {
   display: flex;
-  /* align-items: center; */
   justify-content: space-between;
   height: 40px;
   padding: 0 2rem;
   background-color: var(--mainColor);
   color: var(--textColor);
-  /* background-color: white; */
   padding: 10px;
 }
-.bars{
-    position: absolute;
-    top: 15px;
-    right: 28px;
-    transform: scale(2.9,1.5);
-    font-size: 18px;
-    margin-top: 8px;
-    color: white;
-    /* background-color: pink; */
+.bars {
+  position: absolute;
+  top: 15px;
+  right: 28px;
+  transform: scale(2.9, 1.5);
+  font-size: 18px;
+  margin-top: 8px;
+  color: white;
+  /* background-color: pink; */
 }
-.the{
-margin-left: -800px;
-padding-top: 13px;
-font-size: 23px;
-/* background-color: pink; */
-
+.the {
+  position: absolute;
+    top: 25px;
+    left: 89px;
+    /* margin-top: 20px; */
+    font-size: 150%;
+    color: white;
+  /* margin-left: -800px;
+  padding-top: 13px;
+  font-size: 23px; */
+  /* background-color: pink; */
 }
 
 nav a {
   margin: 0 2rem;
   color: var(--textColor);
   text-decoration: none;
-
 }
 nav a:hover {
   color: var(--secondarColor);
@@ -67,8 +69,8 @@ header .nav-btn {
   opacity: 0;
   font-size: 1.8rem;
 }
-
-@media only screen and (max-width: 1024px) {
+ 
+/* @media only screen and (max-width: 1024px) {
   header .nav-btn {
     visibility: visible;
     opacity: 1;
@@ -84,7 +86,7 @@ header .nav-btn {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: var(--mainColor);
+    background-color: goldenrod;
     transition: 1s;
     transform: translateY(-100vh);
   }
@@ -100,5 +102,32 @@ header .nav-btn {
   }
   nav a{
     font-size: 1.5rem;
+  }
+} */
+@media all and (max-width: 500px) {
+  .header {
+   width: 100%;
+    height: 40px;
+    padding: 0 2rem;
+    color: black;
+    padding: 10px;
+  }
+  .the{
+    position: absolute;
+    top: -5px;
+    left: 94px;
+    margin-top: 29px;
+    font-size: 150%;
+    color: white;
+  }
+  .bars { 
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    transform: scale(2.9, 1.5);
+    font-size: 18px;
+    margin-top: 8px;
+    color: white;
+    
   }
 }

@@ -9,8 +9,7 @@ function Navbar() {
     const navRef = useRef();
 const showNavbar =()=> {
     navRef.current.classList.toggle("responsive_nav")
-}
-
+}  
   return ( 
     <div>
       <header className="header">
@@ -32,7 +31,7 @@ const showNavbar =()=> {
           </button>
         </nav>
         <button  onClick={showNavbar} className="nav-btn">
-          <FaBars />
+        <a href="/menu" className="bars"><FaBars/></a>
         </button>
       </header>
     </div>

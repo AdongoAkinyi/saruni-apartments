@@ -22,6 +22,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import Cara from "./Home/Cara";
 import { useEffect } from "react";
+import Contact from "./Contact/Contact";
 
 
 function App() {
@@ -65,6 +66,8 @@ function App() {
         <Route path='/map'  element={<NeighborMap/>}/>
 
         <Route path='/menu'  element={<Full/>}/>
+        <Route path="/contact" element={<Contact />} />
+
 
       </Routes>
     </Router>

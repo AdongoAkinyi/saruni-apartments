@@ -1,5 +1,4 @@
 .landing-container {
-
   background-image: url("http://www.thesaruni.com/TheSaruniImages/home.jpg");
   height: 93vh;
   background-position: center center;
@@ -71,17 +70,83 @@
   font-weight: bold;
   text-align: center;
   cursor: pointer;
-  
 }
-.riverside-drive-nairobi{
+.riverside-drive-nairobi {
   position: absolute;
-    bottom: 27px;
-    right: 20px;
-    font-family: 'luxury';
-    font-size: 20px;
-    font-weight: normal;
+  bottom: 27px;
+  right: 20px;
+  font-family: "luxury";
+  font-size: 20px;
+  font-weight: normal;
 }
-.nav-to{
+.nav-to {
   margin-top: 17px;
-  font-family: 'luxury';
+  font-family: "luxury";
+}
+
+@media all and (max-width: 500px) {
+  .home-component-container {
+    /* background-color: purple; */
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100vh;
+  }
+  .landing-container {
+    background-image: url("http://www.thesaruni.com/TheSaruniImages/home.jpg");
+    height: 88vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .logo {
+    margin-left: -26%;
+    border-radius: 150px;
+    height: 90px;
+  }
+  .body-landing-page {
+    padding: 15px 5px 5px 5px;
+    margin-top: -5%;
+    margin-left: -9%;
+    height: 190px;
+  }
+  .lorem {
+    color: white;
+    padding: 5px;
+    width: 480px;
+    text-align: left;
+    font-family: "luxury2";
+    font-size: 129%;
+  }
+  .small-letters {
+    margin-top: -1%;
+    font-size: 26px;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+    width: 480px;
+  }
+  .explore {
+    margin-top: 0;
+    font-weight: bold;
+    color: #7c7471;
+    margin-bottom: 0;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .nav-to {
+    /* background-color: pink; */
+    font-size: 170%;
+    /* margin-top: 17px; */
+    font-family: "luxury";
+    text-align: left;
+    margin-left: 5%;
+  }
+  .riverside-drive-nairobi {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    font-family: "luxury";
+    font-size: 93%;
+    font-weight: normal;
+  }
 }

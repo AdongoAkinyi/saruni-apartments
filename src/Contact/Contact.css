@@ -1,0 +1,15 @@
+.contact-body{
+    background-color: grey;
+}
+.page-name{
+    font-family: 'luxury';
+    font-size: 2rem;
+}
+.contact-sect{
+    font-family: 'luxury';
+}
+@media all and (max-width:  500px){
+    .contact-body{
+        background-color: peachpuff;
+    }
+}
