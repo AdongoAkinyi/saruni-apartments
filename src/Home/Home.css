@@ -39,8 +39,8 @@
   }
   .logo {
     margin-left: 1%;
-    height: 160px;
-    margin-top: 15%;
+    height: 180px;
+    margin-top: 25%;
   }
   .body-landing-page {
     padding: 15px 5px 5px 5px;
@@ -54,11 +54,12 @@
     width: 480px;
     text-align: left;
     font-family: "luxury2";
-    font-size: 199%;
+    font-size: 279%;
+    font-weight: bold;
   }
   .small-letters {
     margin-top: -1%;
-    font-size: 26px;
+    font-size: 29px;
     font-weight: bold;
     color: white;
     text-align: left;
