@@ -37,7 +37,7 @@ function Home() {
       <div className="explore">
         <h1
           onClick={() => {
-            navigate("/rotate");
+            navigate("/residencehomepage");
           }}
        className='nav-to' >
           EXPLORE
