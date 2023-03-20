@@ -27,6 +27,27 @@ a {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 600px) {
+  .full-menu {
+    background-color: goldenrod;
+    height: 100vh;
+
+  }
+  .option1 {
+    margin-top: -2%;
+  }
+  .menu-opt {
+    
+    margin-top: 10%;
+    font-family: "luxury";
+    color: rgb(104, 101, 101);
+    font-size: 180%;
+  }
+  .mini-topic {
+    font-family: "luxury";
+    font-size: 40%; 
+  }
+}
 @media only screen and (min-width: 600px) {
   .full-menu {
     background-color: goldenrod;
