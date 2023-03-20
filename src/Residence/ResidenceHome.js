@@ -5,10 +5,10 @@ import { FaBars } from "react-icons/fa";
 function ResidenceHome() {
   let navigate = useNavigate(); 
   return (
-    <div class="grid-container-element"> 
+    <div class="grid-container-element homepager"> 
       
       <div className="grid-child-element purple">
-        <div className="logo-top-left">
+         <div className="logo-top-left">
         <h4><img
           className="navbar-logo"
           src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
@@ -48,6 +48,7 @@ function ResidenceHome() {
         THE    RESIDENCES
           </button>
         </div>
+        
       </div>
 
       <div className="grid-child-element green">

@@ -123,6 +123,7 @@
   color: white;
 }
 @media all and (max-width: 700px) {
+ 
   .logo-top-left {
     position: absolute;
     top: 15px;
@@ -147,16 +148,10 @@
     transform: scale(2.9, 1.5);
     font-size: 15px;
     margin-top: 8px;
-    color: white;
+    color: black; 
   }
-  .grid-container-element {
-    display: grid;
-    grid-template-columns: 7fr 6fr;
-    grid-gap: 0px;
-    width: 100%;
-    height: 100vh;
-    background-color: grey;
-    margin: 0 0 0 0;
+  .grid-container-element.homepager {
+    display: block;
   }
   .navbary-loogo {
     height: 67px;
@@ -175,15 +170,18 @@
     font-family: "luxury";
     font-weight: normal;
     text-align: center;
-    /* background-color: brown; */
     color: #7b7471;
     font-size: 70%;
   }
   .content {
-    /* background: pink; */
-    
-    height: 320px;
+    background: #ffffff;
+    height: 100vh;
     margin-top: 65%;
+  }
+  .grid-child-element.purple {
+    /* background-color: pink; */
+    text-align: center;
+    margin: 0 0 0 0;
   }
 
   .button-46 {

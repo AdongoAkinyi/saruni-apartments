@@ -13,7 +13,7 @@ function Residence() {
       <div className="section1">
       <div class="grid-resident-element">
         <div class="grid-child-purple">
-          <div className="the-residences">
+          <div className="the-residences room">
           <img  
           src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
           className="residence-home-logo-grey" alt="logo"/>

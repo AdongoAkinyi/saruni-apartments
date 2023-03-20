@@ -36,10 +36,10 @@ a {
     margin-top: 10%;
     font-family: "luxury";
     color: rgb(104, 101, 101);
-    font-size: 210%;
+    font-size: 180%;
   }
   .mini-topic {
     font-family: "luxury";
-    font-size: 40%;
+    font-size: 40%; 
   }
 }

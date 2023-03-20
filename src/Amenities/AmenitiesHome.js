@@ -5,7 +5,7 @@ import { FaBars } from "react-icons/fa";
 function AmenitiesHome() { 
   let navigate = useNavigate();
   return ( 
-    <div class="grid-container-element">
+    <div class="grid-container-element homepager">
       <div className="grid-child-element purple">
       <div className="logo-top-left">
         <h4><img

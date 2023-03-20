@@ -6,7 +6,7 @@ import { FaBars } from 'react-icons/fa';
 function NeighborhoodHome() {
     let navigate = useNavigate();
   return (
-    <div class="grid-container-neighbor">
+    <div class="grid-container-neighbor homepager">
      <div className="grid-child-element green">
      <div className="logo-top-leftt">
         <h4><img
@@ -28,7 +28,7 @@ function NeighborhoodHome() {
       />
     </div>
     <div className="grid-child-element jirani">
-      <div className="content">
+      <div className="content jirani">
       <a href="/menu" className="bars-top-right"><FaBars  /></a>
 
         <img

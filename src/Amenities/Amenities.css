@@ -110,7 +110,7 @@
   .residenceimagehome{
     object-fit: cover;
   }
-  @media all and (max-width: 500px) {
+  @media all and (max-width: 700px) {
     .logo-top-left {
       position: absolute;
       top: 15px;
@@ -128,6 +128,12 @@
       width: 150px;
       color: #7b7471;
     }
+    .grid-container-element.homepager {
+      display: block;
+    }
+    .grid-container-neighbor.homepager{
+      display: block;
+    }
     .bars-top-right {
       position: absolute;
       top: 29px;
@@ -135,7 +141,7 @@
       transform: scale(2.9, 1.5);
       font-size: 15px;
       margin-top: 8px;
-      color: white;
+      color: black;
     }
     .grid-container-element {
       display: grid;
@@ -146,6 +152,17 @@
       background-color: grey;
       margin: 0 0 0 0;
     }
+    .content.jirani{
+      background-color: white;
+     
+    }
+    h4.jirani-main{
+      color: rgb(98, 92, 92);
+    }
+    h5.jirani-paragraph{
+      color: rgb(98, 92, 92);
+    }
+    
     .navbary-loogo {
       height: 67px;
       border-radius: 90px;

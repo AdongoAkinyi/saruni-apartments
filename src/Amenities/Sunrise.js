@@ -13,7 +13,7 @@ function Sunrise() {
       </div>
       <div class="grid-container-sun">
         <div class="grid-child purple" style={{marginRight:"15px"}}>
-          <div className="the-sun">
+          <div className="the-sun"> 
             <img
               src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
               className="residence-home-logo-grey spec"
@@ -51,7 +51,7 @@ function Sunrise() {
           <p className="example ones">View from outside</p>
         </div>
         <div class="grid-child pink">
-          <img
+          <img 
             src="http://www.thesaruni.com/TheSaruniImages/wakeupright.jpg"
             // src="https://i.pinimg.com/564x/93/3b/22/933b22054916574e7d3d5ecf694597a0.jpg"
             alt="bag"

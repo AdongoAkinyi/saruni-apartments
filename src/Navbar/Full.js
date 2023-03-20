@@ -2,7 +2,7 @@ import ChildNav from "./ChildNav";
 import "./Full.css";
 
 function Full() {
-  return (
+  return ( 
     <div>
       <div>
         <ChildNav />
