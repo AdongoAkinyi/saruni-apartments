@@ -125,6 +125,32 @@ header .nav-btn {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   
+  .th {
+    position: absolute;
+    top: 10px;
+    left: 95px;
+    margin-top: 29px;
+    font-size: 120%;
+    font-family: "luxury";
+    color: #7b7471;
+  }
+  .menutext {
+    visibility: hidden;
+  }
+  .barss {
+    position: absolute;
+    top: 30px;
+    right: 28px;
+    transform: scale(2.9, 1.5);
+    font-size: 18px;
+    margin-top: 8px;
+    color: #7b7471;
+  }
+  .navbary-logo {
+    height: 60px;
+    border-radius: 90px;
+    margin-bottom: 10px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
