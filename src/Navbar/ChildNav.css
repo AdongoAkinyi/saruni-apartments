@@ -210,7 +210,8 @@ header .nav-btn {
     color: #7b7471;
   }
   .menutext {
-    color: black;
+   
+    visibility: var(--mainColor);
   }
   .barss {
     position: absolute;
