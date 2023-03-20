@@ -23,7 +23,7 @@
 .reside {
   font-family: "luxury2";
   font-size: 40px;
-  color: #7b7471;
+  color: #7b7471; 
   margin-bottom: 15px;
   margin-top: 15px;
 }
@@ -122,7 +122,7 @@
   margin-top: 8px;
   color: white;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 700px) {
   .logo-top-left {
     position: absolute;
     top: 15px;

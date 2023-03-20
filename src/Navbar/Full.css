@@ -19,14 +19,14 @@
   margin-top: 190px;
 }
 .mini-topic {
-  font-family: "luxury";
+  font-family: "luxury"; 
   font-size: 20px;
   /* background-color: brown; */
 }
 a {
   text-decoration: none;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 700px) {
   .option1 {
     /* background-color: brown; */
     margin-top: -2%;

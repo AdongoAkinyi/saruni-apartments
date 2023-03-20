@@ -4,7 +4,7 @@
   grid-template-columns: 2fr 6fr;
 }
 .griddp-container-element {
-  display: grid;
+  display: grid; 
   grid-gap: 0px;
   grid-template-columns: 0.5fr 2fr 2fr 2fr;
 }

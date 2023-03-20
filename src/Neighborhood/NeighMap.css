@@ -21,7 +21,7 @@
   height: 320px;
   border-bottom: 3px solid goldenrod;
 }
-.gain {
+.gain { 
   font-family: "luxury";
 }
 .gainn {
@@ -125,7 +125,7 @@ h5.gain {
   cursor: pointer;
 
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 700px) {
   .grid-container-elementr {
     display: block;
   }

@@ -19,7 +19,7 @@
   /* background: pink; */
   color: white;
   font-size: 200%;
-  height: 320px;
+  height: 320px; 
  
 }
 .jirani-main{
@@ -127,7 +127,7 @@ position: absolute;
     color: white;
 
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 700px) {
   .logo-top-leftt {
     position: absolute;
     top: 15px;
