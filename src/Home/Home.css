@@ -15,7 +15,7 @@
   font-family: "luxury";
   src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
 }
-@font-face { 
+@font-face {
   font-family: "luxury2";
   src: url(/din/fonts/FF\ DIN\ Pro\ Regular\ 2.otf);
 }
@@ -27,86 +27,25 @@
   font-family: "luxury4";
   src: url(/luxury/DIN\ Medium.ttf);
 }
-.lorem {
-  color: white;
-  padding: 5px;
-  width: 480px;
-  text-align: center;
-  font-family: "luxury2";
-  font-size: 190%;
-}
-.small-letters {
-  margin-top: -7px;
-  font-size: 26px;
-  font-weight: normal;
-  color: white;
-  text-align: center;
-  width: 480px;
-}
-.body-landing-page {
-  /* background-color: pink; */
-  margin-top: -28px;
-  margin-left: 20px;
-}
-.landing-page {
-  padding: 20px;
-  font-size: 30px;
-  margin-left: 40px;
-  margin-top: 40px;
-  font-weight: bold;
-}
-.logo {
-  border-radius: 150px;
-  height: 250px;
-  /* background: white; */
-}
 
-.explore {
-  /* font-family: 'luxury'; */
-  font-size: 100%;
-  font-weight: bold;
-  color: #7c7471;
-  margin-bottom: 0;
-  font-weight: bold;
-  text-align: center;
-  cursor: pointer;
-}
-.riverside-drive-nairobi {
-  position: absolute;
-  bottom: 27px;
-  right: 20px;
-  font-family: "luxury";
-  font-size: 20px;
-  font-weight: normal;
-}
-.nav-to {
-  margin-top: 17px;
-  font-family: "luxury";
-}
-
-@media all and (max-width: 500px) {
-  .home-component-container {
-    /* background-color: purple; */
-    margin: 0 0 0 0;
-    width: 100%;
-    height: 100vh;
-  }
+@media only screen and (min-width: 600px) {
   .landing-container {
     background-image: url("http://www.thesaruni.com/TheSaruniImages/home.jpg");
-    height: 88vh;
+    height: 93vh;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-color: pink; */
   }
   .logo {
-    margin-left: -26%;
-    border-radius: 150px;
-    height: 90px;
+    margin-left: 1%;
+    height: 160px;
+    margin-top: 15%;
   }
   .body-landing-page {
     padding: 15px 5px 5px 5px;
-    margin-top: -5%;
-    margin-left: -9%;
+    margin-top: -4%;
+    margin-left: 9%;
     height: 190px;
   }
   .lorem {
@@ -115,38 +54,154 @@
     width: 480px;
     text-align: left;
     font-family: "luxury2";
-    font-size: 129%;
+    font-size: 199%;
   }
   .small-letters {
     margin-top: -1%;
     font-size: 26px;
-    font-weight: normal;
+    font-weight: bold;
     color: white;
     text-align: left;
     width: 480px;
   }
-  .explore {
-    margin-top: 0;
-    font-weight: bold;
-    color: #7c7471;
-    margin-bottom: 0;
-    font-weight: bold;
-    cursor: pointer;
-  }
   .nav-to {
-    /* background-color: pink; */
+    cursor: pointer;
+    color: #7c7471;
     font-size: 170%;
-    /* margin-top: 17px; */
     font-family: "luxury";
-    text-align: left;
+    text-align: center;
     margin-left: 5%;
+    margin-top: 1%;
   }
   .riverside-drive-nairobi {
     position: absolute;
-    bottom: 28px;
-    right: 62px;
+    bottom: 30px;
+    right: 42px;
     font-family: "luxury";
-    font-size: 47%;
+    font-size: 67%;
     font-weight: normal;
   }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .landing-container {
+    background-image: url("http://www.thesaruni.com/TheSaruniImages/home.jpg");
+    height: 93vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: pink; */
+  }
+  .logo {
+    margin-left: -7%;
+    height: 170px;
+    margin-top: 10%;
+  }
+  .body-landing-page {
+    padding: 15px 5px 5px 5px;
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 190px;
+  }
+  .lorem {
+    color: white;
+    padding: 5px;
+    width: 480px;
+    text-align: left;
+    font-family: "luxury2";
+    font-size: 159%;
+  }
+  .small-letters {
+    margin-top: 1%;
+    font-size: 29px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    width: 480px;
+  }
+  .nav-to {
+    cursor: pointer;
+    color: #7c7471;
+    font-size: 190%;
+    font-family: "luxury";
+    text-align: center;
+    margin-right: 8%;
+  }
+  .riverside-drive-nairobi {
+    position: absolute;
+    bottom: 30px;
+    right: 42px;
+    font-family: "luxury";
+    font-size: 80%;
+    font-weight: normal;
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+  .landing-container {
+    background-image: url("http://www.thesaruni.com/TheSaruniImages/home.jpg");
+    height: 93vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: brown; */
+  }
+  .logo {
+    margin-left: 1%;
+    height: 170px;
+    margin-top: 10%;
+  }
+  .heading-landing-page {
+    padding: 5px;
+    text-align: left;
+    
+    margin-left: 38px;
+    margin-top: -1%;
+  }
+  .body-landing-page {
+    padding: 15px 5px 5px 5px;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-top: -1%;
+    height: 190px;
+  }
+  .lorem {
+    color: white;
+    padding: 5px;
+    width: 480px;
+    text-align: center;
+    font-family: "luxury2";
+    font-size: 299%;
+  }
+  .small-letters {
+    margin-top: 0.5%;
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    width: 480px;
+  }
+  .nav-to {
+    cursor: pointer;
+    color: #7c7471;
+    font-size: 190%;
+    font-family: "luxury";
+    text-align: center;
+    margin-top: 1%;
+  }
+  .riverside-drive-nairobi {
+    position: absolute;
+    bottom: 19px;
+    right: 32px;
+    font-family: "luxury";
+    font-size: 110%;
+    font-weight: normal;
+  }
+  
+  
 }

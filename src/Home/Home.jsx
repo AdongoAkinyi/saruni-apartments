@@ -1,9 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import "./Home.css";
-import { redirect } from "react-router-dom";
 import { useEffect } from "react";
-import { FaAngleDown } from "react-icons/fa";
 
 function Home() {
   let navigate = useNavigate();
@@ -45,7 +43,7 @@ function Home() {
         <h3 className="riverside-drive-nairobi">RIVERSIDE DRIVE NAIROBI</h3>
       </div> 
     </div>
-  );
+  );    
 }
 
 export default Home;
