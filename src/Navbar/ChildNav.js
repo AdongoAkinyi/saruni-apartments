@@ -22,19 +22,18 @@ function ChildNav() {
           onClick={() => {
             navigate("/");
           }}
-        /> 
+        />
         <h4 className="th">THE SARUNI</h4>
         <nav ref={navRef} className="mtoto">
           <div className="menu">
+            <a href="/rotate" className="menutext">
+              H O M E
+            </a>
             <a href="/availability" className="menutext">
               A V A I L A B I L I T Y
             </a>
-            <a href="/contact" className="menutext">
-              G E T{" "}
-              <a href="/contact" className="touch">
-                I N
-              </a>{" "}
-              T O U C H
+            <a href="/contact" className="menutext" st>
+              C O N T A C T S
             </a>
           </div>
 

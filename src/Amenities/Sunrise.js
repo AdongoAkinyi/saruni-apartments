@@ -2,13 +2,19 @@ import "./Sun.css";
 // import { useNavigate } from "react-router-dom";
 import ChildNav from "../Navbar/ChildNav";
 import { FaAngleDown } from "react-icons/fa";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+import Pool from "./Pool";
+import Jua from "./Suns/Jua";
+import East from "./Suns/East";
+
 
 function Sunrise() {
   // let navigate = useNavigate();
 
   return (
     <div className="kubwa-sun">
-      <div>
+      <div>  
         <ChildNav />{" "}
       </div>
       <div class="grid-container-sun">
@@ -42,23 +48,18 @@ function Sunrise() {
         </div>
 
         <div class="grid-child green">
-          <img
-            src="http://www.thesaruni.com/TheSaruniImages/wakeupleft.jpg"
-            // src="https://i.pinimg.com/564x/93/3b/22/933b22054916574e7d3d5ecf694597a0.jpg"
-            alt="bag"
-            className="ddsun"
-          />
-          <p className="example ones">View from outside</p>
+        <Carousel infiniteLoop>
+                <div>
+                    <Jua/>
+                    <p className="legend">View from Outside</p>
+                </div>
+                <div>
+                    <East/>
+                    <p className="legend">View from Outside</p>
+                </div>
+            </Carousel>
         </div>
-        <div class="grid-child pink">
-          <img 
-            src="http://www.thesaruni.com/TheSaruniImages/wakeupright.jpg"
-            // src="https://i.pinimg.com/564x/93/3b/22/933b22054916574e7d3d5ecf694597a0.jpg"
-            alt="bag"
-            className="ddsun"
-          />
-          <p className="example twos">View from outside</p>
-        </div>
+
       </div>
 
       <section className="explore-section">

@@ -1,6 +1,10 @@
 import "./Rooms.css";
 import { useNavigate } from "react-router-dom";
 import ChildNav from "../Navbar/ChildNav";
+import { Carousel } from "react-responsive-carousel";
+import LivingL from "./Rosel/LivingL";
+import LivingR from "./Rosel/LivingR";
+
 
 function Living() {
   let navigate = useNavigate();
@@ -10,7 +14,8 @@ function Living() {
       <div>
         <ChildNav />{" "}
       </div>
-      <div class="grid-container room">
+      <div className="flexbox-container-living">
+        <div className="flexbox-item-living1">
         <div class="grid-child purple">
           <div className="the-residences white">
             <img
@@ -29,7 +34,6 @@ function Living() {
               onClick={() => {
                 navigate("/livingroom");
               }}
-          
             >
               LIVING AREA
             </h4>
@@ -73,25 +77,21 @@ function Living() {
             </p>
           </div>
         </div>
-
-        <div class="grid-child green side">
-          <img
-            src="http://www.thesaruni.com/TheSaruniImages/livingleft.jpg"
-            alt="bag"
-            className="dd"
-          />
-          <h6 className="example one"> 3 Bedroom apartment living area example</h6>
         </div>
-        <div class="grid-child pink side">
-          <img
-            src="http://www.thesaruni.com/TheSaruniImages/livingright.jpg"
-            // src="https://i.pinimg.com/564x/93/3b/22/933b22054916574e7d3d5ecf694597a0.jpg"
-            alt="bag"
-            className="dd"
-          />
-          <h6 className='example two'>2  Bedroom apartment living area example</h6>
+        <div className="flexbox-item-living2">
+        <Carousel infiniteLoop>
+                <div>
+                <LivingL/>
+                    <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                <LivingR/>
+                    <p className="legend">Legend 3</p>
+                </div>
+            </Carousel>
         </div>
       </div>
+      
     </div>
   );
 }

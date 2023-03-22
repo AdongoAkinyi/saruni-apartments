@@ -1,15 +1,62 @@
-.contact-body{
-    background-color: grey;
+.flexbox-container-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  color: grey;
+  text-align: left;
 }
-.page-name{
-    font-family: 'luxury';
-    font-size: 2rem;
+.flexbox-item-contact2 {
+  background-color: pink;
+  width: 1020px;
+  height: 760px;
+  flex-grow: 1;
 }
-.contact-sect{
-    font-family: 'luxury';
+.flexbox-item-contact1 {
+  height: 100vh;
+  flex-grow: 1;
+  width: 10px;
+  padding-left: 20px;
 }
-@media all and (max-width:  500px){
-    .contact-body{
-        background-color: peachpuff;
-    }
+.property{
+  padding: 23px 10px 10px 35px;
+  height: 160px;
+  color: goldenrod;
+  border-bottom: 2px solid grey;
+
+}
+.devs{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+.strand{
+  text-align: left;
+  color: grey;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.address{
+  padding: 10px 10px 10px 35px;
+}
+.the-address { 
+  color: gray; 
+  height: 229px; 
+  background: rgb(62, 61, 61);
+  padding: 5px;
+  text-align: center;
 } 
+.find{
+  color: grey;
+  margin-top: 20px;
+}
+.small-paragraph{
+  padding-top: 10px;
+  color: grey;
+  font-size: 13px;
+}
+.terms{
+  color: goldenrod;
+  font-weight: bold;
+}

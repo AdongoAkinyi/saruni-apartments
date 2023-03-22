@@ -1,10 +1,11 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import React, { useEffect } from "react";
+import NeighborhoodHome from "../Neighborhood/NeighborhoodHome";
 import AmenitiesHome from "../Amenities/AmenitiesHome";
 import ResidenceHome from "../Residence/ResidenceHome";
-import NeighborhoodHome from "../Neighborhood/NeighborhoodHome";
-import React, { useEffect } from "react";
 
+  
   
 const rotateAnimationHandler = (props, state) => {
   const transitionTime = props.transitionTime + "ms";
@@ -17,11 +18,11 @@ const rotateAnimationHandler = (props, state) => {
     MozTransitionTimingFunction: transitionTimingFunction,
     WebkitTransitionTimingFunction: transitionTimingFunction,
     OTransitionTimingFunction: transitionTimingFunction,
-    transform: `rotate(0)`,
+    transform: `slide`,
     position:
       state.previousItem === state.selectedItem ? "relative" : "absolute",
     inset: "0 0 0 0",
-    zIndex: state.previousItem === state.selectedItem ? "1" : "-2",
+    zIndex: state.previousItem === state.selectedItem ? "1" : "-0.3",
     opacity: state.previousItem === state.selectedItem ? "1" : "0",
     WebkitTransitionDuration: transitionTime,
     MozTransitionDuration: transitionTime,
@@ -52,6 +53,45 @@ const rotateAnimationHandler = (props, state) => {
   };
 };
 
+const fadeAnimationHandler = (props, state) => {
+  const transitionTime = props.transitionTime + 'ms';
+  const transitionTimingFunction = 'ease-in-out';
+
+  let slideStyle = {
+      position: 'absolute',
+      display: 'block',
+      zIndex: -2,
+      minHeight: '100%',
+      opacity: 0,
+      top: 0,
+      right: 0,
+      left: 0,
+      bottom: 0,
+      transitionTimingFunction: transitionTimingFunction,
+      msTransitionTimingFunction: transitionTimingFunction,
+      MozTransitionTimingFunction: transitionTimingFunction,
+      WebkitTransitionTimingFunction: transitionTimingFunction,
+      OTransitionTimingFunction: transitionTimingFunction,
+  };
+
+  if (!state.swiping) {
+      slideStyle = {
+          ...slideStyle,
+          WebkitTransitionDuration: transitionTime,
+          MozTransitionDuration: transitionTime,
+          OTransitionDuration: transitionTime,
+          transitionDuration: transitionTime,
+          msTransitionDuration: transitionTime,
+      };
+  }
+
+  return {
+      slideStyle,
+      selectedStyle: { ...slideStyle, opacity: 1, position: 'relative' },
+      prevStyle: { ...slideStyle },
+  };
+};
+
 function Cara() {
 
     useEffect(() => {
@@ -65,7 +105,7 @@ function Cara() {
     
    
     }, [])
-    
+
   
   return (
     <Carousel
@@ -73,7 +113,7 @@ function Cara() {
       infiniteLoop
       interval={4000}
       transitionTime={2000}
-      animationHandler={rotateAnimationHandler}
+      animationHandler={fadeAnimationHandler}
       swipeable={false}
     >
       <NeighborhoodHome />

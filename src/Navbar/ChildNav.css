@@ -26,11 +26,12 @@
   justify-content: space-between;
   height: 70px;
   padding: 0 2rem;
-  /* background-color: pink; */
+  
   padding: 10px;
+  position: relative;
 }
 .mtoto nav {
-  /* background-color: pink; */
+ 
   height: 70px;
 }
 .touch {
@@ -39,19 +40,20 @@
 }
 .barss {
   position: absolute;
-  top: 15px;
-  right: 28px;
+  top: 19px;
+  right: 29px;
   transform: scale(2.9, 1.5);
   font-size: 18px;
   margin-top: 8px;
   color: black;
+ 
 }
 .menu {
   position: absolute;
-  top: 27px;
+  top: 39px;
   right: 98px;
   color: black;
-  /* background-color: pink; */
+  
 }
 .menutext {
   font-size: 17px;

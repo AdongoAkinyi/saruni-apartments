@@ -6,7 +6,7 @@
 .griddp-container-element {
   display: grid; 
   grid-gap: 0px;
-  grid-template-columns: 0.5fr 2fr 2fr 2fr;
+  grid-template-columns: 2fr 6fr;
 }
 .kubwaest {
   margin: 0 0 0 0;
@@ -16,7 +16,7 @@
   object-fit: cover;
 }
 .grid-child-element.purn {
-  /* background-color: aquamarine; */
+ 
   border: none;
 }
 .grid-child-element.green {
@@ -37,14 +37,13 @@
   border-bottom: 5px solid goldenrod;
   top: 0;
   height: 250px;
-  /* background: peachpuff; */
   color: goldenrod;
   text-align: left;
 }
 .amen-3 {
   padding: 6px;
   color: grey;
-  height: 630px;
+  height: 550px;
   background: rgb(49, 49, 49);
 }
 /* EXPLORE */
@@ -52,7 +51,7 @@
   position: absolute;
   top: 123%;
   left: 50%;
-  /* background-color: gray; */
+ 
   transform: translate(-50%, -50%);
 }
 .arrow span {

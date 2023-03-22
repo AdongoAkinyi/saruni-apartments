@@ -5,9 +5,11 @@ import "./Amenitieschild.css";
 import Courtyard from "./Courtyard";
 import Gym from "./Gym";
 import Pool from "./Pool"; 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 
 function InfinityPool() {
-  // let navigate = useNavigate();
   return (
     <div className="kubwaest">
       <div>
@@ -43,16 +45,27 @@ function InfinityPool() {
           </div>
           {/* POOL */}
           <div class="grid-child-element green">
-            <Pool/>
+
+          <Carousel infiniteLoop>
+                <div>
+                <Pool/> 
+                    <p className="legend">The pool</p>
+                </div>
+                <div>
+                <Courtyard/>
+                    <p className="legend">The Courtyard</p>
+                </div>
+                <div>
+                <Gym/>
+                    <p className="legend">The Gym</p>
+                </div>
+            </Carousel>
+           
           </div>
-          <div class="grid-child greener">
-          <Gym/>
-        </div>
-        {/* courtyard */}
-        <div class="grid-child pinker">
-          <Courtyard/>
-      
-        </div>
+
+
+
+          
         </div>
       </section>
 

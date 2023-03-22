@@ -1,4 +1,4 @@
-.landing-container {
+/* .landing-container {
   background-image: url("http://www.thesaruni.com/TheSaruniImages/home.jpg");
   height: 93vh;
   background-position: center center;
@@ -8,7 +8,6 @@
 .heading-landing-page {
   padding: 5px;
   text-align: left;
-  /* background-color: pink; */
   margin-left: 38px;
 }
 @font-face {
@@ -35,7 +34,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-color: pink; */
+   
   }
   .logo {
     margin-left: 1%;
@@ -91,7 +90,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-color: pink; */
+   
   }
   .logo {
     margin-left: 1%;
@@ -148,7 +147,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-color: pink; */
+   
   }
   .logo {
     margin-left: -7%;
@@ -206,7 +205,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-color: brown; */
+    
   }
   .logo {
     margin-left: 1%;
@@ -261,4 +260,44 @@
   }
   
   
+} */
+
+@font-face {
+  font-family: "luxury";
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
+}
+@font-face {
+  font-family: "luxury1";
+  src: url(/din/fonts/FF\ DIN\ Pro\ Regular\ 2.otf);
+}
+@font-face {
+  font-family: "paragone";
+  src: url(/paragone-luxury-serif-font/Paragone/Paragone.otf);
+}
+.flexbox-container {
+  background-image: url("http://www.thesaruni.com/TheSaruniImages/home.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 89vh;
+  justify-content: left;
+}
+.home-logo {
+  height: 140px;
+  padding: 65px 0px 0 75px;
+}
+.home-content {
+  padding: 25px 0px 10px 75px;
+}
+.lore {
+ 
+  font-size: 40px;
+  padding: 19px 0px 10px 5px;
+  color: white;
+  font-weight: bold;
+}
+.home-nest {
+  font-family: "paragone";
+  color: white;
+  font-size: 25px;
 }

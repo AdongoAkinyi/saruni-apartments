@@ -1,0 +1,85 @@
+.flexbox-container-residencehome {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 87vh;
+  position: relative;
+}
+.flexbox-item-residencehome-1 {
+  /* background-color: pink; */
+  text-align: left;
+  width: 160px;
+  flex-grow: 1;
+  padding-left: 46px;
+  padding-right: 15px;
+}
+.flexbox-item-residencehome-3 {
+ position: absolute;
+ left: 23px;
+ bottom: -11px;
+  color: grey;
+  text-align: left;
+  padding-top: 40px;
+  width: 100%;
+  text-align: center;
+  flex-grow: 1;
+}
+.flexbox-item-residencehome-2 {
+  /* background-color: peru; */
+  width: 1050px;
+  flex-grow: 1;
+}
+.living-area {
+  object-fit: cover;
+  height: 87vh;
+  width: 100%;
+}
+.rgrey-logo {
+  height: 258px;
+  width: 340px;
+}
+.rheading {
+  background-color: goldenrod;
+  text-align: left;
+  height: 220px;
+  padding-left: 10px; 
+}
+.trre{
+  color: gray;
+  margin-top: -56px;
+  font-size: 15px;
+} 
+.tir{
+  color: gray;
+  font-size: 22px;
+}
+.luxury {
+
+  color: goldenrod;
+  padding: 10px 0 10px 15px;
+}
+.body{
+  border-bottom: 2px solid goldenrod;
+  
+}
+.footer {
+  padding: 25px 0 0 15px;
+}
+.care {
+  color: grey;
+  font-size: 19px;
+  padding-bottom: 9px;
+}
+.paragraph-bottom {
+  /* background-color: pink; */
+  color: grey;
+  font-size: 17px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+.more{
+  text-align: center;
+  color: grey;
+  font-size: 18px
+}

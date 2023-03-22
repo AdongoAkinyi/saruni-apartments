@@ -19,21 +19,21 @@ function Residence() {
           className="residence-home-logo-grey" alt="logo"/>
  
          <h6 className="gold-section one">T H E </h6>
-            <h1 className="gold-section two"> R E S I D E N C E S</h1>
+            <h1 className="gold-section two"> R E S I D E N C E S</h1> 
           </div>
           
           <div className="contentarea">
-          <h1  className="luxury" style={{marginTop:"30px"}}>L  U X U R Y</h1>
-          <h1 className="luxury" style={{marginTop:"15px"}}>U N I T S</h1>
+          <h1  className="luxury" >L  U X U R Y</h1>
+          <h1 className="luxury" >U N I T S</h1>
             
           </div>
           <div className="conten-twise">
-            <h1 className="care" style={{marginTop:"15px"}}>CAREFULLY </h1>
-            <h1 className="care" style={{marginTop:"15px"}}>CONSIDERED &</h1>
+            <h1 className="care" >CAREFULLY </h1>
+            <h1 className="care" >CONSIDERED &</h1>
 
-            <h1 className="care" style={{marginTop:"15px"}}>METICULOUSLY </h1>
+            <h1 className="care" >METICULOUSLY </h1>
 
-            <h1 className="care" style={{marginTop:"15px"}}>DESIGNED</h1>
+            <h1 className="care">DESIGNED</h1>
 
           
             <p className="paragraph-bottom">
@@ -58,11 +58,11 @@ function Residence() {
           onClick={() => {
             navigate("/livingroom");
           }}
-       className='nav-to' style={{fontWeight:"normal"}} >
+       className='nav-to' style={{fontWeight:"normal", fontSize:"25px"}} >
 
           EXPLORE THE RESIDENCES
         </h1>
-        <h1 className="downangle"><FaAngleDown /></h1>
+        <h1 className="downangle"><FaAngleDown style={{marginRight:"20px"}}/></h1>
       </div>
     </div>
   );
