@@ -53,11 +53,11 @@ function Residence() {
         </div>
       </div>
       </div>
-      <div className="explore">
-        <h1
-          onClick={() => {
+      <div className="explore" onClick={() => {
             navigate("/livingroom");
-          }}
+          }}>
+        <h1
+          
        className='nav-to' style={{fontWeight:"normal", fontSize:"25px"}} >
 
           EXPLORE THE RESIDENCES

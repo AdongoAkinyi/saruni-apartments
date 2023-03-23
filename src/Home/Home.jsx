@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import Navbar from "../Navbar/Navbar";
 import "./Home.css";
 import { useEffect } from "react";
 import { FaAngleDown } from "react-icons/fa";
+
 
 function Home() {
   let navigate = useNavigate();
@@ -11,6 +11,7 @@ function Home() {
   }, []);
   return (
     <div>
+   
       <div className="flexbox-container">
         <div className="header-section"></div>
         <div className="logo-section-landing">
@@ -20,7 +21,7 @@ function Home() {
             className="home-logo"
           />
         </div>
-        <div className="home-content">
+        <div className="home-content"> 
           <p className="lore">A L U X U R I O U S</p>
           <p className="lore">S A N C T U A R Y</p>
           <p className="home-nest">nested in unparalleled tranquility</p>

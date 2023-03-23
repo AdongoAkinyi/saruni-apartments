@@ -1,5 +1,6 @@
 .griid-container-elementt {
     display: grid;
+    flex-wrap: wrap;
     grid-template-columns:  6fr 9fr;
     grid-gap: 0px;
     font-family: 'luxury';
@@ -30,7 +31,7 @@
     padding: 10px;
     /* border-right: 3px solid grey; */
     background-color: goldenrod;
-    width: 400px;
+    width: 500px;
   }
   .topic-lux{
     font-family: 'luxury';
@@ -38,6 +39,7 @@
     margin-left: 20px;
     font-weight: normal;
     color: #7b7471;
+    /* border-right: 1px solid grey; */
 
   }
   .topic-lux-reserve{
@@ -127,3 +129,17 @@
     font-weight: bold;
     font-size: 290%;
   } 
+.flexbox-container-availability{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.flexbox-item-availability1{
+  flex-grow: 1;
+  width: 400px;
+}
+.flexbox-item-availability2{
+  flex-grow: 1;
+  width: 400px;
+}

@@ -1,35 +1,51 @@
+import { FaAngleDown } from "react-icons/fa";
 import ChildNav from "./ChildNav";
 import "./Full.css";
 
 function Full() {
-  return ( 
+  return (
     <div className="fuller-menu">
       <div>
         <ChildNav />
       </div>
       <div className="full-menu">
         <div className="option1">
-        <a href="/rotate">
-        <h1 className="menu-opt">
-         
-         {" "} 
-         <h5 className="mini-topic">THE</h5>R E S I D E N C E S
-       </h1>
-        </a>
-          <a  href="/rotate"><h1 className="menu-opt">
-            <h5 className="mini-topic">THE</h5> A M E N I T I E S
-          </h1></a>
-          <a href="/rotate"><h1 className="menu-opt">
-            <h5 className="mini-topic">THE</h5> N E I G H B O R H O O D
-          </h1></a>
-          <a href="/availability"><h1 className="menu-opt">A V A I L A B I L I T Y</h1></a>
-          <h1 className="menu-opt">VIRTUAL TOUR </h1>
-
+          <a href="/rotate">
+            <h1 className="menu-opt">
+              {" "}
+              <h5 className="mini-topic">THE</h5>R E S I D E N C E S
+            </h1>
+          </a>
+          <a href="/rotate">
+            <h1 className="menu-opt">
+              <h5 className="mini-topic">THE</h5> A M E N I T I E S
+            </h1>
+          </a>
+          <a href="/rotate">
+            <h1 className="menu-opt">
+              <h5 className="mini-topic">THE</h5> N E I G H B O R H O O D
+            </h1>
+          </a>
+          <a href="/availability">
+            <h1 className="menu-opt">A V A I L A B I L I T Y</h1>
+          </a>
           
-          <h1 className="menu-opt">ABOUT US </h1>
-          <a href="/contact"><h1 className="menu-opt">GET IN TOUCH</h1></a>
-           
+            <h1 className="menu-opt">VIRTUAL TOUR <FaAngleDown/></h1>
+          
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/I8iI6Oh-OkA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
 
+          <h1 className="menu-opt">ABOUT US </h1>
+          <a href="/contact">
+            <h1 className="menu-opt">GET IN TOUCH</h1>
+          </a>
         </div>
       </div>
     </div>

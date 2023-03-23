@@ -4,7 +4,7 @@ import ChildNav from "../Navbar/ChildNav";
 import { FaAngleDown } from "react-icons/fa";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import Pool from "./Pool";
+
 import Jua from "./Suns/Jua";
 import East from "./Suns/East";
 
@@ -17,8 +17,8 @@ function Sunrise() {
       <div>  
         <ChildNav />{" "}
       </div>
-      <div class="grid-container-sun">
-        <div class="grid-child purple" style={{marginRight:"15px"}}>
+      <div class="flexbox-container-sun">
+        <div class="flexbox-item-sun1 purple" style={{marginRight:"15px"}}>
           <div className="the-sun"> 
             <img
               src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
@@ -35,7 +35,7 @@ function Sunrise() {
             <p className="sunner">Wake up to the sunrise on the East</p>
           </div>
 
-          <div className="disclaimer y">
+          <div className="disclaimerr">
             <h4 className="eastward">T H E </h4>
             <h4 className="eastward">E A S T W A R D </h4>
             <h4 className="eastward"> G A R D E N</h4>
@@ -43,11 +43,12 @@ function Sunrise() {
               is located on the 9th and 10th floor and presents amazing views of
               the Nairobi CBD area.
             </p>
+           
           </div>
 
         </div>
 
-        <div class="grid-child green">
+        <div class="flexbox-item-sun2  green">
         <Carousel infiniteLoop>
                 <div>
                     <Jua/>

@@ -29,12 +29,12 @@ function InfinityPool() {
               <h1 className="gold-section two"> A M E N I T I E S</h1>
             </div>
 
-            <div className="amen-3">
+            <div className="amenww-3">
               <div className="ring">
-                <h1 className="carey">CURATED FOR</h1>
-                <h1 className="carey">LEISURE, </h1>
-                <h1 className="carey">WELLNESS AND </h1>
-                <h1 className="carey">REJUVINATION</h1>
+                <h1 className="careyy">CURATED FOR</h1>
+                <h1 className="careyy">LEISURE, </h1>
+                <h1 className="careyy">WELLNESS AND </h1>
+                <h1 className="careyy">REJUVINATION</h1>
               </div>
               <p className="paragraph-infi">
                 The heated infinity swimming pool

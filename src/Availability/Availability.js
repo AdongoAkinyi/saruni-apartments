@@ -11,8 +11,8 @@ function Availability() {
       <div>
         <ChildNav />
       </div>
-      <div class="griid-container-elementt">
-        <div className="grid-child avi">
+      <div class="flexbox-container-availability">
+        <div className="flexbox-item-availability1 avi">
           <div className="headingsss">
             <div className="lux-head">
               <h1 className="topic-lux">L U X U R Y </h1>
@@ -94,24 +94,14 @@ function Availability() {
            </div>
 
         </div>
-        <div class="grid-child avik">
+        <div class="flexbox-item-availability2 avik">
           <img
           src="http://www.thesaruni.com/TheSaruniImages/avilability.jpg"
-            // src="https://i.pinimg.com/564x/ab/b3/00/abb30014282ef028df8e1a51345eaecd.jpg"
             alt="residence"
-            className="childimage"
+            className="neighborhood-profile"
           />
         </div>
       </div>
-      {/* <div className="explore-avia">
-        <h1
-          onClick={() => {
-            navigate("/amenities");
-          }}
-       className='nav-to' >
-          EXPLORE
-        </h1>
-      </div> */}
     </div>
   );
 }

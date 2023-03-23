@@ -5,7 +5,6 @@ import { Carousel } from "react-responsive-carousel";
 import LivingL from "./Rosel/LivingL";
 import LivingR from "./Rosel/LivingR";
 
-
 function Living() {
   let navigate = useNavigate();
 
@@ -16,7 +15,6 @@ function Living() {
       </div>
       <div className="flexbox-container-living">
         <div className="flexbox-item-living1">
-        <div class="grid-child purple">
           <div className="the-residences white">
             <img
               src="https://thesaruni.com/TheSaruniImages/logowhite.png"
@@ -75,23 +73,21 @@ function Living() {
             <p style={{ fontWeight: "20px" }} id="disclaimer">
               upon as being complete or accurate
             </p>
-          </div>
-        </div>
+          </div> 
         </div>
         <div className="flexbox-item-living2">
-        <Carousel infiniteLoop>
-                <div>
-                <LivingL/>
-                    <p className="legend">Legend 1</p>
-                </div>
-                <div>
-                <LivingR/>
-                    <p className="legend">Legend 3</p>
-                </div>
-            </Carousel>
+          <Carousel infiniteLoop>
+            <div>
+              <LivingL />
+              <p className="legend">3  Bedroom apartment living area example</p>
+            </div>
+            <div>
+              <LivingR />
+              <p className="legend">2  Bedroom apartment living area example</p>
+            </div>
+          </Carousel>
         </div>
       </div>
-      
     </div>
   );
 }

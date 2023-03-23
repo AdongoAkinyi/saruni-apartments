@@ -1,15 +1,14 @@
 import ChildNav from "../Navbar/ChildNav";
-import Navbar from "../Navbar/Navbar";
 import "./Contact.css";
 
 function Contact() {
   return (
-    <div className="kubwa-sun">
+    <div>
       <div>
         <ChildNav />{" "}
       </div>
       <div class="flexbox-container-contact">
-        <div class="flexbox-item-contact1" style={{ marginRight: "15px" }}>
+        <div class="flexbox-item-contact1">
           <div className="the-address">
             <img
               src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
@@ -62,84 +61,7 @@ function Contact() {
           />
         </div>
       </div>
-    </div>
-    // <div>
-    //   <ChildNav />
-    //   <div className="flexbox-container-contact">
-    //     <div className="flexbox-item-contact1">
-    //       <img
-    //         src="https://thesaruni.com/TheSaruniImages/Saruni-Logo.png"
-    //         alt="logo"
-    //         className="home-logo"
-    //       /><h4 className="word">THE SARUNI</h4>
-    //       <div className="oppa">
-    //         <p
-    //           className="strand"
-    //           style={{
-    //             fontWeight: "bold",
-    //           }}
-    //         >
-    //           PROPERTY DEVELOPER
-    //         </p>
-    //         <p className="strand">
-    //           Riverside Strand Property Development Company Ltd.
-    //         </p>
-    //       </div>
-    //       <div className="hyung">
-    //         <p
-    //           className="strand"
-    //           style={{
-    //             fontWeight: "bold",
-    //           }}
-    //         >
-    //           CONTACTS:
-    //         </p>
-    //         <p
-    //           className="strand"
-    //           style={{
-    //             fontWeight: "bold",
-    //           }}
-    //         >
-    //           Riverside Drive
-    //         </p>
-    //         <p
-    //           className="strand"
-    //           style={{
-    //             fontWeight: "bold",
-    //           }}
-    //         >
-    //           T: 759 278 564
-    //         </p>
-    //         <p
-    //           className="strand"
-    //           style={{
-    //             fontWeight: "bold",
-    //           }}
-    //         >
-    //           {" "}
-    //           745 466 634
-    //         </p>
-    //         <p
-    //           className="strand"
-    //           style={{
-    //             fontWeight: "bold",
-    //           }}
-    //         >
-    //           E: info@thesaruni.com
-    //         </p>
-
-    //       </div>
-
-    //     </div>
-    //     <div className="flexbox-item-contact2">
-    //       <img
-    //         src="http://www.thesaruni.com/TheSaruniImages/home.jpg"
-    //         alt="land"
-    //         className="neighborhood-profile"
-    //       />
-    //     </div>
-    //   </div>
-    // </div>
+</div>
   );
 }
 

@@ -9,6 +9,7 @@
   width: 450px;
   padding-top: 256px;
   text-align: center;
+  position: relative;
   height: 760px;
   flex-grow: 1;
 }
@@ -89,6 +90,7 @@ background-position: center center;
   /* background-color: peru; */
   height:120px;
   width:120px;
-  text-align: center;
-  margin-left: 420px;
+  margin: 0 auto;
+  position: relative;
+  
 }

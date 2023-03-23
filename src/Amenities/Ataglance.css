@@ -1,15 +1,13 @@
 .grid-ccontainer-element {
   display: grid;
   margin: 0 0 0 0;
-  /* margin-bottom: 50px; */
   grid-gap: 0px;
-  grid-template-columns: 4fr 7fr; 
-  /* background-color: aquamarine; */
+  grid-template-columns: 4fr 7fr;
 }
 .grid-child-element.green.at {
   object-fit: cover;
 }
-.childimage.glance { 
+.childimage.glance {
   object-fit: cover;
 }
 .grid-child-element.purple.at {
@@ -34,17 +32,15 @@
   border-bottom: 2px solid grey;
 }
 .glance.three {
-  /* background-color: pink; */
-  margin-top: 10px;
-  height: 210px;
-  /* padding: 10px 10px 10px; */
+  margin-top: -4px;
+  height: 199px;
   border-bottom: 2px solid grey;
 }
 .glance.four {
   /* background-color: pink; */
-  padding: 10px 10px 10px;
-  /* border-bottom: 2px solid grey; */
-  margin-top: 10px;
+  padding: 5px 10px 10px 7px;
+
+  margin-top: -1px;
 }
 
 @font-face {
@@ -67,9 +63,13 @@
 .amenn {
   font-family: "luxury";
   color: grey;
+  margin-top: -17px;
 }
 .logosection {
-  width: 300px;
+  width: 250px;
+  /* background-color: pink; */
+  margin-left: 20px;
+
 }
 .list-amenities ul {
   text-align: left;
@@ -80,7 +80,7 @@
   margin-top: 5%;
   text-align: left;
   height: 130px;
-  margin-left: -4%;
+  margin-left: -4% auto;
 }
 .list-amenities.four {
   margin-top: 5%;
@@ -100,32 +100,26 @@
 }
 .residence-home-logo-greyy {
   /* background-color: pink; */
-  margin-top: -2%;
-  height: 158px;
-  margin-bottom: -8%;
+  margin-top: 2px auto;
+  height: 148px;
+  margin-bottom: -2px;
 }
-@media all and (max-width: 500px) {
-  .grid-ccontainer-element {
-    display: block;
-  }
-  .amenn {
-    font-family: "luxury";
-    color: grey;
-    font-size: 120%;
-  }
-  .glance.three {
-    /* background-color: pink; */
-    margin-top: 10px;
-    margin-left: -10%;
-    height: 210px;
-    border-bottom: 2px solid grey;
-  }
-  .list-amenities.three {
-    margin-top: 5%;
-    text-align: left;
-    margin-left: -20%;
-  }
-  .grid-child-element.green.at {
-    object-fit: cover;
-  }
+.flexbox-container-ataglance {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.flexbox-item-ataglance1 {
+  flex-grow: 1;
+  width: 200px;
+}
+.flexbox-item-ataglance2 {
+  flex-grow: 1;
+  width: 700px;
+}
+.amennn{
+  color: grey;
+  margin-top: -17px;
+  margin-left: -10px;
 }

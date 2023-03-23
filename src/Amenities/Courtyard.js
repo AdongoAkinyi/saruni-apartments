@@ -1,7 +1,6 @@
 import './Extras.css'
 // import { useNavigate } from "react-router-dom";
-import ChildNav from '../Navbar/ChildNav';
-import {  FaAngleDown } from 'react-icons/fa';
+
 
 
 function Courtyard() {

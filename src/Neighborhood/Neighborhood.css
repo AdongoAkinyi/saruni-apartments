@@ -187,6 +187,7 @@ position: absolute;
 .flexbox-item-neighborhood-1 {
   flex-grow: 1;
   width: 990px;
+  position:relative;
 }
 .landing-page-logo {
   height: 120px;
@@ -194,7 +195,7 @@ position: absolute;
 /* image */
 .neighborhood-profile {
   object-fit: cover;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
 }
 /* BUTTON */
@@ -243,6 +244,7 @@ position: absolute;
   /* background-color: peru; */
   height:120px;
   width:120px;
-  margin-left: 290px;
+  margin: 0 auto;
+  position: relative;
   
 }

@@ -5,7 +5,7 @@ import { useRef } from "react";
 import "./Navbar.css";
 
 function Navbar() {
-  let navigate = useNavigate();
+  let navigate = useNavigate(); 
     const navRef = useRef();
 const showNavbar =()=> {
     navRef.current.classList.toggle("responsive_nav")

@@ -1,4 +1,4 @@
-import { FaAngleUp, FaBars } from 'react-icons/fa'
+import { FaAngleUp } from 'react-icons/fa'
 import ChildNav from '../Navbar/ChildNav'
 import  './NeighMap.css'
 

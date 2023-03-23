@@ -14,8 +14,8 @@ function Sunset() {
       <div>
         <ChildNav />{" "}
       </div>
-      <div class="grid-container-sun">
-        <div class="grid-child purple" style={{ marginRight: "15px" }}>
+      <div class="flexbox-container-sun">
+        <div class="flexbox-item-sun1" style={{ marginRight: "15px" }}>
           <div className="the-sun">
             <img
               src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
@@ -32,7 +32,7 @@ function Sunset() {
             <p className="sunner">Wind down to the sunset on the west</p>
           </div>
 
-          <div className="disclaimer y">
+          <div className="disclaimerr">
             <h4 className="eastward">T H E </h4>
             <h4 className="eastward">W E S T W A R D</h4>
             <h4 className="eastward"> G A R D E N</h4>
@@ -43,7 +43,7 @@ function Sunset() {
           </div>
         </div>
 
-        <div class="grid-child green">
+        <div class="flexbox-item-sun2">
 
         <Carousel infiniteLoop>
                 <div>

@@ -1,6 +1,6 @@
 import './Neighborhood.css'
 import { useNavigate } from "react-router-dom";
-import { FaBars } from 'react-icons/fa';
+// import { FaBars } from 'react-icons/fa';
 
 
 function NeighborhoodHome() {

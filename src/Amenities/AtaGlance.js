@@ -9,8 +9,8 @@ function AtaGlance() {
         <ChildNav />{" "} 
       </div>
       <div className="section1">
-        <div class="grid-ccontainer-element">
-          <div class="grid-child-element purple at">
+        <div class="flexbox-container-ataglance">
+          <div class="flexbox-item-ataglance1 purple at">
             <div className="glance1">
               <h4 className="topper r">
                 A M E N I T I E S <a className="toper"> A T</a>{" "}
@@ -73,7 +73,7 @@ function AtaGlance() {
                   alt="logo"
                 />
 
-                <h1 className="amenn">REJUVENATION</h1>
+                <h1 className="amennn">REJUVENATION</h1>
               </div>
               <div className="list-amenities  four">
                 <ul>
@@ -85,11 +85,11 @@ function AtaGlance() {
             </div>
           </div>
 
-          <div class="grid-child-element green at">
+          <div class="flexbox-item-ataglance2">
             <img
               src="http://www.thesaruni.com/TheSaruniImages/avilability.jpg"
               alt="residence"
-              className="childimage glance"
+              className="neighborhood-profile"
             />
           </div>
         </div>

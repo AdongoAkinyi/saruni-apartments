@@ -1,6 +1,6 @@
 .full-menu {
   background-color: goldenrod;
-  height: 100vh;
+  height: 120vh;
   text-align: center;
   padding: 10px;
 }
@@ -15,7 +15,7 @@
   src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
 }
 .option1 {
-  /* background-color: brown; */
+height: auto;
   margin-top: 190px;
 }
 .mini-topic {
@@ -30,7 +30,8 @@ a {
 @media only screen and (max-width: 600px) {
   .full-menu {
     background-color: goldenrod;
-    height: 100vh;
+    height: 100%;
+
 
   }
   .option1 {
@@ -51,7 +52,8 @@ a {
 @media only screen and (min-width: 600px) {
   .full-menu {
     background-color: goldenrod;
-    height: 100vh;
+    height: 100%;
+
 
   }
   .option1 {
@@ -74,6 +76,8 @@ a {
 @media only screen and (min-width: 768px) {
   .full-menu {
     background-color: goldenrod;
+    height: 100%;
+
   }
 }
 
@@ -81,7 +85,7 @@ a {
 @media only screen and (min-width: 992px) {
   .full-menu {
     background-color: goldenrod;
-    height: 100vh;
+    height: 100%;
   }
   option1 {
     margin-top: -2%;
@@ -100,12 +104,12 @@ a {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .fuller-menu {
-    /* background-color: pink; */
-    height: 100vh;
+    /* background-color: goldenrod; */
+    height: 100% ;
   }
   .full-menu{
     background-color: goldenrod;
-    height: 100vh;
+    height: 100%;
   }
   .option1 {
    margin-top: 2%;
