@@ -43,7 +43,7 @@ function Amenities() {
           <div class="grid-child-element green lobby">
             <img
               src="http://www.thesaruni.com/TheSaruniImages/amenities.jpg"
-              alt="residence"
+              alt="amenities"
               className="childimage"
             />
           </div>

@@ -29,12 +29,11 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/residencehomepage" element={<ResidenceHome />} /> */}
-        {/* <Route path="/amenitieshomepage" element={<AmenitiesHome />} /> */}
-        {/* <Route
-          path="/neighborhoodhomepage"
-          element={<NeighborhoodHome />} 
-        /> */}
+        {/* <Route path="/residencehomepage" element={<ResidenceHome />} />
+        <Route path="/amenitieshomepage" element={<AmenitiesHome />} />
+        <Route path="/neighborhoodhomepage" element={<NeighborhoodHome />} /> */}
+
+        
         {/* RESIDENCE ROURES */}
         <Route path="/residence" element={<Residence />} />
         <Route path="/livingroom" element={<Living />} />

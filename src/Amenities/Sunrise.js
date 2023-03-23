@@ -7,10 +7,11 @@ import { Carousel } from 'react-responsive-carousel';
 
 import Jua from "./Suns/Jua";
 import East from "./Suns/East";
+import { useNavigate } from "react-router-dom";
 
 
 function Sunrise() {
-  // let navigate = useNavigate();
+  let navigate =useNavigate()
 
   return (
     <div className="kubwa-sun">
@@ -59,17 +60,26 @@ function Sunrise() {
                     <p className="legend">View from Outside</p>
                 </div>
             </Carousel>
+            <div
+            className="explore"
+            onClick={() => {
+              navigate("/sunset");
+            }}
+          >
+            <h1
+              className="nav-to"
+              style={{
+                fontWeight: "normal",
+                fontSize: "25px",
+                marginTop: "-23px",
+              }}
+            >
+             SUNSET <FaAngleDown style={{ marginRight: "20px" }} />
+            </h1>
+          </div>
         </div>
 
       </div>
-
-      <section className="explore-section">
-        <h1 className="explorer">
-          <a href="/sunset" className="downarrow">
-            <FaAngleDown />
-          </a>
-        </h1>
-      </section>
     </div>
   );
 }

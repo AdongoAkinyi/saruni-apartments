@@ -11,19 +11,19 @@ function Living() {
   return (
     <div className="kubwa-resident">
       <div>
-        <ChildNav />{" "}
+        <ChildNav />{" "} 
       </div>
       <div className="flexbox-container-living">
         <div className="flexbox-item-living1">
-          <div className="the-residences white">
+          <div className="the-residence-container white">
             <img
               src="https://thesaruni.com/TheSaruniImages/logowhite.png"
               className="residence-home-logo-white"
               alt="logo"
             />
 
-            <h6 className="gold-secition one top">T H E </h6>
-            <h1 className="gold-secition two"> R E S I D E N C E S</h1>
+            <h6 className="them">T H E </h6>
+            <h1 className="them"> R E S I D E N C E S</h1>
           </div>
 
           <div className="sidebar-center">
@@ -54,24 +54,13 @@ function Living() {
             </h4>
           </div>
           <div className="paragraph-bottom-disclaimer">
-            <h4 style={{ marginBottom: "20px" }} id="disclaimer">
+            <h4 id="disclaimer">
               DISCLAIMER
             </h4>
-            <p style={{ fontWeight: "20px" }} id="disclaimer">
-              These 3 & 2 bedroom aparment artistic
-            </p>
-            <p style={{ fontWeight: "20px" }} id="disclaimer">
-              impressions or image renders contained{" "}
-            </p>
-            <p style={{ fontWeight: "20px" }} id="disclaimer">
-              on this website are for illustrative{" "}
-            </p>
-            <p style={{ fontWeight: "20px" }} id="disclaimer">
-              {" "}
-              purposes only and should not be relied
-            </p>
-            <p style={{ fontWeight: "20px" }} id="disclaimer">
-              upon as being complete or accurate
+            <p id="disclaimer">
+              These 3 & 2 bedroom apartment artistic impressions or image
+              renders contained on this website are for illustrative on this
+              website are for illustrative purposes only and should not be relied upon as being complete or accurate
             </p>
           </div> 
         </div>

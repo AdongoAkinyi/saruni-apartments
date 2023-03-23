@@ -4,7 +4,7 @@
 }
 .bedroomr {
   background-image: url("http://www.thesaruni.com/TheSaruniImages/bedright.jpg");
-  height: 100vh;
+  height: 84vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
 }
 .bedrooml {
   background-image: url("http://www.thesaruni.com/TheSaruniImages/bedleft.jpg");
-  height: 100vh;
+  height: 84vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +21,7 @@
 }
 .livingr {
   background-image: url("http://www.thesaruni.com/TheSaruniImages/livingright.jpg");
-  height: 100vh;
+  height: 84vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +29,7 @@
 }
 .livingl {
   background-image: url("http://www.thesaruni.com/TheSaruniImages/livingleft.jpg");
-  height: 100vh;
+  height: 84vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,7 +37,7 @@
 }
 .kitchenl {
   background-image: url("http://www.thesaruni.com/TheSaruniImages/kitchenleft.jpg");
-  height: 100vh;
+  height: 84vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +45,7 @@
 }
 .kitchenr {
   background-image: url("http://www.thesaruni.com/TheSaruniImages/kitchenright.jpg");
-  height: 100vh;
+  height: 84vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

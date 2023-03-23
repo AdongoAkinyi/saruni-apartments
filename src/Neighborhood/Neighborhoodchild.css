@@ -63,8 +63,8 @@
   color: gray;
   height: 290px auto;
   background: rgb(62, 61, 61);
-  padding: 5px;
-  text-align: center;
+  padding: 5px  5px 1px 25px;
+  text-align: left;
 }
 h6.gold-secttion {
   font-size: 18px;
@@ -93,9 +93,10 @@ h1.gold-secttion {
 }
 .contenting {
   margin-top: 20px;
-  height: 180px;
+  height: 90px;
   text-align: left;
   margin-left: 30px;
+  /* background-color: peru; */
  
 
 }
@@ -126,7 +127,6 @@ h1.gold-secttion {
   margin-top: 20px;
 }
 .coddle {
-  margin-top: -65px auto;
   height: 200px;
   padding: 38px 20px 7px 27px;
   /* background-color: pink; */

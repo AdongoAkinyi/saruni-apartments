@@ -10,18 +10,18 @@ function Full() {
       </div>
       <div className="full-menu">
         <div className="option1">
-          <a href="/rotate">
+          <a href="/residence">
             <h1 className="menu-opt">
               {" "}
               <h5 className="mini-topic">THE</h5>R E S I D E N C E S
             </h1>
           </a>
-          <a href="/rotate">
+          <a href="/amenities">
             <h1 className="menu-opt">
               <h5 className="mini-topic">THE</h5> A M E N I T I E S
             </h1>
           </a>
-          <a href="/rotate">
+          <a href="/neighborhood">
             <h1 className="menu-opt">
               <h5 className="mini-topic">THE</h5> N E I G H B O R H O O D
             </h1>

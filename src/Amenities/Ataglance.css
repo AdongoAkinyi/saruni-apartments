@@ -15,7 +15,7 @@
 }
 .glance1 {
   color: gray;
-  height: 220px;
+  height: 150px;
   font-size: 250%;
   background: rgb(59, 57, 57);
   padding: 5px;
@@ -55,7 +55,7 @@
   color: grey;
 }
 .topper.r {
-  margin-top: 90px;
+  margin-top: 40px;
 }
 .toper {
   font-family: "luxury";
@@ -112,6 +112,7 @@
 }
 .flexbox-item-ataglance1 {
   flex-grow: 1;
+  height: 88vh;
   width: 200px;
 }
 .flexbox-item-ataglance2 {

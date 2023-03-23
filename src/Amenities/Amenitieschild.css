@@ -16,7 +16,7 @@
   object-fit: cover;
 }
 .grid-child-element.purn {
- 
+ height: 88vh;
   border: none;
 }
 .grid-child-element.green {

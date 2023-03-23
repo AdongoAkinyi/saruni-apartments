@@ -13,7 +13,7 @@ function InfinityPool() {
   return (
     <div className="kubwaest">
       <div>
-        <ChildNav />{" "}
+        <ChildNav />{" "} 
       </div>
       <section className="section1">
         <div class="griddp-container-element">

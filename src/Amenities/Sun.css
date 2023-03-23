@@ -16,8 +16,9 @@
   color: gray;
   height: 260px;
   background: rgb(62, 61, 61);
-  padding: 5px;
+  padding: 5px 5px  5px 5px;
   text-align: center;
+  margin-right: 20px auto;
 }
 h1.brown-section {
   font-size: 28px;
@@ -33,7 +34,7 @@ h6.brown-section {
   /* background: pink; */
   margin-top: 14px;
   padding: 9px;
-  height: 150px;
+  height: 120px;
   color: goldenrod;
   border-bottom: 2px solid grey;
 }
@@ -45,7 +46,7 @@ h6.brown-section {
 .sunner {
   margin-top: 40px;
   font-family: "luxury";
-  font-size: 270%;
+  font-size: 28px;
 }
 .disclaimer {
   /* background-color: purple; */
@@ -57,7 +58,7 @@ h6.brown-section {
 .disclaimerr {
   /* background-color: purple; */
   height: 180px;
-  padding: 10px 0 10px 5px;
+  padding: 5px 0 10px 5px;
   font-size: 120%;
   margin-top: 30px;
 }
@@ -160,11 +161,11 @@ h6.brown-section {
 
 .flexbox-item-sun1 {
   position: relative;
-  width: 140px;
+  width:120px;
   flex-grow: 1;
 }
 .flexbox-item-sun2 {
-  width: 990px;
+  width: 890px;
   height: 84vh;
   flex-grow: 1;
 }

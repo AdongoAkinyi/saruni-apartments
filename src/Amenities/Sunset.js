@@ -1,5 +1,5 @@
-import { FaAngleDown } from "react-icons/fa";
-// import { useNavigate } from "react-router-dom";
+import { FaAngleDown, FaAngleUp } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 import ChildNav from "../Navbar/ChildNav";
 import "./Sun.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -8,7 +8,7 @@ import Tua from "./Suns/Tua";
 import West from "./Suns/West";
 
 function Sunset() {
-  // let navigate = useNavigate();
+  let navigate = useNavigate();
   return (
     <div className="kubwa-sun">
       <div>
@@ -55,16 +55,27 @@ function Sunset() {
                     <p className="legend">View from Outside</p>
                 </div>
             </Carousel>
+            <div
+            className="explore"
+            onClick={() => {
+              navigate("/menu");
+            }}
+          >
+            <h1
+              className="nav-to"
+              style={{
+                fontWeight: "normal",
+                fontSize: "25px",
+                marginTop: "-23px",
+              }}
+            >
+              GO TO MENU <FaAngleUp style={{ marginRight: "20px" }} />
+            </h1>
+          </div>
         </div>
       </div>
 
-      <section className="explore-section">
-        <h1 className="explorer">
-          <a href="/amenitiesinfinity" className="downarrow">
-            <FaAngleDown />
-          </a>
-        </h1>
-      </section>
+      
     </div>
   );
 }
