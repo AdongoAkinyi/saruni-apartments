@@ -3,7 +3,7 @@ import "./Home.css";
 import { useEffect } from "react";
 import { FaAngleDown } from "react-icons/fa";
 
-
+ 
 function Home() {
   let navigate = useNavigate();
   useEffect(() => {
