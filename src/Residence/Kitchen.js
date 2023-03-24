@@ -8,7 +8,7 @@ import KitchenL from "./Rosel/KitchenL";
 import KitchenR from "./Rosel/KitchenR";
 import { FaAngleUp } from "react-icons/fa";
 
-function Kitchen() {
+function Kitchen() { 
   let navigate = useNavigate();
   return (
     <div className="kubwa-resident">
@@ -56,8 +56,8 @@ function Kitchen() {
             </h4>
           </div>
           <div className="paragraph-bottom-disclaimer">
-            <h4 id="disclaimer">DISCLAIMER</h4>
-            <p id="disclaimer">
+            <h4 id="disclaimer1">DISCLAIMER</h4>
+            <p id="disclaimer2">
               These 3 & 2 bedroom apartment artistic impressions or image
               renders contained on this website are for illustrative on this
               website are for illustrative purposes only and should not be

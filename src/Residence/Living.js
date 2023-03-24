@@ -54,10 +54,10 @@ function Living() {
             </h4>
           </div>
           <div className="paragraph-bottom-disclaimer">
-            <h4 id="disclaimer">
+            <h4 id="disclaimer1">
               DISCLAIMER
             </h4>
-            <p id="disclaimer">
+            <p id="disclaimer2">
               These 3 & 2 bedroom apartment artistic impressions or image
               renders contained on this website are for illustrative on this
               website are for illustrative purposes only and should not be relied upon as being complete or accurate

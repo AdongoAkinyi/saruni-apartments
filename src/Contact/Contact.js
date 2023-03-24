@@ -25,7 +25,7 @@ function Contact() {
               Riverside Strand Property Development Company Ltd.
             </p>
           </div>
-
+ 
           <div className="address">
             <p className="strand">Riverside Drive, Nairobi, Kenya</p>
             <p className="strand">T: +254 759 278 564</p>
