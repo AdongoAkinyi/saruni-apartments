@@ -12,7 +12,7 @@
 .kubwa-sun {
   margin: 0 0 0 0;
 }
-.the-sun {
+.the-sun {  
   color: gray;
   height: 260px;
   background: rgb(62, 61, 61);
@@ -34,7 +34,7 @@ h6.brown-section {
   /* background: pink; */
   margin-top: 14px;
   padding: 9px;
-  height: 120px;
+  height: 101px;
   color: goldenrod;
   border-bottom: 2px solid grey;
 }
@@ -64,8 +64,8 @@ h6.brown-section {
 }
 .eastward {
   font-family: "luxury";
-  font-size: 30px;
-  margin-top: 10px;
+  font-size: 25px;
+  margin-top: 5px;
   color: gray;
   font-weight: bold;
 }

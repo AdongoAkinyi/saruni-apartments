@@ -30,7 +30,7 @@ function Contact() {
             <p className="strand">Riverside Drive, Nairobi, Kenya</p>
             <p className="strand">T: +254 759 278 564</p>
             <p className="strand"> T: +254 745 466 634</p>
-            <p className="strand">E: info@thesaruni.com</p>
+             <p className="strand">E: info@thesaruni.com</p>
             <p className="strand">
               <a href="https://docs.google.com/document/d/1DasoHkLLXmxrDEfAhTiRxhIoHnSIjASt/edit?usp=sharing&ouid=104257712004828164472&rtpof=true&sd=true" className="terms">
                 Terms and Conditions
@@ -57,7 +57,7 @@ function Contact() {
           <img
             src="http://www.thesaruni.com/TheSaruniImages/home.jpg"
             alt="bag"
-            className="neighborhood-profile"
+            className="childimage homeneigh"
           />
         </div>
       </div>

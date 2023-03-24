@@ -19,7 +19,7 @@ function Neighborhood() {
               <img
                 src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
                 className="residence-neigh-logo-grey"
-                alt="logo"
+                alt="logo"  
               />
 
               <h6 className="gold-secttion one">T H E </h6>
@@ -36,7 +36,7 @@ function Neighborhood() {
                 a tranquil refuge located on Nairobi's coveted Riverside Drivee;
                 A secluded preference for embasies, diplomatic organizations and
                 professional companies.
-              </p>
+               </p>
               <p className="coddler bot">
                 Riverside drove is a premium expression of privacy, prestige and
                 convenience.

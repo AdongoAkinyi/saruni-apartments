@@ -63,16 +63,16 @@
   color: gray;
   height: 290px auto;
   background: rgb(62, 61, 61);
-  padding: 5px  5px 1px 25px;
+  padding: 5px  5px 1px 5px;
   text-align: left;
 }
 h6.gold-secttion {
-  font-size: 18px;
+  font-size: 15px;
   margin-top: 30px;
   margin-right: 270px;
 }
 h1.gold-secttion {
-  font-size: 30px;
+  font-size: 28px;
   
   margin-bottom: 30px;
 }
@@ -103,9 +103,9 @@ h1.gold-secttion {
 .exclude {
   color: grey;
   font-family: "luxury";
-  margin-top: 10px;
+  margin-top: 10px; 
   font-size: 30px;
-  padding: 18px 30px 7px 7px;
+  padding: 5px 0px 7px 7px;
 }
 
 .excluder {
@@ -117,18 +117,18 @@ h1.gold-secttion {
   font-family: "luxury";
   text-align: left;
   color: grey;
-  font-size: 20px;
+  font-size: 15px;
   /* background-color: pink; */
 }
 .coddler.bot {
   font-family: "luxury";
   text-align: left;
   color: grey;
-  margin-top: 20px;
+  margin-top: 3px;
 }
 .coddle {
   height: 200px;
-  padding: 38px 20px 7px 27px;
+  padding: 8px 20px 7px 27px;
   /* background-color: pink; */
 
 }

@@ -6,7 +6,7 @@ import { FaAngleDown } from "react-icons/fa";
 function Residence() {
   let navigate = useNavigate();  
   return (
-    <div className="kubwa-resident"> 
+    <div className="kubwa-resident">  
       <div>  
         <ChildNav  />{" "} 
       </div>
@@ -46,7 +46,6 @@ function Residence() {
         <div class="grid-child-element green">
           <img
           src="http://www.thesaruni.com/TheSaruniImages/residenceluxury.jpg"
-            // src="https://i.pinimg.com/564x/a8/c2/42/a8c24292df4428d84fdfe57b6637ef84.jpg"
             alt="residence"
             className="childimage"
           />
