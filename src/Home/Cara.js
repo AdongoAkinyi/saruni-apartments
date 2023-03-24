@@ -112,7 +112,9 @@ function Cara() {
       transitionTime={2000}
       animationHandler={fadeAnimationHandler}
       swipeable={false}
+      
     >
+    
       <ResidenceHome />
       <AmenitiesHome />
       <NeighborhoodHome />

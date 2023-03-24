@@ -12,7 +12,7 @@ function NeighborhoodHome() {
     src='http://www.thesaruni.com/TheSaruniImages/neighborhoodhome.jpg'
       alt="residence"
       className="neighborhood-profile"
-    />
+    /> 
     </div>
 
 

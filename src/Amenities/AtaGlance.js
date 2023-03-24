@@ -89,7 +89,7 @@ function AtaGlance() {
             <img
               src="http://www.thesaruni.com/TheSaruniImages/avilability.jpg"
               alt="residence"
-              className="childimage homeneigh"
+              className="neighborhood-profile"
             />
           </div>
         </div>

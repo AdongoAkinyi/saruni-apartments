@@ -10,10 +10,11 @@
   font-size: 250%;
 }
 .the-residence-container{
+  text-align: left;
   background-color: #efbf3b;
   color: grey;
-  padding: 5px  5px 1px 5px;
-
+  padding: 5px  5px 1px 2px;
+  
 }
 .sidebar-center {
   height: 210px;
@@ -49,7 +50,7 @@
 .paragraph-bottom-disclaimer {
   height: 200px;
   color: rgb(85, 85, 85);
- 
+  
 }
 #disclaimer1 {
   font-family: "luxury";
@@ -108,7 +109,7 @@ h6.them {
   padding-left: 20px;
   font-size: 10px;
   margin-top: -79px;
-  margin-right: 310px;
+  /* margin-right: 310px; */
 }
 h1.them {
   padding-left: 20px;
