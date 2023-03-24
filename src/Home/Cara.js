@@ -28,7 +28,7 @@ const rotateAnimationHandler = (props, state) => {
     transitionDuration: transitionTime,
     msTransitionDuration: transitionTime,
   };
-  return {
+  return { 
     slideStyle,
     selectedStyle: {
       ...slideStyle,
@@ -43,7 +43,7 @@ const rotateAnimationHandler = (props, state) => {
       transform: `rotate(${
         state.previousItem > state.selectedItem ? "-45deg" : "45deg"
       })`,
-      opacity: "0",
+      opacity: "0",  
       filter: `blur( ${
         state.previousItem === state.selectedItem ? "0px" : "5px"
       })`,
@@ -114,7 +114,7 @@ function Cara() {
       swipeable={false}
       
     >
-    
+      
       <ResidenceHome />
       <AmenitiesHome />
       <NeighborhoodHome />

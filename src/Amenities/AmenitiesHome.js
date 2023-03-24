@@ -13,7 +13,7 @@ function AmenitiesHome() {
 <h4 className="reside style">A  </h4>
         <h4 className="reside style"> L I F E S T Y L E </h4>
         <h4
-          className="reside style"
+          className="reside style" 
          
         >
           {" "}

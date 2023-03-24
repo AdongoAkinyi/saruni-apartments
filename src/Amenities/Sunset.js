@@ -48,17 +48,17 @@ function Sunset() {
         <Carousel infiniteLoop>
                 <div>
                     <Tua/>
-                    <p className="legend">View from Outside</p>
+                    <p className="legend" style={{backgroundColor:"goldenrod"}}>View from Outside</p>
                 </div>
                 <div>
                     <West/>
-                    <p className="legend">View from Outside</p>
+                    <p className="legend" style={{backgroundColor:"goldenrod"}}>View from Outside</p>
                 </div>
             </Carousel>
             <div
             className="explore"
             onClick={() => {
-              navigate("/menu");
+              navigate("/amenitiesinfinity");
             }}
           >
             <h1

@@ -69,11 +69,11 @@ function Kitchen() {
           <Carousel infiniteLoop>
             <div>
               <KitchenL />
-              <p className="legend">3 Bedroom apartment kitchen area example</p>
+              <p className="legend" style={{backgroundColor:"goldenrod"}}>3 Bedroom apartment kitchen area example</p>
             </div>
             <div>
               <KitchenR />
-              <p className="legend">2 Bedroom apartment kitchen area example</p>
+              <p className="legend" style={{backgroundColor:"goldenrod"}}>2 Bedroom apartment kitchen area example</p>
             </div>
           </Carousel>
           <div

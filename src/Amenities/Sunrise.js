@@ -53,11 +53,11 @@ function Sunrise() {
         <Carousel infiniteLoop>
                 <div>
                     <Jua/>
-                    <p className="legend">View from Outside</p>
+                    <p className="legend" style={{backgroundColor:"goldenrod"}}>View from Outside</p>
                 </div>
                 <div>
                     <East/>
-                    <p className="legend">View from Outside</p>
+                    <p className="legend" style={{backgroundColor:"goldenrod"}}>View from Outside</p>
                 </div>
             </Carousel>
             <div

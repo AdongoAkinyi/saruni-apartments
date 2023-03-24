@@ -24,7 +24,7 @@ function NeighborhoodHome() {
       <h4 className="reside  ">N A I R O B I ' S </h4>
       <h4
         className="reside  "
-
+ 
       >
         {" "}
         E X C L U S I V E

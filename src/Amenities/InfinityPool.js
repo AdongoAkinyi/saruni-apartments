@@ -1,5 +1,5 @@
-import { FaAngleDown } from "react-icons/fa";
-// import { useNavigate } from "react-router-dom";
+import {  FaAngleUp } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 import ChildNav from "../Navbar/ChildNav";
 import "./Amenitieschild.css";
 import Courtyard from "./Courtyard";
@@ -10,6 +10,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 
 function InfinityPool() {
+  let navigate = useNavigate()
   return (
     <div className="kubwaest">
       <div>
@@ -18,19 +19,19 @@ function InfinityPool() {
       <section className="section1">
         <div class="griddp-container-element">
           <div class="grid-child-element purn">
-            <div className="the-residences">
+            <div className="the-neighboorhoodd">
               <img
                 src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
-                className="residence-home-logo-grey"
+                className="residence-neigh-logo-grey"
                 alt="logo"
               />
 
-              <h6 className="gold-section one">T H E </h6>
-              <h1 className="gold-section two"> A M E N I T I E S</h1>
+              <h6 className="gold-secttionn one">T H E </h6>
+              <h1 className="gold-secttionn two"> A M E N I T I E S</h1>
             </div>
 
             <div className="amenww-3">
-              <div className="ring">
+              <div className="ring"> 
                 <h1 className="careyy">CURATED FOR</h1>
                 <h1 className="careyy">LEISURE, </h1>
                 <h1 className="careyy">WELLNESS AND </h1>
@@ -49,17 +50,34 @@ function InfinityPool() {
           <Carousel infiniteLoop>
                 <div>
                 <Pool/> 
-                    <p className="legend">The pool</p>
+                    <p className="legend"  style={{backgroundColor:"goldenrod"}}>The pool</p>
                 </div>
                 <div>
                 <Courtyard/>
-                    <p className="legend">The Courtyard</p>
+                    <p className="legend"  style={{backgroundColor:"goldenrod"}}>The Courtyard</p>
                 </div>
                 <div>
                 <Gym/>
-                    <p className="legend">The Gym</p>
+                    <p className="legend"  style={{backgroundColor:"goldenrod"}}>The Gym</p>
                 </div>
             </Carousel>
+            <div
+            className="explore"
+            onClick={() => {
+              navigate("/menu");
+            }}
+          >
+            <h1
+              className="nav-to"
+              style={{
+                fontWeight: "normal",
+                fontSize: "25px",
+                marginTop: "-23px",
+              }}
+            >
+              GO TO MENU <FaAngleUp style={{ marginRight: "20px" }} />
+            </h1>
+          </div>
            
           </div>
 
@@ -69,13 +87,7 @@ function InfinityPool() {
         </div>
       </section>
 
-      <section className="explore-section">
-        <h1 className="explorer">
-          <a href="/neighborhood" className="downarrow">
-            <FaAngleDown />
-          </a>
-        </h1>
-      </section>
+      
     </div>
   );
 }

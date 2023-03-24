@@ -10,11 +10,11 @@ function Neighborhood() {
   return (
     <div className="kubwa">
       <div>
-        <ChildNav />{" "}
+        <ChildNav />{" "} 
       </div>
       <section className="section1">
         <div class="grid-coontainer-element">
-          <div class="grid-child-element puple">
+          <div class="grid-child-element puple"> 
             <div className="the-neighboorhood">
               <img
                 src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"

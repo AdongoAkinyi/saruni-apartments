@@ -10,9 +10,9 @@ function Gym() {
    
     
     <div className='amenity1'>
-        <h2 className='gym'>
+        {/* <h2 className='gym'>
             The Gym
-        </h2>
+        </h2> */}
         
     </div>  
    

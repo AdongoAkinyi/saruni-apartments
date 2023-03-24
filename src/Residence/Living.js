@@ -68,11 +68,11 @@ function Living() {
           <Carousel infiniteLoop>
             <div>
               <LivingL />
-              <p className="legend">3  Bedroom apartment living area example</p>
+              <p className="legend" style={{backgroundColor:"goldenrod"}}>3  Bedroom apartment living area example</p>
             </div>
             <div>
               <LivingR />
-              <p className="legend">2  Bedroom apartment living area example</p>
+              <p className="legend" style={{backgroundColor:"goldenrod"}} >2  Bedroom apartment living area example</p>
             </div>
           </Carousel>
         </div>

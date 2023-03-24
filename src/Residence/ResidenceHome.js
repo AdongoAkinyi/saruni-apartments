@@ -18,7 +18,7 @@ function ResidenceHome() {
         >
           {" "}
           I N
-        </h4>
+        </h4> 
         <h4
           className="reside"
           style={{ marginTop: "15px", marginBottom: "15px" }}
