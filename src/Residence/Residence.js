@@ -48,6 +48,8 @@ function Residence() {
           src="http://www.thesaruni.com/TheSaruniImages/residenceluxury.jpg"
             alt="residence"
             className="childimage"
+            loading="lazy"
+
           />
         </div>
       </div>

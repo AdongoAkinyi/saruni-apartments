@@ -49,7 +49,7 @@
 .amenww-3 {
   padding: 6px;
   color: grey;
-  height: 365px; 
+  height: 348px; 
   background: rgb(49, 49, 49);
 }
 /* EXPLORE */
@@ -215,7 +215,6 @@
   .paragraph-infi {
     text-align: center;
     padding: 12px 0px 7px 7px;
-    /* background-color: pink; */
     font-family: "luxury";
   }
 }
@@ -224,14 +223,43 @@
   height: 290px auto;
   background: rgb(234, 184, 58);
   padding: 5px  5px 1px 10px;
-  text-align: left;
+  text-align: center;
 }
 h6.gold-secttionn {
   font-size: 12px;
   margin-top: -30px;
-  /* margin-right: 270px; */
+  text-align: center;
+
 }
 h1.gold-secttionn {
+  text-align: center;
+
   font-size: 30px;
   margin-bottom: 30px;
+}
+
+
+h6.amen-section {
+  font-size: 15px;
+  margin-top: -19%;
+ text-align: left;
+ padding-left: 57px;
+}
+h1.amen-section {
+  font-size: 40px;
+}
+
+
+
+.the-amenities {
+  color: gray;
+  height: 270px;
+  background: #efbf3b;
+  padding: 5px;
+  text-align: center;
+}
+.amenities-home-logo-grey {
+  margin-top: -8%;
+  height: 268px;
+  margin-bottom: 0px;
 }

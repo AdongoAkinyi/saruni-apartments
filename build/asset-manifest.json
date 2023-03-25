@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa086e77.css",
-    "main.js": "/static/js/main.0a0d2c2e.js",
+    "main.css": "/static/css/main.68a51b1c.css",
+    "main.js": "/static/js/main.ff7da93c.js",
     "static/media/FF DIN Pro Regular 2.otf": "/static/media/FF DIN Pro Regular 2.e1e2188b1e558a3129c8.otf",
     "static/media/FF DIN Pro Regular.otf": "/static/media/FF DIN Pro Regular.e1e2188b1e558a3129c8.otf",
     "static/media/Paragone.otf": "/static/media/Paragone.7853b5b46a7a6dab88ba.otf",
@@ -9,11 +9,11 @@
     "static/media/DIN Medium.ttf": "/static/media/DIN Medium.ac50005d97791c65cf3e.ttf",
     "static/media/DIN Black.ttf": "/static/media/DIN Black.4e63ea306282dff65d04.ttf",
     "index.html": "/index.html",
-    "main.fa086e77.css.map": "/static/css/main.fa086e77.css.map",
-    "main.0a0d2c2e.js.map": "/static/js/main.0a0d2c2e.js.map"
+    "main.68a51b1c.css.map": "/static/css/main.68a51b1c.css.map",
+    "main.ff7da93c.js.map": "/static/js/main.ff7da93c.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa086e77.css",
-    "static/js/main.0a0d2c2e.js"
+    "static/css/main.68a51b1c.css",
+    "static/js/main.ff7da93c.js"
   ]
 }

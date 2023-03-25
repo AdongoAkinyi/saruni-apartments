@@ -1,4 +1,3 @@
-import { FaAngleDown } from "react-icons/fa";
 import ChildNav from "./ChildNav";
 import "./Full.css";
 
@@ -29,18 +28,7 @@ function Full() {
           <a href="/availability">
             <h1 className="menu-opt">A V A I L A B I L I T Y</h1>
           </a>
-          
-            <h1 className="menu-opt">VIRTUAL TOUR <FaAngleDown/></h1>
-          
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/I8iI6Oh-OkA"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+          <a href="https://www.youtube.com/embed/I8iI6Oh-OkA" target="_blank" rel="noreferrer" > <h1 className="menu-opt">VIRTUAL TOUR</h1></a>
 
           <h1 className="menu-opt">ABOUT US </h1>
           <a href="/contact">

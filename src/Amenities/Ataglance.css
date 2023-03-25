@@ -37,9 +37,7 @@
   border-bottom: 2px solid grey;
 }
 .glance.four {
-  /* background-color: pink; */
   padding: 5px 10px 10px 7px;
-
   margin-top: -1px;
 }
 
@@ -61,15 +59,26 @@
   font-family: "luxury";
 }
 .amenn {
+  /* background-color: peru; */
   font-family: "luxury";
   color: grey;
   margin-top: -17px;
 }
 .logosection {
   width: 250px;
-  /* background-color: pink; */
   margin-left: 20px;
+  /* background-color: palegreen; */
+}
+.logosection.well {
+  width: 189px;
+  margin-left: 20px;
+  /* background-color: palegreen; */
+}
 
+.logosection.rej {
+  width: 189px;
+  margin-left: 20px;
+  /* background-color: palegreen; */
 }
 .list-amenities ul {
   text-align: left;
@@ -81,11 +90,13 @@
   text-align: left;
   height: 130px;
   margin-left: -4% auto;
+  /* background-color: pink; */
 }
 .list-amenities.four {
   margin-top: 5%;
   text-align: left;
   height: 190px;
+  /* background-color: pink; */
 }
 .list-amenities.two {
   /* background-color: pink; */
@@ -122,5 +133,5 @@
 .amennn{
   color: grey;
   margin-top: -17px;
-  margin-left: -10px;
+  margin-left: -19px;
 }

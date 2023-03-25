@@ -1,4 +1,4 @@
-import { FaAngleDown, FaAngleUp } from "react-icons/fa";
+import { FaAngleUp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import ChildNav from "../Navbar/ChildNav";
 import "./Sun.css";
@@ -69,7 +69,8 @@ function Sunset() {
                 marginTop: "-23px",
               }}
             >
-              GO TO MENU <FaAngleUp style={{ marginRight: "20px" }} />
+             EXPLORE  MORE 
+             {/* <FaAngleUp style={{ marginRight: "20px" }} /> */}
             </h1>
           </div>
         </div>

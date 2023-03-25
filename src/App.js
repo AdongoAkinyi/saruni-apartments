@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Amenities from "./Amenities/Amenities";
-import AmenitiesHome from "./Amenities/AmenitiesHome";
+// import AmenitiesHome from "./Amenities/AmenitiesHome";
 import AtaGlance from "./Amenities/AtaGlance";
 import Courtyard from "./Amenities/Courtyard";
 import Gym from "./Amenities/Gym";
@@ -11,28 +11,26 @@ import Availability from "./Availability/Availability";
 import Home from "./Home/Home";
 import Full from "./Navbar/Full";
 import Neighborhood from "./Neighborhood/Neighborhood";
-import NeighborhoodHome from "./Neighborhood/NeighborhoodHome";
+// import NeighborhoodHome from "./Neighborhood/NeighborhoodHome";
 import NeighborMap from "./Neighborhood/NeighborMap";
 import Bedroom from "./Residence/Bedroom";
 import Kitchen from "./Residence/Kitchen";
 import Living from "./Residence/Living";
 import Residence from "./Residence/Residence";
-import ResidenceHome from "./Residence/ResidenceHome";
+// import ResidenceHome from "./Residence/ResidenceHome";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 import Cara from "./Home/Cara";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import Contact from "./Contact/Contact";
+
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/residencehomepage" element={<ResidenceHome />} />
-        <Route path="/amenitieshomepage" element={<AmenitiesHome />} />
-        <Route path="/neighborhoodhomepage" element={<NeighborhoodHome />} /> */}
-
+ 
         
         {/* RESIDENCE ROURES */}
         <Route path="/residence" element={<Residence />} />

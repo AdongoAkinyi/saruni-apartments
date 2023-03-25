@@ -1,8 +1,8 @@
 import "./Amenities.css";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 function AmenitiesHome() {
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
 
   return ( 
     <div className="flexbox-container-amenity">
@@ -39,23 +39,24 @@ function AmenitiesHome() {
           connoisseur
         </h5>
 
-        <button
+        {/* <button
           onClick={() => {
             navigate("/amenities");
           }}
           className="button-46"
         >
           THE AMENITIES
-        </button> 
+        </button>  */}
       </div>
       <div className="flexbox-item-amenity-2">
       <img
         src="http://www.thesaruni.com/TheSaruniImages/rover.jpg"
           alt="residence"
           className="amenity-profile"
+          loading="lazy"
         />
       </div>
-    </div>
+    </div> 
   );
 }
 

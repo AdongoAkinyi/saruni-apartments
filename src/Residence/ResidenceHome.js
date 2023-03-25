@@ -1,8 +1,8 @@
 import "./Resident.css";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 function ResidenceHome() {
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
 
   return (
     <div className="flexbox-container-resident">
@@ -35,20 +35,22 @@ function ResidenceHome() {
           {" "}
           uninterrupted views
         </h5>
-        <button
+        {/* <button
           onClick={() => {
             navigate("/residence ");
           }}
           className="button-46"
         >
           THE RESIDENCES
-        </button>
+        </button> */}
       </div>
       <div className="flexbox-item-resident-2">
         <img
           src="http://www.thesaruni.com/TheSaruniImages/residencehome.jpg"
           alt="residence"
           className="residence-profile"
+          loading="lazy"
+
         />
       </div>
     </div>

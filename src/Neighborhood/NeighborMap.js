@@ -48,6 +48,8 @@ function NeighborMap() {
           src='http://www.thesaruni.com/TheSaruniImages/map.jpg'
             alt="residence"
             className="map"
+            loading="lazy"
+
           />
         </div>
         

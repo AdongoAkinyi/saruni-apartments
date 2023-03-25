@@ -1,10 +1,9 @@
 import './Neighborhood.css'
-import { useNavigate } from "react-router-dom";
 // import { FaBars } from 'react-icons/fa';
 
 
 function NeighborhoodHome() {
-    let navigate = useNavigate();
+  
   return (
     <div className="flexbox-container-neighborhood">
     <div className="flexbox-item-neighborhood-1">
@@ -12,6 +11,8 @@ function NeighborhoodHome() {
     src='http://www.thesaruni.com/TheSaruniImages/neighborhoodhome.jpg'
       alt="residence"
       className="neighborhood-profile"
+      loading="lazy"
+
     /> 
     </div>
 
@@ -40,14 +41,14 @@ function NeighborhoodHome() {
       <h5 className="reside-paragraph" style={{marginTop:"15px"}}>A statement of luxury and prestige </h5>
      
   
-      <button
+      {/* <button
         onClick={() => {
           navigate("/neighborhood");
         }}
         className="button-46"
       >
         THE NEIGHBORHOOD
-      </button>
+      </button> */}
     </div>
   </div>
   )

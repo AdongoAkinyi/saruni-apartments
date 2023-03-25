@@ -1,7 +1,7 @@
 {
-  "name": "the_saruni",
-  "homepage": "http://www.thesaruni.com/",
+  "name": "saruni",
   "version": "0.1.0",
+  "homepage": "https://testdeploy.thesaruni.com/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

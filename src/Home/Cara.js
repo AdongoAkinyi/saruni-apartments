@@ -4,6 +4,10 @@ import React, { useEffect } from "react";
 import NeighborhoodHome from "../Neighborhood/NeighborhoodHome";
 import AmenitiesHome from "../Amenities/AmenitiesHome";
 import ResidenceHome from "../Residence/ResidenceHome";
+import { FaAngleRight } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
+import  './Home.css'
+
 
 const rotateAnimationHandler = (props, state) => {
   const transitionTime = props.transitionTime + "ms";
@@ -103,11 +107,29 @@ function Cara() {
       sessionStorage.setItem("numberReloaded", 2);
     }
   }, []);
-
+let  navigate = useNavigate()
   return (
-    <Carousel
+    <div>
+     <div
+            className="explore"
+            onClick={() => {
+              navigate("/menu");
+            }}
+          >
+            <h1
+              className="nav-to"
+              style={{
+                fontWeight: "normal",
+                fontSize: "25px",
+                
+              }}
+            >
+              GO TO MENU <FaAngleRight className="right-menu" />
+            </h1>
+          </div>
+       <Carousel
       autoPlay={true}
-      infiniteLoop
+      infiniteLoop ={true} 
       interval={4000}
       transitionTime={2000}
       animationHandler={fadeAnimationHandler}
@@ -119,6 +141,8 @@ function Cara() {
       <AmenitiesHome />
       <NeighborhoodHome />
     </Carousel>
+    </div>
+   
   );
 }
 

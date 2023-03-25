@@ -9,6 +9,7 @@ function Home() {
   useEffect(() => {
     sessionStorage.setItem("numberReloaded", 1);
   }, []);
+  
   return (
     <div>
    
@@ -39,7 +40,7 @@ function Home() {
         {/* <h3 className="riverside-drive-nairobi">RIVERSIDE DRIVE NAIROBI</h3> */}
       </div>
     </div>
-  
+   
   );
 }
 

@@ -33,7 +33,7 @@ function Neighborhood() {
             <div className="coddle">
               <p className="coddler">
                 Coddled by nature on the edge of Nairobi River, 'The Saruni', is
-                a tranquil refuge located on Nairobi's coveted Riverside Drivee;
+                a tranquil refuge located on Nairobi's coveted Riverside Drive;
                 A secluded preference for embasies, diplomatic organizations and
                 professional companies.
                </p>
@@ -49,6 +49,8 @@ function Neighborhood() {
               src="http://www.thesaruni.com/TheSaruniImages/neigbourhood.jpg"
               alt="residence"
               className="childimage homeneigh"
+              loading="lazy"
+
             />
           </div>
         </div>

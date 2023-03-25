@@ -7,21 +7,21 @@ function Amenities() {
   // let navigate = useNavigate();
   return (
     <div className="kubwaest">
-      <div>
+      <div> 
         <ChildNav />{" "}
       </div>
       <section className="section1">
         <div class="gridd-container-element">
           <div class="grid-child-element purn">
-            <div className="the-residences ties">
+            <div className="the-amenities ties">
               <img
                 src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
-                className="residence-home-logo-grey"
+                className="amenities-home-logo-grey"
                 alt="logo"
               />
 
-              <h6 className="gold-section one">T H E </h6>
-              <h1 className="gold-section two"> A M E N I T I E S</h1>
+              <h6 className="amen-section one">T H E </h6>
+              <h1 className="amen-section two"> A M E N I T I E S</h1>
             </div>
 
             <div className="amenw-3">
@@ -45,6 +45,8 @@ function Amenities() {
               src="http://www.thesaruni.com/TheSaruniImages/amenities.jpg"
               alt="amenities"
               className="childimage"
+              loading="lazy"
+
             />
           </div>
         </div>

@@ -13,10 +13,10 @@ function AtaGlance() {
           <div class="flexbox-item-ataglance1 purple at">
             <div className="glance1">
               <h4 className="topper r">
-                A M E N I T I E S <a className="toper"> A T</a>{" "}
+                AMENITIES AT  {" "}
               </h4>
               <h4 className="topper">
-                <a className="toper">A </a> G L A N C E
+                <a className="toper">A </a> GLANCE
               </h4>
             </div>
 
@@ -47,7 +47,7 @@ function AtaGlance() {
             </div>
 
             <div className="glance three">
-              <div className="logosection">
+              <div className="logosection well">
                 <img
                   src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
                   className="residence-home-logo-greyy"
@@ -66,7 +66,7 @@ function AtaGlance() {
             </div>
 
             <div className="glance four">
-              <div className="logosection">
+              <div className="logosection rej">
                 <img
                   src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
                   className="residence-home-logo-greyy"
