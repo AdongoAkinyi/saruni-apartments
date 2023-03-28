@@ -12,9 +12,8 @@
 .the-residence-container{
   text-align: left;
   background-color: #efbf3b;
-  color: grey;
-  padding: 5px  5px 1px 2px;
-  
+  color: grey; 
+  padding: 5px  5px 1px 2px; 
 }
 .sidebar-center {
   height: 210px;
@@ -99,12 +98,7 @@
   padding-bottom: 10px;
   text-align: right;
 }
-.residence-home-logo-white {
-  height: 290px;
-  width: 310px;
-  padding-bottom: -6px;
-  position: relative;
-}
+
 h6.them {
   padding-left: 20px;
   font-size: 10px;
@@ -144,4 +138,11 @@ h1.them {
 }
 .the-residences.white{
   margin-right: 10px;
+}
+
+.residence-home-logo-white {
+  margin-top: -12px;
+  height: 288px; 
+  margin-bottom: -36px;
+  position: relative;
 }

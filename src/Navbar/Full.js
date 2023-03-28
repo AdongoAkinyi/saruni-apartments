@@ -32,7 +32,7 @@ function Full() {
 
           <h1 className="menu-opt">ABOUT US </h1>
           <a href="/contact">
-            <h1 className="menu-opt">GET IN TOUCH</h1>
+            <h1 className="menu-opt">CONTACT</h1>
           </a>
         </div>
       </div>

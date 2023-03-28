@@ -13,15 +13,15 @@ function Amenities() {
       <section className="section1">
         <div class="gridd-container-element">
           <div class="grid-child-element purn">
-            <div className="the-amenities ties">
+            <div className="the-neighboorhoodd">
               <img
                 src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
-                className="amenities-home-logo-grey"
+                className="residence-neigh-logo-grey"
                 alt="logo"
               />
 
-              <h6 className="amen-section one">T H E </h6>
-              <h1 className="amen-section two"> A M E N I T I E S</h1>
+              <h6 className="gold-secttionn one">T H E </h6>
+              <h1 className="gold-secttionn one"> A M E N I T I E S</h1>
             </div>
 
             <div className="amenw-3">

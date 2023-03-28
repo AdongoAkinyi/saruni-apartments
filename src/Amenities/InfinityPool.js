@@ -1,14 +1,14 @@
 import { FaAngleUp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import ChildNav from "../Navbar/ChildNav";
-import "./Amenitieschild.css";
+import "./Amenitieschild.css"; 
 import Courtyard from "./Courtyard";
 import Gym from "./Gym";
 import Pool from "./Pool";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
-function InfinityPool() {
+function InfinityPool() { 
   let navigate = useNavigate();
   return (
     <div className="kubwaest">
@@ -49,7 +49,7 @@ function InfinityPool() {
               <div>
                 <Pool />
                 <p className="legend" style={{ backgroundColor: "goldenrod" }}>
-                  The pool
+                The heated infinity swimming pool
                 </p>
               </div>
               <div>

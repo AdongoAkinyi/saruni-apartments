@@ -3,7 +3,7 @@ import "./Amenities.css";
 
 function AmenitiesHome() {
   // let navigate = useNavigate();
-
+ 
   return ( 
     <div className="flexbox-container-amenity">
       <div className="flexbox-item-amenity-1">
@@ -11,16 +11,22 @@ function AmenitiesHome() {
   <img src="https://thesaruni.com/images/SaruniLogo.png" alt="Logo"/>
 </div>
 <h4 className="reside style">A  </h4>
-        <h4 className="reside style"> L I F E S T Y L E </h4>
+        <h4 className="reside style"
+                  style={{ marginTop: "15px", marginBottom: "15px" }}
+
+        > L I F E S T Y L E </h4>
         <h4
           className="reside style" 
-         
+          style={{ marginTop: "15px", marginBottom: "15px" }}
+
         >
           {" "}
           M E T I C U L O U S L Y
         </h4>
         <h4
           className="reside style"
+          style={{ marginTop: "15px", marginBottom: "15px" }}
+
       
         >
           {" "}
@@ -33,6 +39,7 @@ function AmenitiesHome() {
         </h5>
         <h5
           className="reside-paragraph disc"
+          style={{ marginTop: "15px", marginBottom: "15px" }}
           
         >
           {" "}

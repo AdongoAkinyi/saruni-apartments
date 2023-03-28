@@ -17,15 +17,15 @@ function Kitchen() {
       </div>
       <div className="flexbox-container-living">
         <div className="flexbox-item-living1">
-          <div className="the-residence-container white">
+          <div className="the-neighboorhoodd">
             <img
               src="https://thesaruni.com/TheSaruniImages/logowhite.png"
               className="residence-home-logo-white"
               alt="logo"
             />
 
-            <h6 className="them">T H E </h6>
-            <h1 className="them"> R E S I D E N C E S</h1>
+            <h6 className="gold-secttionn one">T H E </h6>
+            <h1 className="gold-secttionn one"> R E S I D E N C E S</h1>
           </div>
 
           <div className="sidebar-center">

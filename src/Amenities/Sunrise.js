@@ -57,7 +57,7 @@ function Sunrise() {
                 </div>
                 <div>
                     <East/>
-                    <p className="legend" style={{backgroundColor:"goldenrod"}}>View from Outside</p>
+                    <p className="legend" style={{backgroundColor:"goldenrod"}}>View from Within</p>
                 </div>
             </Carousel>
             <div

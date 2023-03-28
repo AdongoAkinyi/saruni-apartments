@@ -6,8 +6,7 @@ import AmenitiesHome from "../Amenities/AmenitiesHome";
 import ResidenceHome from "../Residence/ResidenceHome";
 import { FaAngleRight } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import  './Home.css'
-
+import "./Home.css";
 
 const rotateAnimationHandler = (props, state) => {
   const transitionTime = props.transitionTime + "ms";
@@ -20,7 +19,7 @@ const rotateAnimationHandler = (props, state) => {
     MozTransitionTimingFunction: transitionTimingFunction,
     WebkitTransitionTimingFunction: transitionTimingFunction,
     OTransitionTimingFunction: transitionTimingFunction,
-    transform: `slide`,
+    transform: `rotate(0)`,
     position:
       state.previousItem === state.selectedItem ? "relative" : "absolute",
     inset: "0 0 0 0",
@@ -32,7 +31,7 @@ const rotateAnimationHandler = (props, state) => {
     transitionDuration: transitionTime,
     msTransitionDuration: transitionTime,
   };
-  return { 
+  return {
     slideStyle,
     selectedStyle: {
       ...slideStyle,
@@ -47,13 +46,14 @@ const rotateAnimationHandler = (props, state) => {
       transform: `rotate(${
         state.previousItem > state.selectedItem ? "-45deg" : "45deg"
       })`,
-      opacity: "0",  
+      opacity: "0",
       filter: `blur( ${
         state.previousItem === state.selectedItem ? "0px" : "5px"
       })`,
     },
   };
 };
+
 
 const fadeAnimationHandler = (props, state) => {
   const transitionTime = props.transitionTime + "ms";
@@ -107,42 +107,40 @@ function Cara() {
       sessionStorage.setItem("numberReloaded", 2);
     }
   }, []);
-let  navigate = useNavigate()
+  let navigate = useNavigate();
   return (
     <div>
-     <div
-            className="explore"
-            onClick={() => {
-              navigate("/menu");
-            }}
-          >
-            <h1
-              className="nav-to"
-              style={{
-                fontWeight: "normal",
-                fontSize: "25px",
-                
-              }}
-            >
-              GO TO MENU <FaAngleRight className="right-menu" />
-            </h1>
-          </div>
-       <Carousel
-      autoPlay={true}
-      infiniteLoop ={true} 
-      interval={4000}
-      transitionTime={2000}
-      animationHandler={fadeAnimationHandler}
-      swipeable={false}
-      
-    >
-      
-      <ResidenceHome />
-      <AmenitiesHome />
-      <NeighborhoodHome />
-    </Carousel>
+     
+      <Carousel
+        autoPlay={true}
+        infiniteLoop={true}
+        interval={4000}
+        transitionTime={2000}
+        animationHandler={fadeAnimationHandler}
+        swipeable={false}
+      >
+        <ResidenceHome />
+        <AmenitiesHome />
+        <NeighborhoodHome />
+      </Carousel>
+      <div
+        className="explore"
+        onClick={() => {
+          navigate("/menu");
+        }}
+      >
+        <h1
+          className="nav-to"
+          style={{
+            fontWeight: "normal",
+            fontSize: "28px",
+            marginTop:"-30px"
+          }}
+        >
+          GO TO MENU <FaAngleRight className="right-menu" />
+        </h1>
+      </div>
     </div>
-   
   );
 }
 

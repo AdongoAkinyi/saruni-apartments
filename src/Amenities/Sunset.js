@@ -1,4 +1,4 @@
-import { FaAngleUp } from "react-icons/fa";
+
 import { useNavigate } from "react-router-dom";
 import ChildNav from "../Navbar/ChildNav";
 import "./Sun.css";
@@ -52,7 +52,7 @@ function Sunset() {
                 </div>
                 <div>
                     <West/>
-                    <p className="legend" style={{backgroundColor:"goldenrod"}}>View from Outside</p>
+                    <p className="legend" style={{backgroundColor:"goldenrod"}}>View from Within</p>
                 </div>
             </Carousel>
             <div

@@ -16,7 +16,7 @@ function AtaGlance() {
                 AMENITIES AT  {" "}
               </h4>
               <h4 className="topper">
-                <a className="toper">A </a> GLANCE
+                <a className="toper" href="/ataglance" style={{color:"grey"}}>A </a> GLANCE
               </h4>
             </div>
 

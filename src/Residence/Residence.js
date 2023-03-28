@@ -8,18 +8,18 @@ function Residence() {
   return (
     <div className="kubwa-resident">  
       <div>  
-        <ChildNav  />{" "} 
+        <ChildNav  />{" "}  
       </div>
       <div className="section1">
       <div class="grid-resident-element">
         <div class="grid-child-purple">
-          <div className="the-residences room">
+          <div className="the-neighboorhoodd">
           <img  
           src="http://www.thesaruni.com/TheSaruniImages/logogrey.png" 
-          className="residence-home-logo-grey" alt="logo"/>
+          className="residence-neigh-logo-grey" alt="logo"/>
  
-         <h6 className="gold-section one">T H E </h6>
-            <h1 className="gold-section two"> R E S I D E N C E S</h1> 
+         <h6 className="gold-secttionn one">T H E </h6>
+            <h1 className="gold-secttionn one"> R E S I D E N C E S</h1> 
           </div>
           
           <div className="contentarea">
@@ -40,7 +40,7 @@ function Residence() {
               With uninterrupted views from each appartments, 'The Saruni' at
               Riverside Drive, is a modern interpretation of contemporary luxury
               specifically designed to enhance your living exparience
-            </p>
+            </p> 
           </div>
         </div>
         <div class="grid-child-element green">

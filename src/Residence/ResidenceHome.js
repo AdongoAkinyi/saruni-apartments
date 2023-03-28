@@ -10,13 +10,13 @@ function ResidenceHome() {
         <div class="logo">
           <img src="https://thesaruni.com/images/SaruniLogo.png" alt="Logo" />
         </div>
-
+ 
         <h4 className="reside">R E S I D E </h4>
         <h4
           className="reside"
           style={{ marginTop: "15px", marginBottom: "15px" }}
         >
-          {" "}
+          {" "} 
           I N
         </h4> 
         <h4

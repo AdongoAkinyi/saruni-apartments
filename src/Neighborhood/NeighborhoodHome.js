@@ -22,16 +22,21 @@ function NeighborhoodHome() {
     <div class="logo2" >
 <img src="https://thesaruni.com/images/SaruniLogo.png" alt="Logo"/>
 </div>
-      <h4 className="reside  ">N A I R O B I ' S </h4>
+      <h4 className="reside  "
+      
+      >N A I R O B I ' S </h4>
       <h4
         className="reside  "
- 
+        style={{ marginTop: "15px", marginBottom: "15px" }}
+
       >
         {" "}
         E X C L U S I V E
       </h4>
       <h4
         className="reside  "
+        style={{ marginTop: "15px", marginBottom: "15px" }}
+
       
       >
         {" "} 
