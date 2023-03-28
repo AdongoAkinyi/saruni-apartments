@@ -18,7 +18,7 @@ function Sunset() {
         <div class="flexbox-item-sun1" style={{ marginRight: "15px" }}>
           <div className="the-sun">
             <img
-              src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
+              src="http://testdeploy.thesaruni.com/SaruniLogo.png"
               className="residence-home-logo-grey spec"
               alt="logo"
             />
@@ -48,11 +48,11 @@ function Sunset() {
         <Carousel infiniteLoop>
                 <div>
                     <Tua/>
-                    <p className="legend" style={{backgroundColor:"goldenrod"}}>View from Outside</p>
+                    <p className="legend" style={{backgroundColor:"goldenrod" ,fontSize:"15px"}}>View from Outside</p>
                 </div>
                 <div>
                     <West/>
-                    <p className="legend" style={{backgroundColor:"goldenrod"}}>View from Within</p>
+                    <p className="legend" style={{backgroundColor:"goldenrod" ,fontSize:"15px"}}>View from Within</p>
                 </div>
             </Carousel>
             <div

@@ -2,7 +2,7 @@
     color: white;
   }
   .sunr {
-    background-image: url("http://www.thesaruni.com/TheSaruniImages/wakeupright.jpg");
+    background-image: url("http://testdeploy.thesaruni.com/wakeupright.jpg");
     height: 84vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
   
   } 
   .sunl {
-    background-image: url("http://www.thesaruni.com/TheSaruniImages/wakeupleft.jpg");
+    background-image: url("http://testdeploy.thesaruni.com/wakeupleft.jpg");
     height: 84vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@
     color: white;
   }
   .downr {
-    background-image: url("http://www.thesaruni.com/TheSaruniImages/sundownright.jpg");
+    background-image: url("http://testdeploy.thesaruni.com/sundownright.jpg");
     height: 84vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@
     color: white;
   }
   .downl {
-    background-image: url("http://www.thesaruni.com/TheSaruniImages/sundownledt.jpg");
+    background-image: url("http://testdeploy.thesaruni.com/sundownledt.jpg");
     height: 84vh;
     background-position: center center;
     background-repeat: no-repeat;

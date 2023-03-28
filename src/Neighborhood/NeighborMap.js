@@ -45,12 +45,12 @@ function NeighborMap() {
         </div>
         <div class="grid-child-element green">
           <img
-          src='http://www.thesaruni.com/TheSaruniImages/map.jpg'
+          src='https://testdeploy.thesaruni.com/map.jpg'
             alt="residence"
             className="map"
             loading="lazy"
 
-          />
+          /> 
         </div>
         
       </div>

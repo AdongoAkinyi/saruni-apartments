@@ -15,7 +15,7 @@ const showNavbar =()=> {
       <header className="header">
         <img
           className="navbar-logo"
-          src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
+          src="http://testdeploy.thesaruni.com/SaruniLogo.png"
           alt="logo"
           onClick={() => {
             navigate("/");

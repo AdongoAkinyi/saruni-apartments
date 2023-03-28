@@ -8,7 +8,7 @@ function NeighborhoodHome() {
     <div className="flexbox-container-neighborhood">
     <div className="flexbox-item-neighborhood-1">
     <img
-    src='http://www.thesaruni.com/TheSaruniImages/neighborhoodhome.jpg'
+    src='http://testdeploy.thesaruni.com/neighborhoodhome.jpg'
       alt="residence"
       className="neighborhood-profile"
       loading="lazy"
@@ -20,7 +20,7 @@ function NeighborhoodHome() {
     <div className="flexbox-item-neighborhood-2">
 
     <div class="logo2" >
-<img src="https://thesaruni.com/images/SaruniLogo.png" alt="Logo"/>
+<img src="http://testdeploy.thesaruni.com/SaruniLogo.png" alt="Logo"/>
 </div>
       <h4 className="reside  "
       

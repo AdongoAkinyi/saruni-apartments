@@ -15,7 +15,7 @@ function Amenities() {
           <div class="grid-child-element purn">
             <div className="the-neighboorhoodd">
               <img
-                src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
+                src="http://testdeploy.thesaruni.com/logogrey.png"
                 className="residence-neigh-logo-grey"
                 alt="logo"
               />
@@ -42,7 +42,7 @@ function Amenities() {
 
           <div class="grid-child-element green lobby">
             <img
-              src="http://www.thesaruni.com/TheSaruniImages/amenities.jpg"
+              src="http://testdeploy.thesaruni.com/amenities.jpg"
               alt="amenities"
               className="childimage"
               loading="lazy"

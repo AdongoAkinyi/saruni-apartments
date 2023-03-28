@@ -9,7 +9,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} 
 .grid-child-element.purple {
   background-color: #7c7774;
   text-align: center;
@@ -63,6 +63,7 @@
   color: gray;
   height: 290px auto;
   background: rgb(62, 61, 61);
+
   padding: 5px  5px 1px 5px;
   text-align: left;
 }
@@ -71,9 +72,9 @@ h6.gold-secttion {
   margin-top: 30px;
   /* margin-right: 270px; */
 }
-h1.gold-secttion {
+h1.gold-secttionnh {
+  text-align: center;
   font-size: 28px;
-  
   margin-bottom: 30px;
 }
 .gold-secttion {
@@ -131,6 +132,32 @@ h1.gold-secttion {
   /* background-color: pink; */
 
 }
+
+/* neigh bt sect */
+.coddlernature {
+  font-family: "luxury";
+  text-align: left;
+  color: grey;
+  font-size: 20px;
+  /* background-color: pink; */
+  padding: 25px 5px 5px 5px;
+}
+.coddlernature.botn {
+  font-family: "luxury";
+  text-align: left;
+  color: grey;
+  margin-top: 10px;
+  /* background-color: pink; */
+  padding: 35px 5px 5px 5px;
+
+}
+.coddlenature {
+  height: 210px;
+  padding: 14px 20px 7px 27px;
+  /* background-color: pink; */
+
+}
+
 
 .downarrow.jir{
   font-family: 'luxury';

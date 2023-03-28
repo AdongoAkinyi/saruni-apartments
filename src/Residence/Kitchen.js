@@ -19,7 +19,7 @@ function Kitchen() {
         <div className="flexbox-item-living1">
           <div className="the-neighboorhoodd">
             <img
-              src="https://thesaruni.com/TheSaruniImages/logowhite.png"
+              src="http://testdeploy.thesaruni.com/logowhite.png"
               className="residence-home-logo-white"
               alt="logo"
             />

@@ -20,7 +20,7 @@ function InfinityPool() {
           <div class="grid-child-element purn">
             <div className="the-neighboorhoodd">
               <img
-                src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
+                src="http://testdeploy.thesaruni.com/logogrey.png"
                 className="residence-neigh-logo-grey"
                 alt="logo"
               />
@@ -48,19 +48,19 @@ function InfinityPool() {
             <Carousel infiniteLoop>
               <div>
                 <Pool />
-                <p className="legend" style={{ backgroundColor: "goldenrod" }}>
+                <p className="legend" style={{ backgroundColor: "goldenrod"  ,fontSize:"15px"}}>
                 The heated infinity swimming pool
                 </p>
               </div>
               <div>
                 <Courtyard />
-                <p className="legend" style={{ backgroundColor: "goldenrod" }}>
+                <p className="legend" style={{ backgroundColor: "goldenrod"  ,fontSize:"15px"}}>
                   The Courtyard
                 </p>
               </div>
               <div>
                 <Gym />
-                <p className="legend" style={{ backgroundColor: "goldenrod" }}>
+                <p className="legend" style={{ backgroundColor: "goldenrod" ,fontSize:"15px" }}>
                   The Gym
                 </p>
               </div>

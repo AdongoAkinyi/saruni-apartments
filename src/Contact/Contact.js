@@ -11,7 +11,7 @@ function Contact() {
         <div class="flexbox-item-contact1">
           <div className="the-address">
             <img
-              src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
+              src="http://testdeploy.thesaruni.com/SaruniLogo.png"
               className="residence-home-logo-grey spec"
               alt="logo"
             />
@@ -55,7 +55,7 @@ function Contact() {
 
         <div class="flexbox-item-contact2">
           <img
-            src="http://www.thesaruni.com/TheSaruniImages/home.jpg"
+            src="http://testdeploy.thesaruni.com/home.jpg"
             alt="bag"
             className="childimage homeneigh"
           />

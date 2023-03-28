@@ -23,7 +23,7 @@ function AtaGlance() {
             <div className="glance two">
               <div className="logosection">
                 <img
-                  src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
+                  src="http://testdeploy.thesaruni.com/logogrey.png"
                   className="residence-home-logo-greyy"
                   alt="logo"
                 />
@@ -49,7 +49,7 @@ function AtaGlance() {
             <div className="glance three">
               <div className="logosection well">
                 <img
-                  src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
+                  src="http://testdeploy.thesaruni.com/logogrey.png"
                   className="residence-home-logo-greyy"
                   alt="logo"
                 />
@@ -68,7 +68,7 @@ function AtaGlance() {
             <div className="glance four">
               <div className="logosection rej">
                 <img
-                  src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
+                  src="http://testdeploy.thesaruni.com/logogrey.png"
                   className="residence-home-logo-greyy"
                   alt="logo"
                 />
@@ -87,7 +87,7 @@ function AtaGlance() {
 
           <div class="flexbox-item-ataglance2">
             <img
-              src="http://www.thesaruni.com/TheSaruniImages/avilability.jpg"
+              src="http://testdeploy.thesaruni.com/avilability.jpg"
               alt="residence"
               className="neighborhood-profile"
             />

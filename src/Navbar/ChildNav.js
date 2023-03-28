@@ -17,7 +17,7 @@ function ChildNav() {
       <header className="headerr">
         <img
           className="navbary-logo"
-          src="http://www.thesaruni.com/TheSaruniImages/SaruniLogo.png"
+          src="http://testdeploy.thesaruni.com/SaruniLogo.png"
           alt="logo"
           onClick={() => {
             navigate("/");

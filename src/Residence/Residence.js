@@ -45,7 +45,7 @@ function Residence() {
         </div>
         <div class="grid-child-element green">
           <img
-          src="http://www.thesaruni.com/TheSaruniImages/residenceluxury.jpg"
+          src="http://testdeploy.thesaruni.com/residenceluxury.jpg"
             alt="residence"
             className="childimage"
             loading="lazy"

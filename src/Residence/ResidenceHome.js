@@ -46,7 +46,8 @@ function ResidenceHome() {
       </div>
       <div className="flexbox-item-resident-2">
         <img
-          src="http://www.thesaruni.com/TheSaruniImages/residencehome.jpg"
+        src="https://testdeploy.thesaruni.com/residencehome.jpg"
+          
           alt="residence"
           className="residence-profile"
           loading="lazy"

@@ -17,7 +17,7 @@ function Living() {
         <div className="flexbox-item-living1">
           <div className="the-neighboorhoodd">
             <img
-              src="https://thesaruni.com/TheSaruniImages/logowhite.png"
+              src="http://testdeploy.thesaruni.com/logowhite.png"
               className="residence-home-logo-white"
               alt="logo"
             />
@@ -68,11 +68,11 @@ function Living() {
           <Carousel infiniteLoop>
             <div>
               <LivingL />
-              <p className="legend" style={{backgroundColor:"goldenrod"}}>3  Bedroom apartment living area example</p>
+              <p className="legend" style={{backgroundColor:"goldenrod" ,fontSize:"15px"}}>3  Bedroom apartment living area example</p>
             </div>
             <div>
               <LivingR />
-              <p className="legend" style={{backgroundColor:"goldenrod"}} >2  Bedroom apartment living area example</p>
+              <p className="legend" style={{backgroundColor:"goldenrod" ,fontSize:"15px"}} >2  Bedroom apartment living area example</p>
             </div>
           </Carousel>
         </div>

@@ -10,34 +10,35 @@ function Neighborhood() {
   return ( 
     <div className="kubwa">
       <div>
-        <ChildNav />{" "} 
+        <ChildNav />{" "}  
       </div>
       <section className="section1">
         <div class="grid-coontainer-element">
           <div class="grid-child-element puple"> 
             <div className="the-neighboorhood">
               <img
-                src="http://www.thesaruni.com/TheSaruniImages/logogrey.png"
+                src="http://testdeploy.thesaruni.com/logogrey.png"
                 className="residence-neigh-logo-grey"
                 alt="logo"  
-              />
+                style={{marginLeft:"19px"}}
+              /> 
 
-              <h6 className="gold-secttion one">T H E </h6>
-              <h1 className="gold-secttion two"> N E I G H B O R H O O D</h1>
+              <h6 className="gold-secttionn one">T H E </h6>
+              <h1 className="gold-secttionnh  two"> N E I G H B O R H O O D</h1>
             </div>
             <div className="contenting">
               <h2 className="exclude">AN EXCLUSIVE </h2>
 
               <h2 className="excluder">ADDRESS</h2>
             </div>
-            <div className="coddle">
-              <p className="coddler">
+            <div className="coddlenature">
+              <p className="coddlernature">
                 Coddled by nature on the edge of Nairobi River, 'The Saruni', is
                 a tranquil refuge located on Nairobi's coveted Riverside Drive;
                 A secluded preference for embasies, diplomatic organizations and
                 professional companies.
                </p>
-              <p className="coddler bot">
+              <p className="coddlernature botn">
                 Riverside drove is a premium expression of privacy, prestige and
                 convenience.
               </p>
@@ -46,7 +47,7 @@ function Neighborhood() {
 
           <div class="grid-child-element green">
             <img
-              src="http://www.thesaruni.com/TheSaruniImages/neigbourhood.jpg"
+              src="http://testdeploy.thesaruni.com/neigbourhood.jpg"
               alt="residence"
               className="childimage homeneigh"
               loading="lazy"

@@ -131,7 +131,7 @@ function Availability() {
         </div>
         <div class="flexbox-item-availability2 avik">
           <img
-            src="http://www.thesaruni.com/TheSaruniImages/avilability.jpg"
+            src="http://testdeploy.thesaruni.com/avilability.jpg"
             alt="residence"
             className="neighborhood-profile"
           />

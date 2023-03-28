@@ -96,7 +96,7 @@ h5.gain {
 }
 .map {
   height: 89vh;
-  width: 97%;
+  width: 100%;
   margin-right: 30px;
   object-fit: cover;
 }

@@ -3,8 +3,9 @@
   padding-top: 26px;
 }
 .bedroomr {
-  background-image: url("http://www.thesaruni.com/TheSaruniImages/bedright.jpg");
+  background-image: url("http://testdeploy.thesaruni.com/bedright.jpg");
   height: 84vh;
+  
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,7 +13,7 @@
 
 }
 .bedrooml {
-  background-image: url("http://www.thesaruni.com/TheSaruniImages/bedleft.jpg");
+  background-image: url("http://testdeploy.thesaruni.com/bedleft.jpg");
   height: 84vh;
   background-position: center center;
   background-repeat: no-repeat;
@@ -20,7 +21,7 @@
   color: white;
 }
 .livingr {
-  background-image: url("http://www.thesaruni.com/TheSaruniImages/livingright.jpg");
+  background-image: url("http://testdeploy.thesaruni.com/livingright.jpg");
   height: 84vh;
   background-position: center center;
   background-repeat: no-repeat;
@@ -28,7 +29,7 @@
   color: white;
 }
 .livingl {
-  background-image: url("http://www.thesaruni.com/TheSaruniImages/livingleft.jpg");
+  background-image: url("http://testdeploy.thesaruni.com/livingleft.jpg");
   height: 84vh;
   background-position: center center;
   background-repeat: no-repeat;
