@@ -8,7 +8,7 @@
   padding: 5px;
   text-align: center;
   font-size: 250%;
-}
+} 
 .the-residence-container{
   text-align: left;
   background-color: #efbf3b;
@@ -60,6 +60,7 @@
   font-family: "luxury";
   color: grey;
   font-size: 13px;
+  padding-right: 5px;
 }
 
 .dd {
@@ -145,6 +146,7 @@ h1.them {
   height: 288px; 
   margin-bottom: -39px;
   position: relative;
-margin-right: 8px;
-
+  /* padding-right: 5px; */
+  margin-right: 18px;
+  /* background-color: pink; */
 }

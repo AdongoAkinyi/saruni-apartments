@@ -94,9 +94,12 @@ h5.gain {
     padding: 14px 16px;
   }
 }
+.grid-child-element.greenn{
+  overflow: hidden;
+}
 .map {
   height: 89vh;
-  width: 100%;
+  width: auto;
   margin-right: 30px;
   object-fit: cover;
 }

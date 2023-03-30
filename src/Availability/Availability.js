@@ -25,6 +25,20 @@ function Availability() {
               <h3 className="topic-lux-reserve">to make your reservation</h3>
             </div>
           </div>
+          {/* <div className="flexbox-child-item">
+            <div  className="flexbox-lux-heading1">
+              {" "}
+              <h1 className="topic-lux">L U X U R Y </h1>
+              <h1 className="topic-lux">U N I T S </h1>
+              <h1 className="topic-lux">A V A I L A B L E </h1>
+            </div>
+            <div className="flexbox-lux-heading2">
+            <h1 className="topic-lux">C A L L </h1>
+              <p className="topic-luxx">+254 759 278 564</p>
+              <p className="topic-luxx">+254 745 466 346</p>
+              <h3 className="topic-lux-reserve">to make your reservation</h3>
+            </div>
+          </div> */}
 
           <div className="sect-body">
             <div className="body-one">
@@ -32,7 +46,11 @@ function Availability() {
                 {/* <h1>1</h1> */}
                 <h2 className="body-lux tittle">
                   {" "}
-                  <p className="number" style={{display:"inline"}}> 1</p> BEDROOM APARTMENTS
+                  <p className="number" style={{ display: "inline" }}>
+                    {" "}
+                    1
+                  </p>{" "}
+                  BEDROOM APARTMENTS
                 </h2>
 
                 <ul>
@@ -50,7 +68,11 @@ function Availability() {
               </div>
               <div className="lux-body-upple">
                 <h2 className="body-lux tittle">
-                  <p className="number" style={{display:"inline"}}> 2</p> BEDROOM APARTMENTS
+                  <p className="number" style={{ display: "inline" }}>
+                    {" "}
+                    2
+                  </p>{" "}
+                  BEDROOM APARTMENTS
                 </h2>
                 <ul>
                   <li className="body-lux one">
@@ -78,7 +100,11 @@ function Availability() {
             <div className="body-two">
               <div className="lux-body-updown">
                 <h2 className="body-lux tittle">
-                  <p className="number" style={{display:"inline"}}> 3</p> BEDROOM APARTMENTS
+                  <p className="number" style={{ display: "inline" }}>
+                    {" "}
+                    3
+                  </p>{" "}
+                  BEDROOM APARTMENTS
                 </h2>
                 <ul>
                   <li className="body-lux one">
@@ -102,10 +128,14 @@ function Availability() {
                   </li>
                 </ul>
               </div>
-              
+
               <div className="lux-body">
                 <h2 className="body-lux tittle">
-                  <p  className="number" style={{display:"inline"}}> 4</p> DUPLEX PENTHOUSES
+                  <p className="number" style={{ display: "inline" }}>
+                    {" "}
+                    4
+                  </p>{" "}
+                  DUPLEX PENTHOUSES
                 </h2>
                 <ul>
                   <li className="body-lux one">

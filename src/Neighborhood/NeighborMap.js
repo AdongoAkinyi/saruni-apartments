@@ -9,7 +9,7 @@ function NeighborMap() {
   return (
     <div className="kubwa">
     <div>
-      <ChildNav />{" "}
+      <ChildNav  />{" "}
     </div>
     <div class="grid-container-elementr">
         <div class="grid-child-element puurple">
@@ -43,7 +43,7 @@ function NeighborMap() {
         <p className='jkia'>Easy access to Ngong' Road, Kileleshwa, Kilimani and Loresho.</p>
           </div>
         </div>
-        <div class="grid-child-element green">
+        <div class="grid-child-element greenn">
           <img
           src='https://testdeploy.thesaruni.com/map.jpg'
             alt="residence"

@@ -7,6 +7,7 @@ import ResidenceHome from "../Residence/ResidenceHome";
 import { FaAngleRight } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
+import ChildNav from "../Navbar/ChildNav";
 
 const rotateAnimationHandler = (props, state) => {
   const transitionTime = props.transitionTime + "ms";
@@ -110,11 +111,11 @@ function Cara() {
   let navigate = useNavigate();
   return (
     <div>
-     
+     <ChildNav/>
       <Carousel
         autoPlay={true}
         infiniteLoop={true}
-        interval={4000}
+        interval={3000}
         transitionTime={2000}
         animationHandler={fadeAnimationHandler}
         swipeable={false}
@@ -123,23 +124,7 @@ function Cara() {
         <AmenitiesHome />
         <NeighborhoodHome />
       </Carousel>
-      <div
-        className="explore"
-        onClick={() => {
-          navigate("/menu");
-        }}
-      >
-        <h1
-          className="nav-to"
-          style={{
-            fontWeight: "normal",
-            fontSize: "28px",
-            marginTop:"-30px"
-          }}
-        >
-          GO TO MENU <FaAngleRight className="right-menu" />
-        </h1>
-      </div>
+     
     </div>
   );
 }

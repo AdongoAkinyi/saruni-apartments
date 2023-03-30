@@ -68,11 +68,11 @@ function Bedroom() {
           <Carousel infiniteLoop>
             <div>
               <BedroomL />
-              <p className="legend" style={{backgroundColor:"goldenrod"}}>3 Bedroom apartment bedroom example</p>
+              <p className="legend" style={{backgroundColor:"goldenrod" ,fontSize:"15px" }}>3 Bedroom apartment bedroom example</p>
             </div>
             <div>
               <BedroomR />
-              <p className="legend" style={{backgroundColor:"goldenrod"}}>2 Bedroom apartment bedroom example</p>
+              <p className="legend" style={{backgroundColor:"goldenrod"  ,fontSize:"15px"}}>2 Bedroom apartment bedroom example</p>
             </div>
           </Carousel>
         </div>

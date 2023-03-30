@@ -7,7 +7,7 @@ function Amenities() {
   // let navigate = useNavigate();
   return (
     <div className="kubwaest">
-      <div> 
+      <div>
         <ChildNav />{" "}
       </div>
       <section className="section1">
@@ -46,7 +46,6 @@ function Amenities() {
               alt="amenities"
               className="childimage"
               loading="lazy"
-
             />
           </div>
         </div>

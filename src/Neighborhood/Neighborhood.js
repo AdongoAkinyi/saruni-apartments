@@ -9,7 +9,7 @@ function Neighborhood() {
 
   return ( 
     <div className="kubwa">
-      <div>
+      <div>  
         <ChildNav />{" "}  
       </div>
       <section className="section1">
@@ -20,7 +20,7 @@ function Neighborhood() {
                 src="http://testdeploy.thesaruni.com/logogrey.png"
                 className="residence-neigh-logo-grey"
                 alt="logo"  
-                style={{marginLeft:"19px"}}
+          
               /> 
 
               <h6 className="gold-secttionn one">T H E </h6>

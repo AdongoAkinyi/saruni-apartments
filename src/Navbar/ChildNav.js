@@ -20,20 +20,20 @@ function ChildNav() {
           src="http://testdeploy.thesaruni.com/SaruniLogo.png"
           alt="logo"
           onClick={() => {
-            navigate("/");
+            navigate("/"); 
           }}
         />
         <h4 className="th">THE SARUNI</h4>
         <nav ref={navRef} className="mtoto">
           <div className="menu">
             <a href="/rotate" className="menutext">
-              H O M E
+              HOME
             </a>
-            <a href="/availability" className="menutext">
-              A V A I L A B I L I T Y
+            <a href="https://www.youtube.com/embed/I8iI6Oh-OkA" target="_blank" rel="noreferrer"  className="menutext">
+              VIRTUAL TOUR
             </a>
             <a href="/contact" className="menutext" st>
-              C O N T A C T S
+              DOWNLOAD BROCHURE
             </a>
           </div>
 

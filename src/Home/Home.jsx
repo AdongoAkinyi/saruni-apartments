@@ -17,7 +17,7 @@ function Home() {
         <div className="header-section"></div>
         <div className="logo-section-landing">
           <img
-            src="https://testdeploy.thesaruni.com/TheSaruniImages/Saruni-Logo.png"
+            src="https://testdeploy.thesaruni.com/Saruni-Logo.png"
             alt="logo"
             className="home-logo"
           />

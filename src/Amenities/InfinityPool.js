@@ -1,14 +1,14 @@
 import { FaAngleUp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import ChildNav from "../Navbar/ChildNav";
-import "./Amenitieschild.css"; 
+import "./Amenitieschild.css";
 import Courtyard from "./Courtyard";
 import Gym from "./Gym";
 import Pool from "./Pool";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
-function InfinityPool() { 
+function InfinityPool() {
   let navigate = useNavigate();
   return (
     <div className="kubwaest">
@@ -17,7 +17,7 @@ function InfinityPool() {
       </div>
       <section className="section1">
         <div class="griddp-container-element">
-          <div class="grid-child-element purn">
+          <div class="grid-child-element purg">
             <div className="the-neighboorhoodd">
               <img
                 src="http://testdeploy.thesaruni.com/logogrey.png"
@@ -34,13 +34,13 @@ function InfinityPool() {
                 <h1 className="careyy">CURATED FOR</h1>
                 <h1 className="careyy">LEISURE, </h1>
                 <h1 className="careyy">WELLNESS AND </h1>
-                <h1 className="careyy">REJUVINATION</h1>
+                <h1 className="careyy">REJUVENATION</h1>
               </div>
               <p className="paragraph-infi">
                 The heated infinity swimming pool
               </p>
-              <p className="paragraph-infi">The Gym</p>
               <p className="paragraph-infi"> The Courtyard</p>
+              <p className="paragraph-infi">The Gym</p>
             </div>
           </div>
           {/* POOL */}
@@ -48,19 +48,28 @@ function InfinityPool() {
             <Carousel infiniteLoop>
               <div>
                 <Pool />
-                <p className="legend" style={{ backgroundColor: "goldenrod"  ,fontSize:"15px"}}>
-                The heated infinity swimming pool
+                <p
+                  className="legend"
+                  style={{ backgroundColor: "goldenrod", fontSize: "15px" }}
+                >
+                  The heated infinity swimming pool
                 </p>
               </div>
               <div>
                 <Courtyard />
-                <p className="legend" style={{ backgroundColor: "goldenrod"  ,fontSize:"15px"}}>
+                <p
+                  className="legend"
+                  style={{ backgroundColor: "goldenrod", fontSize: "15px" }}
+                >
                   The Courtyard
                 </p>
               </div>
               <div>
                 <Gym />
-                <p className="legend" style={{ backgroundColor: "goldenrod" ,fontSize:"15px" }}>
+                <p
+                  className="legend"
+                  style={{ backgroundColor: "goldenrod", fontSize: "15px" }}
+                >
                   The Gym
                 </p>
               </div>

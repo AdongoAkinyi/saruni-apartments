@@ -16,9 +16,17 @@
   object-fit: cover;
 }
 .grid-child-element.purn {
- height: 88vh;
+ height: 100%;
   border: none;
+  /* background-color: pink; */
+  overflow: hidden;
 }
+.grid-child-element.purg {
+  height: 88vh;
+   border: none;
+   /* background-color: pink; */
+   overflow: hidden;
+ }
 .grid-child-element.green {
   border: none;
 }
@@ -43,13 +51,14 @@
 .amenw-3 {
   padding: 6px;
   color: grey;
-  height: 475px;
+  height: 480px;
   background: rgb(49, 49, 49);
+  /* overflow: hidden; */
 }
 .amenww-3 {
   padding: 6px;
   color: grey;
-  height: 375px; 
+  height: 410px; 
   background: rgb(49, 49, 49);
 }
 /* EXPLORE */
@@ -228,13 +237,12 @@
 }
 h6.gold-secttionn {
   font-size: 12px;
-  margin-top: -30px;
+  margin-top: -45px;
   text-align: center;
 
 }
 h1.gold-secttionn {
   text-align: center;
-
   font-size: 30px;
   margin-bottom: 30px;
 }

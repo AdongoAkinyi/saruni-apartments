@@ -37,9 +37,9 @@ function Residence() {
 
           
             <p className="paragraph-bottom">
-              With uninterrupted views from each appartments, 'The Saruni' at
+              With uninterrupted views from each apartments, 'The Saruni' at
               Riverside Drive, is a modern interpretation of contemporary luxury
-              specifically designed to enhance your living exparience
+              specifically designed to enhance your living experience
             </p> 
           </div>
         </div>

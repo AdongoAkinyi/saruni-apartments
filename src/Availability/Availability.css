@@ -36,26 +36,21 @@
 .topic-lux {
   font-family: "luxury";
   margin-top: 15px;
-  margin-left: 20px;
   font-weight: normal;
   color: #7b7471;
-  /* border-right: 1px solid grey; */
+  padding-left: 10px;
 }
 .topic-lux-reserve {
   font-family: "luxury";
   margin-top: 15px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   font-weight: normal;
   color: #7b7471;
+  padding-left: 10px;
 }
 .lux-head.two {
   height: 141px;
 }
-/* .lux-body{
-   
-    border-right: 1px solid grey;
- 
-  } */
 .body-lux {
   font-family: "luxury";
   color: #7b7471;
@@ -68,7 +63,7 @@
   font-size: 30px;
 }
 .body-lux.one {
-  margin-top: 0;
+  margin-top: 7px;
   font-size: 15px;
 }
 .headingsss {
@@ -76,14 +71,16 @@
 }
 .body-one {
   display: flex;
-  height: 330px;
+  height: 360px;
+  /* background-color: pink; */
+  /* justify-content: space-evenly; */
 }
 .body-two {
   display: flex;
   height: 320px;
 }
 .lux-body-upjuu {
-  width: 612px;
+  width: 615px;
   border-right: 1px solid #7b7471;
   border-bottom: 1px solid #7b7471;
 /* background-color: burlywood; */
@@ -99,6 +96,7 @@
   width: 569px;
   border-right: 1px solid #7b7471;
   padding-right: 10px;
+  height: 370px;
 }
 .sect-body {
   margin-top: 30px;
@@ -107,9 +105,10 @@
 }
 .topic-luxx {
   margin-top: 15px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   color: #7b7471;
   font-weight: normal;
+  padding-left: 10px;
 }
 .explore-avia {
   font-family: "luxury";
@@ -139,4 +138,10 @@
 .flexbox-item-availability2 {
   flex-grow: 1;
   width: 400px;
+}
+.flexbox-child-item{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: goldenrod;
+  text-align: left;
 }

@@ -23,7 +23,7 @@ function Sunset() {
               alt="logo"
             />
 
-            <h6 className="brown-section one">T H E </h6>
+            <h6 className="the-section one">T H E </h6>
             <h1 className="brown-section two"> S P E C T A C U L A R</h1>
             <h1 className="brown-section two"> S K Y G A R D E N S</h1>
           </div>
