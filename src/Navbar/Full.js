@@ -20,7 +20,7 @@ function Full() {
               <h5 className="mini-topic">THE</h5> A M E N I T I E S
             </h1>
           </a>
-          <a href="/neighborhood">
+          <a href="/map">
             <h1 className="menu-opt">
               <h5 className="mini-topic">THE</h5> N E I G H B O R H O O D
             </h1>

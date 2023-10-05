@@ -1,13 +1,9 @@
-// import { FaAngleUp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import ChildNav from "../Navbar/ChildNav";
 import "./Amenitieschild.css";
-// import Courtyard from "./Courtyard";
-// import Gym from "./Gym";
-// import Pool from "./Pool";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
-function Courtyard() {
+function Lobby() {
   let navigate = useNavigate();
   return (
     <div className="kubwa-resident">
@@ -39,7 +35,7 @@ function Courtyard() {
           </div>
             <div className="am">
               <h4
-                id="amenities"
+                className="amenitieslink"
                 onClick={() => {
                   navigate("/lobby");
                 }}
@@ -59,7 +55,7 @@ function Courtyard() {
                 onClick={() => {
                   navigate("/courtyard");
                 }}
-                className="amenitieslink"
+                id="amenity"
               >
                 {" "}
                 The Courtyard
@@ -99,7 +95,7 @@ function Courtyard() {
 
         <div className="flexbox-item-allamenities2">
           <img
-            src="http://testdeploy.thesaruni.com/coutryard.jpg"
+            src="http://testdeploy.thesaruni.com/amenities.jpg"
             alt="amenities"
             className="imageslide"
             loading="lazy"
@@ -110,4 +106,4 @@ function Courtyard() {
   );
 }
 
-export default Courtyard;
+export default Lobby;

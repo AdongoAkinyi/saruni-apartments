@@ -2,24 +2,22 @@
   display: grid;
   grid-template-columns: 4fr 15fr;
   width: 100%;
-  /* height: 100vh; */
 }
 
 .childimage.homeneigh {
   width: 100%;
   height: 100%;
   object-fit: cover;
-} 
+}
 .grid-child-element.purple {
   background-color: #7c7774;
   text-align: center;
 }
 .content {
-  /* background: pink; */
   font-size: 200%;
   height: 290px;
   margin-top: 290px;
-} 
+}
 
 .button-46 {
   align-items: center;
@@ -54,7 +52,7 @@
 
 @media (min-width: 768px) {
   .button-46 {
-    font-size: 20px; 
+    font-size: 20px;
     min-width: 200px;
     padding: 14px 16px;
   }
@@ -63,30 +61,21 @@
   color: gray;
   height: 290px auto;
   background: rgb(62, 61, 61);
-
-  padding: 5px  5px 1px 5px;
+  padding: 5px 5px 1px 5px;
   text-align: left;
 }
 h6.gold-secttion {
   font-size: 10px;
   margin-top: 30px;
-  /* margin-right: 270px; */
 }
 h1.gold-secttionnh {
   text-align: center;
   font-size: 28px;
   margin-bottom: 30px;
 }
-.gold-secttion {
-  font-family: "luxury";
-}
-@font-face {
-  font-family: "luxury";
-  src: url(/din/fonts/FF\ DIN\ Pro\ Regular.otf);
-}
 .residence-neigh-logo-grey {
   margin-top: -12px;
-  height: 288px; 
+  height: 288px;
   margin-bottom: -36px;
 }
 .gold-secttion.one {
@@ -97,17 +86,7 @@ h1.gold-secttionnh {
   height: 90px;
   text-align: left;
   margin-left: 30px;
-  /* background-color: peru; */
- 
 }
-.exclude {
-  color: grey;
-  font-family: "luxury";
-  margin-top: 10px; 
-  font-size: 34px;
-  padding: 15px 0px 7px 7px;
-}
-
 .excluder {
   color: gray;
   font-family: "luxury";
@@ -118,7 +97,6 @@ h1.gold-secttionnh {
   text-align: left;
   color: grey;
   font-size: 20px;
-  /* background-color: pink; */
 }
 .coddler.bot {
   font-family: "luxury";
@@ -129,47 +107,37 @@ h1.gold-secttionnh {
 .coddle {
   height: 200px;
   padding: 14px 20px 7px 27px;
-  /* background-color: pink; */
-
 }
 
 /* neigh bt sect */
 .coddlernature {
-  font-family: "luxury";
   text-align: left;
   color: grey;
   font-size: 20px;
-  /* background-color: pink; */
   padding: 25px 5px 5px 5px;
 }
 .coddlernature.botn {
-  font-family: "luxury";
   text-align: left;
   color: grey;
   margin-top: 10px;
-  /* background-color: pink; */
   padding: 35px 5px 5px 5px;
-
 }
 .coddlenature {
   height: 210px;
   padding: 14px 20px 7px 27px;
-  /* background-color: pink; */
-
 }
 
-
-.downarrow.jir{
-  font-family: 'luxury';
+.downarrow.jir {
+  font-family: "luxury";
   font-size: 50%;
   cursor: pointer;
 }
-@media  all and (max-width: 700px){
+/* @media all and (max-width: 700px) {
   .grid-coontainer-element {
     display: block;
   }
-  .downarrow.jir{
-    font-family: 'luxury';
+  .downarrow.jir {
+    font-family: "luxury";
     font-size: 50%;
     cursor: pointer;
   }
@@ -177,7 +145,6 @@ h1.gold-secttionnh {
     object-fit: cover;
   }
   .coddler {
-    /* background-color: purple; */
     font-family: "luxury";
     text-align: left;
     color: grey;
@@ -185,16 +152,84 @@ h1.gold-secttionnh {
   }
   .coddler.bot {
     font-family: "luxury";
-    /* background-color: pink; */
+  
     text-align: left;
     color: grey;
     font-size: 120%;
     margin-top: 5%;
   }
   .coddle {
-    /* background-color: pink; */
+
     margin-top: -17%;
     height: 200px;
     padding: 28px 20px 7px 27px;
   }
+} */
+
+
+/* CLEAN CSS */
+.flexbox-container-neighborhood-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.flexbox-item-neighborhood-home-1 {
+  /* background-color: pink; */
+  position: relative;
+  flex-grow: 1;
+  height: 100%;
+  width: 240px;
+  padding: 0 10px 0 10px;
+}
+.flexbox-item-neighborhood-home-2 {
+  /* background-color: peru; */
+  flex-grow: 1;
+  width: 650px;
+}
+.neighborhood-heading-section {
+  color: gray;
+  height: 290px auto;
+  padding: 5px 5px 1px 10px;
+  text-align: center;
+  border-bottom: 3px solid goldenrod;
+}
+h6.page-header{
+  color: grey;
+  font-size: 12px;
+  margin-top: -45px;
+  /* text-align: center; */
+}
+h1.page-header {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.left-body-heading{
+  /* background-color: pink; */
+  padding: 15px 0px 7px 7px;
+}
+.exclude {
+  color: grey;
+  margin-top: 10px;
+  font-size: 34px;
+}
+.left-body-content{
+  /* background-color: pink; */
+  height: 100%;
+}
+.first-paragraph{
+  color: grey;
+  font-size: 17px;
+  padding: 10px 10px 10px 10px;
+}
+.second-paragraph{
+  color: grey;
+  font-size: 17px;
+  padding: 10px 10px 10px 10px;
+}
+.bottom-heading{
+  font-size: 18px;
+  color: grey;
+  padding: 10px 10px 10px 10px;
 }

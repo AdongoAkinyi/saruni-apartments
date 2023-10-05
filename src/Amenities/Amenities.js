@@ -53,7 +53,7 @@ function Amenities() {
 
       <section className="explore-section">
         <h1 className="explorer">
-          <a href="/amenitiesataglance" className="downarrow">
+          <a href="/amenitiesinfinity" className="downarrow">
             <FaAngleDown />
           </a>
         </h1>

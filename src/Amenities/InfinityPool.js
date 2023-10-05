@@ -1,99 +1,111 @@
-import { FaAngleUp } from "react-icons/fa";
+// import { FaAngleUp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import ChildNav from "../Navbar/ChildNav";
 import "./Amenitieschild.css";
-import Courtyard from "./Courtyard";
-import Gym from "./Gym";
-import Pool from "./Pool";
+// import Courtyard from "./Courtyard";
+// import Gym from "./Gym";
+// import Pool from "./Pool";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
 
 function InfinityPool() {
   let navigate = useNavigate();
   return (
-    <div className="kubwaest">
+    <div className="kubwa-resident">
       <div>
-        <ChildNav />{" "}
+        <ChildNav />{" "} 
       </div>
-      <section className="section1">
-        <div class="griddp-container-element">
-          <div class="grid-child-element purg">
-            <div className="the-neighboorhoodd">
-              <img
-                src="http://testdeploy.thesaruni.com/logogrey.png"
-                className="residence-neigh-logo-grey"
-                alt="logo"
-              />
+      <div className="flexbox-container-all-amenities">
 
-              <h6 className="gold-secttionn one">T H E </h6>
-              <h1 className="gold-secttionn two"> A M E N I T I E S</h1>
-            </div>
 
-            <div className="amenww-3">
-              <div className="ring">
-                <h1 className="careyy">CURATED FOR</h1>
-                <h1 className="careyy">LEISURE, </h1>
-                <h1 className="careyy">WELLNESS AND </h1>
-                <h1 className="careyy">REJUVENATION</h1>
-              </div>
-              <p className="paragraph-infi">
-                The heated infinity swimming pool
-              </p>
-              <p className="paragraph-infi"> The Courtyard</p>
-              <p className="paragraph-infi">The Gym</p>
-            </div>
+        <div className="flexbox-item-allamenities1">
+          <div className="the-neighboorhoodd">
+            <img
+              src="http://testdeploy.thesaruni.com/logogrey.png"
+              className="residence-neigh-logo-grey"
+              alt="logo"
+            />
+
+            <h6 className="gold-secttionn one">T H E </h6>
+            <h1 className="gold-secttionn one"> A M E N I T I E S</h1>
           </div>
-          {/* POOL */}
-          <div class="grid-child-element green">
-            <Carousel infiniteLoop>
-              <div>
-                <Pool />
-                <p
-                  className="legend"
-                  style={{ backgroundColor: "goldenrod", fontSize: "15px" }}
-                >
-                  The heated infinity swimming pool
-                </p>
-              </div>
-              <div>
-                <Courtyard />
-                <p
-                  className="legend"
-                  style={{ backgroundColor: "goldenrod", fontSize: "15px" }}
-                >
-                  The Courtyard
-                </p>
-              </div>
-              <div>
-                <Gym />
-                <p
-                  className="legend"
-                  style={{ backgroundColor: "goldenrod", fontSize: "15px" }}
-                >
-                  The Gym
-                </p>
-              </div>
-            </Carousel>
-            <div
-              className="explore"
-              onClick={() => {
-                navigate("/menu");
-              }}
-            >
-              <h1
-                className="nav-to"
-                style={{
-                  fontWeight: "normal",
-                  fontSize: "25px",
-                  marginTop: "-23px",
+
+          <div className="amenw-3">
+          <div  className="top-c">
+            {/* <h1 className="amenities-details">CURATED FOR LEISURE, WELLNESS AND REJUVEANATION</h1> */}
+            <h1 className="amenities-details">CURATED FOR</h1>
+              <h1 className="amenities-details">LEISURE, </h1>
+              <h1 className="amenities-details">WELLNESS AND </h1>
+              <h1 className="amenities-details">REJUVENATION</h1>
+          </div>
+            <div className="am">
+              <h4
+               id="amenity"
+                onClick={() => {
+                  navigate("/lobby");
                 }}
+              > 
+                The Lobby
+              </h4>
+              <h4
+              className="amenitieslink"
+                onClick={() => {
+                  navigate("/infinitypool");
+                }}
+                
               >
-                GO TO MENU <FaAngleUp style={{ marginRight: "20px" }} />
-              </h1>
+                The Heated Infinity Swimming Pool
+              </h4>
+              <h4
+                onClick={() => {
+                  navigate("/courtyard");
+                }}
+                id="amenity"
+              >
+                {" "}
+                The Courtyard
+              </h4>
+              <h4
+                onClick={() => {
+                  navigate("/courtyard");
+                }}
+                id="amenity"
+              >
+                {" "}
+                The Gym
+              </h4>
+              <h4
+                onClick={() => {
+                  navigate("/eastwardskygarden");
+                }}
+                id="amenity"
+              >
+                {" "}
+                The Eastward Sky Garden
+              </h4>
+              <h4
+                onClick={() => {
+                  navigate("/courtyard");
+                }}
+                id="amenity"
+              >
+                {" "}
+                The Westward Sky Garden
+              </h4>
             </div>
           </div>
         </div>
-      </section>
+
+
+
+        <div className="flexbox-item-allamenities2">
+          <img
+            src="http://testdeploy.thesaruni.com/infinitypool.jpg"
+            alt="amenities"
+            className="imageslide"
+            loading="lazy"
+          />
+        </div>
+      </div>
     </div>
   );
 }

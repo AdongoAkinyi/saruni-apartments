@@ -23,6 +23,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import Cara from "./Home/Cara";
 // import { useEffect } from "react";
 import Contact from "./Contact/Contact";
+import Lobby from "./Amenities/Lobby";
 
 
 function App() {
@@ -41,9 +42,16 @@ function App() {
         {/* AMENITIES ROUTES */}
 
         <Route path="/amenities" element={<Amenities />} />
+        <Route path="/lobby" element={<Lobby />} />
+
+
+
+
+
+
         <Route path="/sunrise" element={<Sunrise />} />
         <Route path="/sunset" element={<Sunset />} />
-        <Route path="/amenitiesinfinity" element={<InfinityPool />} />
+        <Route path="/infinitypool" element={<InfinityPool />} />
         <Route path="/amenitiesataglance" element={<AtaGlance />} />
         <Route path="/rotate" element={<Cara once={true} />} />
 

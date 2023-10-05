@@ -135,6 +135,7 @@ h1.them {
   width: 990px;
   height: 84vh;
   flex-grow: 1;
+  display: flex;
   
 }
 .the-residences.white{

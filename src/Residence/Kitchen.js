@@ -20,7 +20,7 @@ function Kitchen() {
           <div className="the-neighboorhoodd">
             <img
               src="http://testdeploy.thesaruni.com/logowhite.png"
-              className="residence-home-logo-white"
+              className="residence-neigh-logo-grey"
               alt="logo"
             />
 
@@ -69,11 +69,9 @@ function Kitchen() {
           <Carousel infiniteLoop>
             <div>
               <KitchenL />
-              <p className="legend" style={{backgroundColor:"goldenrod" ,fontSize:"15px" }}>3 Bedroom apartment kitchen area example</p>
             </div>
             <div>
               <KitchenR />
-              <p className="legend" style={{backgroundColor:"goldenrod"  ,fontSize:"15px"}}>2 Bedroom apartment kitchen area example</p>
             </div>
           </Carousel>
           <div

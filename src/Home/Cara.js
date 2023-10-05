@@ -4,57 +4,55 @@ import React, { useEffect } from "react";
 import NeighborhoodHome from "../Neighborhood/NeighborhoodHome";
 import AmenitiesHome from "../Amenities/AmenitiesHome";
 import ResidenceHome from "../Residence/ResidenceHome";
-import { FaAngleRight } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
+
 import "./Home.css";
 import ChildNav from "../Navbar/ChildNav";
 
-const rotateAnimationHandler = (props, state) => {
-  const transitionTime = props.transitionTime + "ms";
-  const transitionTimingFunction = "ease-in";
-  let slideStyle = {
-    display: "block",
-    minHeight: "100%",
-    transitionTimingFunction: transitionTimingFunction,
-    msTransitionTimingFunction: transitionTimingFunction,
-    MozTransitionTimingFunction: transitionTimingFunction,
-    WebkitTransitionTimingFunction: transitionTimingFunction,
-    OTransitionTimingFunction: transitionTimingFunction,
-    transform: `rotate(0)`,
-    position:
-      state.previousItem === state.selectedItem ? "relative" : "absolute",
-    inset: "0 0 0 0",
-    zIndex: state.previousItem === state.selectedItem ? "1" : "-0.3",
-    opacity: state.previousItem === state.selectedItem ? "1" : "0",
-    WebkitTransitionDuration: transitionTime,
-    MozTransitionDuration: transitionTime,
-    OTransitionDuration: transitionTime,
-    transitionDuration: transitionTime,
-    msTransitionDuration: transitionTime,
-  };
-  return {
-    slideStyle,
-    selectedStyle: {
-      ...slideStyle,
-      opacity: 1,
-      position: "relative",
-      zIndex: 2,
-      filter: `blur(0)`,
-    },
-    prevStyle: {
-      ...slideStyle,
-      transformOrigin: " 0 100%",
-      transform: `rotate(${
-        state.previousItem > state.selectedItem ? "-45deg" : "45deg"
-      })`,
-      opacity: "0",
-      filter: `blur( ${
-        state.previousItem === state.selectedItem ? "0px" : "5px"
-      })`,
-    },
-  };
-};
-
+// const rotateAnimationHandler = (props, state) => {
+//   const transitionTime = props.transitionTime + "ms";
+//   const transitionTimingFunction = "ease-in";
+//   let slideStyle = {
+//     display: "block",
+//     minHeight: "100%",
+//     transitionTimingFunction: transitionTimingFunction,
+//     msTransitionTimingFunction: transitionTimingFunction,
+//     MozTransitionTimingFunction: transitionTimingFunction,
+//     WebkitTransitionTimingFunction: transitionTimingFunction,
+//     OTransitionTimingFunction: transitionTimingFunction,
+//     transform: `rotate(0)`,
+//     position:
+//       state.previousItem === state.selectedItem ? "relative" : "absolute",
+//     inset: "0 0 0 0",
+//     zIndex: state.previousItem === state.selectedItem ? "1" : "-0.3",
+//     opacity: state.previousItem === state.selectedItem ? "1" : "0",
+//     WebkitTransitionDuration: transitionTime,
+//     MozTransitionDuration: transitionTime,
+//     OTransitionDuration: transitionTime,
+//     transitionDuration: transitionTime,
+//     msTransitionDuration: transitionTime,
+//   };
+//   return {
+//     slideStyle,
+//     selectedStyle: {
+//       ...slideStyle,
+//       opacity: 1,
+//       position: "relative",
+//       zIndex: 2,
+//       filter: `blur(0)`,
+//     },
+//     prevStyle: {
+//       ...slideStyle,
+//       transformOrigin: " 0 100%",
+//       transform: `rotate(${
+//         state.previousItem > state.selectedItem ? "-45deg" : "45deg"
+//       })`,
+//       opacity: "0",
+//       filter: `blur( ${
+//         state.previousItem === state.selectedItem ? "0px" : "5px"
+//       })`,
+//     },
+//   };
+// };
 
 const fadeAnimationHandler = (props, state) => {
   const transitionTime = props.transitionTime + "ms";
@@ -108,14 +106,14 @@ function Cara() {
       sessionStorage.setItem("numberReloaded", 2);
     }
   }, []);
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
   return (
     <div>
-     <ChildNav/>
+      <ChildNav />
       <Carousel
         autoPlay={true}
         infiniteLoop={true}
-        interval={3000}
+        interval={1500}
         transitionTime={2000}
         animationHandler={fadeAnimationHandler}
         swipeable={false}
@@ -124,7 +122,6 @@ function Cara() {
         <AmenitiesHome />
         <NeighborhoodHome />
       </Carousel>
-     
     </div>
   );
 }

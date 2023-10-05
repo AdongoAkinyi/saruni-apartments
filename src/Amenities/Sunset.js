@@ -48,11 +48,9 @@ function Sunset() {
         <Carousel infiniteLoop>
                 <div>
                     <Tua/>
-                    <p className="legend" style={{backgroundColor:"goldenrod" ,fontSize:"15px"}}>View from Outside</p>
                 </div>
                 <div>
                     <West/>
-                    <p className="legend" style={{backgroundColor:"goldenrod" ,fontSize:"15px"}}>View from Within</p>
                 </div>
             </Carousel>
             <div
